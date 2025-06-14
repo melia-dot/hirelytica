@@ -105,7 +105,7 @@ export default function LandingPage() {
 
             {showSuccess && (
               <div className="mt-5 bg-green-500 text-white px-4 py-3 rounded-lg text-center font-medium">
-                🎉 Thank you! We'll be in touch soon with your early access invitation.
+                🎉 Thank you! We&apos;ll be in touch soon with your early access invitation.
               </div>
             )}
           </div>
