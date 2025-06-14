@@ -3,10 +3,7 @@
 import { Resend } from 'resend';
 import { NextRequest, NextResponse } from 'next/server';
 
-console.log('API Key exists:', !!'re_Q4RaKv1j_4YFTtGugeXucZhSZuCTkezrY');
-console.log('API Key starts with re_:', 're_Q4RaKv1j_4YFTtGugeXucZhSZuCTkezrY'?.startsWith('re_'));
-
-const resend = new Resend('re_Q4RaKv1j_4YFTtGugeXucZhSZuCTkezrY');
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(request: NextRequest) {
   try {
