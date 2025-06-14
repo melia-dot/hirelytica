@@ -33,6 +33,7 @@ export default function LandingPage() {
         throw new Error('Failed to sign up')
       }
     } catch (error) {
+      console.error('Signup error:', error)
       alert('Something went wrong. Please try again.')
     } finally {
       setIsSubmitting(false)
