@@ -1,103 +1,134 @@
-import Image from "next/image";
+// File: /app/page.tsx
+'use client'
 
-export default function Home() {
+import { useState } from 'react'
+
+export default function LandingPage() {
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [showSuccess, setShowSuccess] = useState(false)
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    setIsSubmitting(true)
+
+    const formData = new FormData(e.currentTarget)
+    const data = {
+      name: formData.get('name') as string,
+      email: formData.get('email') as string,
+      company: formData.get('company') as string
+    }
+
+    try {
+      const response = await fetch('/api/signup', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      })
+
+      if (response.ok) {
+        setShowSuccess(true)
+        ;(e.target as HTMLFormElement).reset()
+        setTimeout(() => setShowSuccess(false), 5000)
+      } else {
+        throw new Error('Failed to sign up')
+      }
+    } catch (error) {
+      alert('Something went wrong. Please try again.')
+    } finally {
+      setIsSubmitting(false)
+    }
+  }
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600">
+      {/* Header */}
+      <header className="py-5">
+        <div className="max-w-6xl mx-auto px-5">
+          <nav className="flex justify-between items-center">
+            <div className="text-3xl font-black text-white">Hirelytica</div>
+            <div className="hidden md:flex gap-8">
+              <a href="#features" className="text-white/90 hover:text-white font-medium">Features</a>
+              <a href="#about" className="text-white/90 hover:text-white font-medium">About</a>
+              <a href="#contact" className="text-white/90 hover:text-white font-medium">Contact</a>
+            </div>
+          </nav>
+        </div>
+      </header>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      {/* Main Hero Section */}
+      <main className="py-24">
+        <div className="max-w-6xl mx-auto px-5 text-center">
+          <h1 className="text-5xl md:text-7xl font-black text-white mb-8 leading-tight">
+            The Future of Recruitment
+          </h1>
+          <p className="text-xl text-white/90 mb-12 max-w-2xl mx-auto">
+            Transform your hiring process with AI-powered candidate matching, automated screening, and intelligent insights that find the perfect fit every time.
+          </p>
+
+          {/* Signup Form */}
+          <div className="bg-white/95 rounded-3xl p-8 max-w-lg mx-auto shadow-2xl">
+            <h2 className="text-2xl font-bold text-gray-800 mb-3">Get Early Access</h2>
+            <p className="text-gray-600 mb-8">Join 500+ companies revolutionizing their hiring process</p>
+
+            <form onSubmit={handleSubmit} className="space-y-6">
+              <input
+                type="text"
+                name="name"
+                placeholder="Full Name"
+                required
+                className="w-full px-5 py-4 border-2 border-gray-200 rounded-xl focus:border-indigo-500 focus:outline-none bg-white text-gray-900 placeholder-gray-500"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Work Email"
+                required
+                className="w-full px-5 py-4 border-2 border-gray-200 rounded-xl focus:border-indigo-500 focus:outline-none bg-white text-gray-900 placeholder-gray-500"
+              />
+              <input
+                type="text"
+                name="company"
+                placeholder="Company Name"
+                required
+                className="w-full px-5 py-4 border-2 border-gray-200 rounded-xl focus:border-indigo-500 focus:outline-none bg-white text-gray-900 placeholder-gray-500"
+              />
+
+              <button
+                type="submit"
+                disabled={isSubmitting}
+                className="w-full py-4 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-xl text-lg font-semibold hover:shadow-lg transition-shadow disabled:opacity-50"
+              >
+                {isSubmitting ? 'Signing you up...' : 'Sign Up for Early Access'}
+              </button>
+            </form>
+
+            {showSuccess && (
+              <div className="mt-5 bg-green-500 text-white px-4 py-3 rounded-lg text-center font-medium">
+                🎉 Thank you! We'll be in touch soon with your early access invitation.
+              </div>
+            )}
+          </div>
+
+          {/* Features */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+            <div className="text-center text-white">
+              <div className="text-4xl mb-4">🤖</div>
+              <h3 className="text-xl font-semibold mb-3">AI-Powered Matching</h3>
+              <p className="text-white/80">Advanced algorithms match candidates to roles with 95% accuracy</p>
+            </div>
+            <div className="text-center text-white">
+              <div className="text-4xl mb-4">⚡</div>
+              <h3 className="text-xl font-semibold mb-3">Lightning Fast</h3>
+              <p className="text-white/80">Reduce time-to-hire by 60% with automated screening and scheduling</p>
+            </div>
+            <div className="text-center text-white">
+              <div className="text-4xl mb-4">📊</div>
+              <h3 className="text-xl font-semibold mb-3">Smart Analytics</h3>
+              <p className="text-white/80">Deep insights into your hiring pipeline and candidate quality metrics</p>
+            </div>
+          </div>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
-  );
+  )
 }
