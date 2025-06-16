@@ -69,7 +69,7 @@ export default function LandingPage() {
               Let's End the CV Casino
             </h1>
             <p className="text-xl text-white/90 mb-12 max-w-3xl mx-auto">
-              The recruitment system is broken. Job seekers waste hours tailoring CVs only to get ignored. Employers drown in irrelevant applications while missing great candidates. We're fixing both sides.
+              The recruitment system is broken. Job seekers waste hours tailoring CVs only to get ignored. Employers drown in irrelevant applications while missing great candidates. We&apos;re fixing both sides.
             </p>
 
             <div className="flex flex-col md:flex-row gap-6 justify-center mb-16">
@@ -160,7 +160,7 @@ export default function LandingPage() {
         <section id="signup" className="py-20 bg-gradient-to-br from-indigo-500 to-purple-600">
           <div className="max-w-6xl mx-auto px-5">
             <div className="text-center mb-12">
-              <h2 className="text-4xl md:text-5xl font-black text-white mb-6">Ready to Fix Recruitment?</h2>
+              <h2 className="text-4xl md:text-5xl font-black text-white mb-6">              Ready to Fix Recruitment?</h2>
               <p className="text-xl text-white/90 max-w-2xl mx-auto">
                 Join the early access programme and be among the first to experience recruitment that actually works.
               </p>
@@ -214,7 +214,7 @@ export default function LandingPage() {
 
               {showSuccess && (
                 <div className="mt-5 bg-green-500 text-white px-4 py-3 rounded-lg text-center font-medium">
-                  🎉 Thank you! We'll be in touch soon with your early access invitation.
+                  🎉 Thank you! We&apos;ll be in touch soon with your early access invitation.
                 </div>
               )}
             </div>
