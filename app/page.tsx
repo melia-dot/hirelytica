@@ -97,7 +97,7 @@ export default function LandingPage() {
                 <span className="text-2xl font-bold text-indigo-600">1</span>
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-800">Build Your Master Profile</h3>
-              <p className="text-gray-600">Upload all your CV versions OR just talk about your experience conversationally - we&apos;ll build your master profile either way.</p>
+              <p className="text-gray-600">Upload all your CV versions OR simply talk with our AI about your accomplishments - we&apos;ll build your master profile either way.</p>
             </div>
             <div className="text-center">
               <div className="bg-indigo-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
