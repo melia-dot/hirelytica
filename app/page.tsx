@@ -1,7 +1,8 @@
-// File: /app/page.tsx
+// File: app/page.tsx
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 
 export default function LandingPage() {
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -56,6 +57,7 @@ export default function LandingPage() {
             <div className="hidden md:flex gap-8 items-center">
               <a href="#jobseekers" className="text-white/90 hover:text-white font-medium">For Job Seekers</a>
               <a href="#employers" className="text-white/90 hover:text-white font-medium">For Employers</a>
+              <Link href="/blog" className="text-white/90 hover:text-white font-medium">Blog</Link>
               <a href="#signup" onClick={scrollToSignup} className="bg-white/20 text-white px-4 py-2 rounded-lg hover:bg-white/30 font-medium transition-colors">Early Access</a>
             </div>
           </nav>
