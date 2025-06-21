@@ -1,6 +1,6 @@
-import type { Metadata } from 'next'
-import Script from 'next/script'
-import './globals.css'
+import type { Metadata } from 'next';
+import Script from 'next/script';
+import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Hirelytica',
@@ -8,7 +8,11 @@ export const metadata: Metadata = {
   icons: {
     icon: '/favicon.svg',
   },
-}
+  // Google Site Verification added here
+  verification: {
+    google: 'xyaYVpBXs-1uA15lMZcTEO8Hvz-T8GjU_VFKfQzsAtc',
+  },
+};
 
 export default function RootLayout({
   children,
@@ -46,5 +50,5 @@ export default function RootLayout({
         {children}
       </body>
     </html>
-  )
+  );
 }
