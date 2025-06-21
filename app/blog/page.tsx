@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import blogPosts from '../../data/blog-posts.json';
 
 export default function BlogPage() {
@@ -6,9 +7,9 @@ export default function BlogPage() {
       <header className="bg-white border-b border-gray-200">
         <div className="max-w-6xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <a href="/" className="text-2xl font-bold text-purple-600">
+            <Link href="/" className="text-2xl font-bold text-purple-600">
               Hirelytica
-            </a>
+            </Link>
           </div>
         </div>
       </header>
@@ -43,7 +44,7 @@ export default function BlogPage() {
                   {post.excerpt}
                 </p>
                 
-                <a 
+                <Link 
                   href={`/blog/${post.slug}`}
                   className="inline-flex items-center text-purple-600 hover:text-purple-700 font-medium"
                 >
@@ -51,7 +52,7 @@ export default function BlogPage() {
                   <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
-                </a>
+                </Link>
               </div>
             </article>
           ))}

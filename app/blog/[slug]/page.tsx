@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import Link from 'next/link';
 import blogPosts from '../../../data/blog-posts.json';
 
 interface BlogPostPageProps {
@@ -96,12 +97,12 @@ export default async function BlogPost({ params }: BlogPostPageProps) {
       <header className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 py-4">
           <div className="flex items-center space-x-6">
-            <a href="/" className="text-2xl font-bold text-purple-600">
+            <Link href="/" className="text-2xl font-bold text-purple-600">
               Hirelytica
-            </a>
-            <a href="/blog" className="text-gray-600 hover:text-purple-600">
+            </Link>
+            <Link href="/blog" className="text-gray-600 hover:text-purple-600">
               ← Back to Blog
-            </a>
+            </Link>
           </div>
         </div>
       </header>
@@ -136,12 +137,12 @@ export default async function BlogPost({ params }: BlogPostPageProps) {
             <div className="text-sm text-gray-600">
               Published on {post.date} by {post.author}
             </div>
-            <a 
+            <Link 
               href="/blog" 
               className="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700 transition-colors"
             >
               More Articles
-            </a>
+            </Link>
           </div>
         </footer>
       </article>
