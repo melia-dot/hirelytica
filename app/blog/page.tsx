@@ -1,37 +1,35 @@
-// File: app/blog/page.tsx
 import Link from 'next/link'
 
 const blogPosts = [
   {
-    slug: 'why-recruitment-is-broken',
-    title: 'Why Recruitment is Broken (And How We\'re Fixing It)',
-    excerpt: 'The recruitment industry hasn\'t evolved with technology. Job seekers spend hours crafting CVs that get ignored, while employers drown in irrelevant applications. Here\'s what\'s wrong and how to fix it.',
-    date: '2025-01-15',
-    readTime: '5 min read',
-    author: 'Hirelytica Team'
+    slug: "why-recruitment-is-broken",
+    title: "Why Recruitment is Broken (And How We're Fixing It)",
+    excerpt: "The recruitment industry hasn't evolved with technology. Job seekers spend hours crafting CVs that get ignored, while employers drown in irrelevant applications. Here's what's wrong and how to fix it.",
+    date: "2025-01-15",
+    readTime: "5 min read",
+    author: "Hirelytica Team"
   },
   {
-    slug: 'the-cv-casino-problem',
-    title: 'The CV Casino: Why Job Applications Feel Like Gambling',
-    excerpt: 'Applying for jobs shouldn\'t feel like playing roulette. We explore why the current system fails both candidates and employers, and what intelligent matching really looks like.',
-    date: '2025-01-10',
-    readTime: '4 min read',
-    author: 'Hirelytica Team'
+    slug: "the-cv-casino-problem",
+    title: "The CV Casino: Why Job Applications Feel Like Gambling",
+    excerpt: "Applying for jobs shouldn't feel like playing roulette. We explore why the current system fails both candidates and employers, and what intelligent matching really looks like.",
+    date: "2025-01-10",
+    readTime: "4 min read",
+    author: "Hirelytica Team"
   },
   {
-    slug: 'ats-optimization-guide',
-    title: 'The Complete Guide to ATS Optimization in 2025',
-    excerpt: 'Applicant Tracking Systems filter out 75% of resumes before human eyes see them. Learn how to write CVs that pass ATS screening while still showcasing your unique value.',
-    date: '2025-01-05',
-    readTime: '7 min read',
-    author: 'Hirelytica Team'
+    slug: "ats-optimization-guide",
+    title: "The Complete Guide to ATS Optimization in 2025",
+    excerpt: "Applicant Tracking Systems filter out 75% of resumes before human eyes see them. Learn how to write CVs that pass ATS screening while still showcasing your unique value.",
+    date: "2025-01-05",
+    readTime: "7 min read",
+    author: "Hirelytica Team"
   }
 ]
 
 export default function BlogPage() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
       <header className="py-5 bg-white shadow-sm">
         <div className="max-w-6xl mx-auto px-5">
           <nav className="flex justify-between items-center">
@@ -46,7 +44,6 @@ export default function BlogPage() {
         </div>
       </header>
 
-      {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-indigo-500 to-purple-600">
         <div className="max-w-6xl mx-auto px-5 text-center">
           <h1 className="text-4xl md:text-6xl font-black text-white mb-6 leading-tight">
@@ -58,7 +55,6 @@ export default function BlogPage() {
         </div>
       </section>
 
-      {/* Blog Posts */}
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-5">
           <div className="space-y-12">
@@ -69,10 +65,10 @@ export default function BlogPage() {
                     <span>{post.author}</span>
                     <span>•</span>
                     <time dateTime={post.date}>
-                      {new Date(post.date).toLocaleDateString('en-US', {
-                        year: 'numeric',
-                        month: 'long',
-                        day: 'numeric'
+                      {new Date(post.date).toLocaleDateString("en-US", {
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric"
                       })}
                     </time>
                     <span>•</span>
@@ -105,7 +101,6 @@ export default function BlogPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-indigo-500 to-purple-600">
         <div className="max-w-4xl mx-auto px-5 text-center">
           <h2 className="text-3xl md:text-4xl font-black text-white mb-6">
