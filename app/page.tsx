@@ -71,7 +71,7 @@ export default function LandingPage() {
       <main className="py-24">
         <div className="max-w-6xl mx-auto px-5 text-center">
           <h1 className="text-5xl md:text-7xl font-black text-white mb-8 leading-tight">
-            Let&apos;s End the CV Casino
+            Let&apos;s End the CV Lottery
           </h1>
           <p className="text-xl text-white/90 mb-12 max-w-3xl mx-auto">
             The recruitment system is broken. Job seekers waste hours tailoring CVs only to get ignored. Employers drown in irrelevant applications while missing great candidates. We&apos;re fixing both sides.
