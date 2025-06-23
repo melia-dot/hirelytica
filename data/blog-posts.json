@@ -1,34 +1,42 @@
 [
   {
     "slug": "uk-job-market-crisis-2025",
-    "title": "The UK Job Market Crisis: Why Finding Work Has Never Been Harder",
+    "title": "The UK Job Market Crisis: Why Finding Work Has Never Been Harder in 2025",
     "date": "2025-06-23",
-    "author": "Hirelytica",
+    "author": "Hirelytica Team",
     "readTime": "8 min read",
-    "excerpt": "The brutal reality facing tech, marketing, and sales professionals in June 2025. The numbers don't lie: unemployment has risen to 4.6% with job vacancies declining for the 31st consecutive quarter."
+    "excerpt": "The brutal reality facing tech, marketing, and sales professionals in June 2025. Unemployment rises to 4.6% with job vacancies declining for 31st consecutive quarter. Youth unemployment hits devastating 14.3%.",
+    "keywords": "UK job market 2025, unemployment rate, tech jobs crisis, youth unemployment, job search difficulties",
+    "wordCount": 2400
   },
   {
-    "slug": "why-recruitment-is-broken",
-    "title": "Why Recruitment is Broken (And How We Are Fixing It)",
+    "slug": "why-recruitment-broken-data-2025",
+    "title": "Why UK Recruitment is Fundamentally Broken in 2025: The Data Behind the Crisis",
     "date": "2025-06-18",
-    "author": "Hirelytica",
-    "readTime": "8 min read",
-    "excerpt": "The modern recruitment process is fundamentally flawed. Here is how we are building a better way."
-  },
-  {
-    "slug": "cv-lottery-job-applications", 
-    "title": "The CV Lottery: Why Job Applications Feel Like Gambling",
-    "date": "2025-06-12",
-    "author": "Hirelytica",
-    "readTime": "6 min read",
-    "excerpt": "Job hunting has become a game of chance. We explore why modern recruitment feels more like a lottery than a professional process."
-  },
-  {
-    "slug": "ats-optimization-guide-2025",
-    "title": "The Complete Guide to ATS Optimization in 2025", 
-    "date": "2025-06-05",
-    "author": "Hirelytica",
+    "author": "Hirelytica Team",
     "readTime": "12 min read",
-    "excerpt": "Master the art and science of getting your resume past Applicant Tracking Systems with our comprehensive 2025 guide."
+    "excerpt": "Comprehensive analysis of why recruitment fails candidates and employers. 89% of hiring managers admit their process is flawed. Here's the data proving recruitment is broken and our solution.",
+    "keywords": "recruitment problems UK, hiring process broken, ATS failures, job application statistics",
+    "wordCount": 2800
+  },
+  {
+    "slug": "cv-lottery-application-statistics-2025", 
+    "title": "The CV Lottery: Why 98% of Job Applications Disappear Into the Void",
+    "date": "2025-06-12",
+    "author": "Hirelytica Team",
+    "readTime": "10 min read",
+    "excerpt": "Job hunting has become a numbers game with terrible odds. Only 2% of applications lead to interviews. We analyze why job applications feel like playing the lottery and how to beat the odds.",
+    "keywords": "job application success rate, CV rejection statistics, ATS pass rates, job search tips",
+    "wordCount": 2600
+  },
+  {
+    "slug": "ats-optimization-complete-guide-2025",
+    "title": "Beat ATS Systems in 2025: Complete Guide to Resume Optimization (98% Pass Rate)",
+    "date": "2025-06-05",
+    "author": "Hirelytica Team",
+    "readTime": "15 min read",
+    "excerpt": "Master Applicant Tracking Systems with our comprehensive 2025 guide. Proven strategies that achieve 98% ATS pass rates. Includes templates, keyword optimization, and formatting secrets.",
+    "keywords": "ATS optimization 2025, resume ATS friendly, applicant tracking system tips, CV formatting guide",
+    "wordCount": 3200
   }
 ]
