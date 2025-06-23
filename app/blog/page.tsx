@@ -16,7 +16,7 @@ export default function BlogPage() {
 
       <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white py-16">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-4">Hirelytica Blog</h1>
+          <h1 className="text-3xl md:text-5xl font-bold mb-4">Hirelytica Blog</h1>
           <p className="text-xl opacity-90">
             Insights on recruitment, hiring, and the future of work
           </p>
