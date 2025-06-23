@@ -109,7 +109,7 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     console.error('Signup error:', error);
     return NextResponse.json(
-      { error: 'Failed to process signup', details: error.message },
+      { error: 'Failed to process signup', details: error instanceof Error ? error.message : String(error) },
       { 
         status: 500,
         headers: {
