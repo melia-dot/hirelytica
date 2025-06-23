@@ -7,7 +7,7 @@ export async function POST(request: NextRequest) {
   try {
     const { name, email, company } = await request.json();
 
-    if (!name || !email || !company) {
+    if (!name || !email) {
       return NextResponse.json(
         { error: 'Missing required fields' },
         { 
@@ -62,7 +62,7 @@ export async function POST(request: NextRequest) {
             <div class="content">
               <p>Hi ${name},</p>
               
-              <p>Thanks for signing up for early access to Hirelytica! We're excited to have ${company} join our community of forward-thinking companies revolutionizing their hiring process.</p>
+              <p>Thanks for signing up for early access to Hirelytica! We're excited to have you${company ? ` and ${company}` : ""} join our community of forward-thinking companies revolutionizing their hiring process.</p>
               
               <p><strong>What's next?</strong></p>
               <ul>
@@ -90,7 +90,7 @@ export async function POST(request: NextRequest) {
         <h2>New Early Access Signup</h2>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Company:</strong> ${company}</p>
+        <p><strong>Company:</strong> ${company || "Not provided"}</p>
         <p><strong>Date:</strong> ${new Date().toLocaleDateString()}</p>
       `,
     });
