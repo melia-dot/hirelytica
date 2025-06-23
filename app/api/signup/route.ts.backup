@@ -1,3 +1,5 @@
+// File: /app/api/signup/route.ts
+
 import { Resend } from 'resend';
 import { NextRequest, NextResponse } from 'next/server';
 
@@ -7,35 +9,24 @@ export async function POST(request: NextRequest) {
   try {
     const { name, email, company } = await request.json();
 
+    // Validate input
     if (!name || !email || !company) {
       return NextResponse.json(
         { error: 'Missing required fields' },
-        { 
-          status: 400,
-          headers: {
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': 'POST, OPTIONS',
-            'Access-Control-Allow-Headers': 'Content-Type',
-          }
-        }
+        { status: 400 }
       );
     }
 
+    // Email validation
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
       return NextResponse.json(
         { error: 'Invalid email address' },
-        { 
-          status: 400,
-          headers: {
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': 'POST, OPTIONS',
-            'Access-Control-Allow-Headers': 'Content-Type',
-          }
-        }
+        { status: 400 }
       );
     }
 
+    // Send welcome email to user
     await resend.emails.send({
       from: 'Hirelytica <hello@hirelytica.com>',
       to: [email],
@@ -82,6 +73,7 @@ export async function POST(request: NextRequest) {
       `,
     });
 
+    // Send notification email to you
     await resend.emails.send({
       from: 'Hirelytica <hello@hirelytica.com>',
       to: ['mikael@nuvancelabs.com'],
@@ -98,37 +90,13 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ 
       success: true, 
       message: 'Signup successful! Welcome email sent.' 
-    }, {
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Methods': 'POST, OPTIONS',
-        'Access-Control-Allow-Headers': 'Content-Type',
-      }
     });
 
   } catch (error) {
     console.error('Signup error:', error);
     return NextResponse.json(
-      { error: 'Failed to process signup', details: error.message },
-      { 
-        status: 500,
-        headers: {
-          'Access-Control-Allow-Origin': '*',
-          'Access-Control-Allow-Methods': 'POST, OPTIONS',
-          'Access-Control-Allow-Headers': 'Content-Type',
-        }
-      }
+      { error: 'Failed to process signup' },
+      { status: 500 }
     );
   }
-}
-
-export async function OPTIONS(request: NextRequest) {
-  return new NextResponse(null, {
-    status: 200,
-    headers: {
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'POST, OPTIONS',
-      'Access-Control-Allow-Headers': 'Content-Type',
-    },
-  });
 }
