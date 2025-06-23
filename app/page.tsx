@@ -54,11 +54,14 @@ export default function LandingPage() {
         <div className="max-w-6xl mx-auto px-5">
           <nav className="flex justify-between items-center">
             <div className="text-3xl font-black text-white">Hirelytica</div>
-            <div className="flex gap-4 md:gap-8 items-center flex-wrap justify-center md:justify-end">
+            <div className="hidden md:flex gap-8 items-center">
               <a href="#jobseekers" className="text-white/90 hover:text-white font-medium">For Job Seekers</a>
               <a href="#employers" className="text-white/90 hover:text-white font-medium">For Employers</a>
               <Link href="/blog" className="text-white/90 hover:text-white font-medium">Blog</Link>
               <a href="#signup" onClick={scrollToSignup} className="bg-white/20 text-white px-4 py-2 rounded-lg hover:bg-white/30 font-medium transition-colors">Early Access</a>
+            </div>
+            <div className="md:hidden">
+              <Link href="/blog" className="text-white/90 hover:text-white font-medium">Blog</Link>
             </div>
           </nav>
         </div>
