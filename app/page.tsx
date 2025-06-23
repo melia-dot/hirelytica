@@ -54,7 +54,7 @@ export default function LandingPage() {
         <div className="max-w-6xl mx-auto px-5">
           <nav className="flex justify-between items-center">
             <div className="text-3xl font-black text-white">Hirelytica</div>
-            <div className="hidden md:flex gap-8 items-center">
+            <div className="flex gap-4 md:gap-8 items-center flex-wrap justify-center md:justify-end">
               <a href="#jobseekers" className="text-white/90 hover:text-white font-medium">For Job Seekers</a>
               <a href="#employers" className="text-white/90 hover:text-white font-medium">For Employers</a>
               <Link href="/blog" className="text-white/90 hover:text-white font-medium">Blog</Link>
