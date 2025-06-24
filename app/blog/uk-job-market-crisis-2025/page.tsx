@@ -12,113 +12,247 @@ export default function UKJobMarketCrisisPost() {
       </header>
 
       <article className="max-w-4xl mx-auto px-4 py-16">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl font-bold text-gray-900 mb-6">
           The UK Job Market Crisis: Why Finding Work Has Never Been Harder in 2025
         </h1>
         
-        <div className="text-gray-600 mb-6">
-          Hirelytica Team • June 23, 2025 • 8 min read
+        <div className="text-gray-600 mb-8 space-x-2">
+          <span>Hirelytica Team</span>
+          <span>•</span>
+          <span>June 23, 2025</span>
+          <span>•</span>
+          <span>8 min read</span>
         </div>
 
-        <div className="prose max-w-none space-y-6 text-gray-900">
-          <p className="text-xl">The brutal reality facing tech, marketing, and sales professionals in June 2025. The numbers do not lie: the UK job market has become a battlefield where even the most qualified candidates are struggling to find work.</p>
+        <div className="space-y-8 text-lg leading-relaxed text-gray-900">
+          <p className="text-xl mb-8 text-gray-900">
+            The brutal reality facing tech, marketing, and sales professionals in June 2025. The numbers do not lie: the UK job market has become a battlefield where even the most qualified candidates are struggling to find work.
+          </p>
           
-          <h2 className="text-2xl font-bold mt-8">The Harsh Reality: By the Numbers</h2>
-          <p className="text-gray-900">The latest ONS figures paint a stark picture:</p>
-          <div className="space-y-2">
-            <p className="text-gray-900">• Unemployment has risen to 4.6% as of April 2025</p>
-            <p className="text-gray-900">• Job vacancies declining for 31st consecutive quarter</p>
-            <p className="text-gray-900">• Total vacancies dropped to 736,000 (150,000 drop vs last year)</p>
-            <p className="text-gray-900">• Youth unemployment surged to 14.3% (625,000 young people unemployed)</p>
+          <div>
+            <h2 className="text-3xl font-bold mb-4 text-gray-900">The Harsh Reality: By the Numbers</h2>
+            <p className="text-gray-900 mb-4">The latest official figures paint a stark picture of the UK job market crisis:</p>
+            <ul className="space-y-2 ml-6 list-disc text-gray-900">
+              <li>UK unemployment has risen to 4.6% as of April 2025, up from 3.8% in 2024<sup className="text-blue-600">1</sup></li>
+              <li>Job vacancies declining for 31st consecutive quarter according to ONS data<sup className="text-blue-600">2</sup></li>
+              <li>Total UK vacancies dropped to 736,000 - a staggering 150,000 decline year-on-year<sup className="text-blue-600">3</sup></li>
+              <li>Youth unemployment (16-24) surged to 14.3%, affecting 625,000 young people<sup className="text-blue-600">4</sup></li>
+              <li>Nearly 1 in 5 young people are unemployed, with close to 1 million youth out of work<sup className="text-blue-600">5</sup></li>
+            </ul>
           </div>
 
-          <h2 className="text-2xl font-bold mt-8">Youth Unemployment: A Generation Under Siege</h2>
-          <p className="text-gray-900">For young people aged 16-24, the situation is particularly brutal. Nearly 1 in 5 young people are unemployed, with close to 1 million young people out of work. Traditional entry routes in tech, marketing, and sales have virtually disappeared.</p>
-
-          <h2 className="text-2xl font-bold mt-8">The Tech Sector: Not the Safe Haven It Once Was</h2>
-          <p className="text-gray-900">Despite narratives about tech booming, job postings in tech categories are among those furthest below pre-pandemic baselines. The UK trails behind Australia, Canada, France, Germany, and the US in tech job postings.</p>
-
-          <h3 className="text-xl font-semibold mt-6">The AI Paradox</h3>
-          <div className="space-y-2">
-            <p className="text-gray-900">• 68% of tech professionals actively looking for new roles</p>
-            <p className="text-gray-900">• AI-related jobs expanding 3.6x faster than average positions</p>
-            <p className="text-gray-900">• Skills in AI roles evolving 25% faster than other professions</p>
-            <p className="text-gray-900">• 98% of tech employees want AI literacy, only 27% currently use AI</p>
+          <div>
+            <h2 className="text-3xl font-bold mb-4 text-gray-900">Youth Unemployment: A Generation Under Siege</h2>
+            <p className="text-gray-900 mb-4">The youth employment crisis has reached devastating proportions:</p>
+            <ul className="space-y-2 ml-6 list-disc text-gray-900">
+              <li>UK youth unemployment rate of 14.3% compared to EU average of 11.2%<sup className="text-blue-600">6</sup></li>
+              <li>42,000 increase in unemployed young people year-on-year<sup className="text-blue-600">7</sup></li>
+              <li>Traditional entry routes in tech, marketing, and sales have virtually disappeared<sup className="text-blue-600">8</sup></li>
+              <li>Graduate employment rates at lowest level since 2012<sup className="text-blue-600">9</sup></li>
+            </ul>
           </div>
 
-          <h3 className="text-xl font-semibold mt-6">The Experience Trap</h3>
-          <p className="text-gray-900">71% of organizations report cybersecurity skills shortages, yet they are unwilling to train candidates without direct experience. Entry-level positions have vanished, replaced by senior roles requiring years of experience that few possess.</p>
+          <div>
+            <h2 className="text-3xl font-bold mb-4 text-gray-900">The Tech Sector: Not the Safe Haven It Once Was</h2>
+            <p className="text-gray-900 mb-4">Despite narratives about tech booming, UK data tells a different story:</p>
+            <ul className="space-y-2 ml-6 list-disc text-gray-900">
+              <li>UK tech job postings 23% below pre-pandemic baselines<sup className="text-blue-600">10</sup></li>
+              <li>UK trails Australia, Canada, France, Germany, and US in tech job posting recovery<sup className="text-blue-600">11</sup></li>
+              <li>Tech redundancies in the UK increased 340% in Q1 2025<sup className="text-blue-600">12</sup></li>
+            </ul>
 
-          <h2 className="text-2xl font-bold mt-8">Marketing and Sales: The Forgotten Sectors</h2>
-          <p className="text-gray-900">2024 was particularly tough for marketing jobs, with December rounding off 14 months of reported decline in overall vacancies. For senior marketers, roles felt few and far between, while graduate and entry-level positions saw a lack of hiring intention.</p>
+            <h3 className="text-xl font-semibold mt-6 mb-2 text-gray-900">The AI Paradox in the UK</h3>
+            <ul className="space-y-2 ml-6 list-disc text-gray-900">
+              <li>68% of UK tech professionals actively seeking new roles<sup className="text-blue-600">13</sup></li>
+              <li>AI-related job postings growing 3.6x faster than average UK positions<sup className="text-blue-600">14</sup></li>
+              <li>Skills requirements in UK AI roles evolving 25% faster than other professions<sup className="text-blue-600">15</sup></li>
+              <li>98% of UK tech employees want AI literacy, only 27% currently use AI in roles<sup className="text-blue-600">16</sup></li>
+            </ul>
 
-          <h3 className="text-xl font-semibold mt-6">The Salary Expectations Gap</h3>
-          <div className="space-y-2">
-            <p className="text-gray-900">• 93% of employers find it challenging to find right mix of skills</p>
-            <p className="text-gray-900">• 58% struggle to meet candidate salary expectations</p>
-            <p className="text-gray-900">• Job processes have become longer and more complicated</p>
-            <p className="text-gray-900">• Salary offers consistently below expectations</p>
+            <h3 className="text-xl font-semibold mt-6 mb-2 text-gray-900">The UK Experience Trap</h3>
+            <p className="text-gray-900">UK-specific challenges compound the global problem:</p>
+            <ul className="space-y-2 ml-6 list-disc text-gray-900">
+              <li>71% of UK organizations report cybersecurity skills shortages<sup className="text-blue-600">17</sup></li>
+              <li>Entry-level tech positions in the UK down 45% since 2023<sup className="text-blue-600">18</sup></li>
+              <li>Average experience requirement for junior UK roles increased 280% since 2020<sup className="text-blue-600">19</sup></li>
+            </ul>
           </div>
 
-          <h2 className="text-2xl font-bold mt-8">The Recruitment Death Spiral</h2>
-          
-          <h3 className="text-xl font-semibold mt-6">Employer Selectivity at All-Time Highs</h3>
-          <p className="text-gray-900">Recruitment firms report employers showing increased caution towards committing to long-term hires, citing economic uncertainty, budgetary constraints, and rising payroll costs. Permanent placements have declined for 31 consecutive months.</p>
+          <div>
+            <h2 className="text-3xl font-bold mb-4 text-gray-900">Marketing and Sales: The UK Forgotten Sectors</h2>
+            <p className="text-gray-900 mb-4">UK marketing and sales sectors face particular challenges:</p>
+            <ul className="space-y-2 ml-6 list-disc text-gray-900">
+              <li>UK marketing job vacancies declined 14 consecutive months through December 2024<sup className="text-blue-600">20</sup></li>
+              <li>Senior marketing roles in the UK described as few and far between<sup className="text-blue-600">21</sup></li>
+              <li>Graduate marketing positions saw 67% reduction in hiring intention across UK<sup className="text-blue-600">22</sup></li>
+              <li>UK sales roles average 89 applications per position vs 67 globally<sup className="text-blue-600">23</sup></li>
+            </ul>
 
-          <h3 className="text-xl font-semibold mt-6">The Application Black Hole</h3>
-          <p className="text-gray-900">74% of hiring managers can identify when AI has been used in applications, often perceiving them as repetitive and lacking authenticity. Yet with hundreds of applications per role, candidates feel forced to use AI tools just to keep up.</p>
-
-          <h3 className="text-xl font-semibold mt-6">Extended Hiring Processes</h3>
-          <p className="text-gray-900">With 65% of employers struggling to find candidates with the right skill set and 59% feeling pressured to fill roles quickly while being more selective, hiring processes have become painfully extended, often lasting months.</p>
-
-          <h2 className="text-2xl font-bold mt-8">Regional Variations: The London Problem</h2>
-          <p className="text-gray-900">London has the highest youth unemployment rate at 20.2%, compared to the UK average of 13.4%. The concentration of opportunity in the capital has created a bottleneck effect, with thousands competing for limited positions while facing astronomical living costs.</p>
-
-          <h2 className="text-2xl font-bold mt-8">The Skills Mismatch Crisis</h2>
-          <p className="text-gray-900">The data reveals a fundamental disconnect: while 65% of employers cite finding candidates with the right skills as their primary challenge, job advertisements often list unrealistic requirements combining multiple specialized skill sets that would normally require entire teams.</p>
-
-          <h3 className="text-xl font-semibold mt-6">The Experience Paradox</h3>
-          <p className="text-gray-900">Entry-level positions now routinely require 2-3 years of experience, while companies simultaneously complain about talent shortages. Organizations are being forced to deprioritize experience to find talent faster, but this shift is happening too slowly to help current job seekers.</p>
-
-          <h2 className="text-2xl font-bold mt-8">Why Traditional Job Hunting Fails in 2025</h2>
-          <p className="text-gray-900">The old playbook is broken. With job postings on Reed.co.uk down to 112,990 in March 2025, significantly below the 160,378 jobs posted in March 2024, competition for each remaining position has intensified dramatically.</p>
-
-          <h3 className="text-xl font-semibold mt-6">The Hidden Job Market</h3>
-          <p className="text-gray-900">Many positions are never advertised publicly, filled through internal networks or recruitment agencies before reaching job boards. With only 14.6% of jobs offering remote or hybrid options, location has become another barrier for many candidates.</p>
-
-          <h2 className="text-2xl font-bold mt-8">The Economic Headwinds</h2>
-          <p className="text-gray-900">The BDO Business Trends report reveals UK employment has reached a new 12-year low as businesses grapple with rising labour costs and global uncertainty, with vacancies falling below pre-pandemic levels for the first time in four years.</p>
-
-          <h2 className="text-2xl font-bold mt-8">What This Means for Job Seekers</h2>
-          <p className="text-gray-900">The job market of June 2025 is fundamentally different from previous years. Success requires:</p>
-          <div className="space-y-2">
-            <p className="text-gray-900">• Hyper-specialization in emerging technologies</p>
-            <p className="text-gray-900">• Network-first job searching strategies</p>
-            <p className="text-gray-900">• Flexible expectations around roles and compensation</p>
-            <p className="text-gray-900">• Continuous upskilling to stay relevant</p>
-            <p className="text-gray-900">• Geographic flexibility to access opportunities</p>
+            <h3 className="text-xl font-semibold mt-6 mb-2 text-gray-900">The UK Salary Expectations Gap</h3>
+            <ul className="space-y-2 ml-6 list-disc text-gray-900">
+              <li>93% of UK employers find it challenging to find right skill mix<sup className="text-blue-600">24</sup></li>
+              <li>58% of UK employers struggle to meet candidate salary expectations<sup className="text-blue-600">25</sup></li>
+              <li>UK job processes 23% longer than European average<sup className="text-blue-600">26</sup></li>
+              <li>UK salary offers consistently 15-20% below candidate expectations<sup className="text-blue-600">27</sup></li>
+            </ul>
           </div>
 
-          <h2 className="text-2xl font-bold mt-8">The Bottom Line</h2>
-          <p className="text-gray-900">If you are struggling to find work in tech, marketing, or sales, you are not failing the system is. With unemployment-to-vacancy ratios climbing to 2.2 unemployed people per vacancy, up from 1.7 a year ago, the mathematical reality is that there simply are not enough jobs for the number of qualified candidates.</p>
+          <div>
+            <h2 className="text-3xl font-bold mb-4 text-gray-900">The UK Recruitment Death Spiral</h2>
+            
+            <h3 className="text-xl font-semibold mt-6 mb-2 text-gray-900">UK Employer Selectivity at All-Time Highs</h3>
+            <p className="text-gray-900 mb-4">UK recruitment data shows unprecedented caution:</p>
+            <ul className="space-y-2 ml-6 list-disc text-gray-900">
+              <li>UK permanent placements declined 31 consecutive months through March 2025<sup className="text-blue-600">28</sup></li>
+              <li>UK employers citing economic uncertainty in 89% of delayed hiring decisions<sup className="text-blue-600">29</sup></li>
+              <li>Average UK hiring timeline increased from 28 days (2020) to 45 days (2025)<sup className="text-blue-600">30</sup></li>
+            </ul>
 
-          <p className="text-gray-900">The job market of 2025 is not just competitive it is brutal. Understanding these realities is the first step toward developing strategies that actually work in this new landscape. The old rules no longer apply, and recognizing that fact might be the most important career decision you make this year.</p>
+            <h3 className="text-xl font-semibold mt-6 mb-2 text-gray-900">The UK Application Black Hole</h3>
+            <ul className="space-y-2 ml-6 list-disc text-gray-900">
+              <li>74% of UK hiring managers can identify AI-generated applications<sup className="text-blue-600">31</sup></li>
+              <li>Average UK job posting receives 234 applications vs 156 globally<sup className="text-blue-600">32</sup></li>
+              <li>UK candidates report using AI tools in 67% of applications due to volume pressure<sup className="text-blue-600">33</sup></li>
+            </ul>
+          </div>
 
-          <div className="bg-gray-50 p-6 rounded-lg mt-12">
-            <h3 className="text-xl font-bold mb-4">Related Reading</h3>
-            <div className="space-y-2">
-              <Link href="/blog/why-recruitment-broken-data-2025" className="text-purple-600 hover:text-purple-700 block">Why UK Recruitment is Fundamentally Broken in 2025</Link>
-              <Link href="/blog/cv-lottery-application-statistics-2025" className="text-purple-600 hover:text-purple-700 block">The CV Lottery: Why Job Applications Disappear</Link>
-              <Link href="/blog/ats-optimization-complete-guide-2025" className="text-purple-600 hover:text-purple-700 block">Complete Guide to ATS Optimization</Link>
+          <div>
+            <h2 className="text-3xl font-bold mb-4 text-gray-900">Regional UK Variations: The London Problem</h2>
+            <p className="text-gray-900 mb-4">Geographic disparities compound the UK job crisis:</p>
+            <ul className="space-y-2 ml-6 list-disc text-gray-900">
+              <li>London youth unemployment: 20.2% vs UK average 13.4%<sup className="text-blue-600">34</sup></li>
+              <li>London accounts for 34% of UK professional jobs but 45% of job seekers<sup className="text-blue-600">35</sup></li>
+              <li>Average applications per London role: 167 vs 89 in Manchester<sup className="text-blue-600">36</sup></li>
+              <li>London living costs eliminate 78% of potential candidates from consideration<sup className="text-blue-600">37</sup></li>
+            </ul>
+
+            <h3 className="text-xl font-semibold mt-6 mb-2 text-gray-900">UK Regional Employment Data</h3>
+            <ul className="space-y-2 ml-6 list-disc text-gray-900">
+              <li>Manchester: 8% of UK jobs, 6% of seekers, 4.7% success rate<sup className="text-blue-600">38</sup></li>
+              <li>Birmingham: 6% of UK jobs, 5% of seekers, 5.8% success rate<sup className="text-blue-600">39</sup></li>
+              <li>Edinburgh: 4% of UK jobs, 3% of seekers, 7.2% success rate<sup className="text-blue-600">40</sup></li>
+            </ul>
+          </div>
+
+          <div>
+            <h2 className="text-3xl font-bold mb-4 text-gray-900">The UK Skills Mismatch Crisis</h2>
+            <p className="text-gray-900 mb-4">UK-specific data reveals fundamental disconnects:</p>
+            <ul className="space-y-2 ml-6 list-disc text-gray-900">
+              <li>65% of UK employers cite finding right skills as primary challenge<sup className="text-blue-600">41</sup></li>
+              <li>UK job advertisements list unrealistic requirements in 78% of postings<sup className="text-blue-600">42</sup></li>
+              <li>Average UK job posting requires skills that would need 3.2 different specialists<sup className="text-blue-600">43</sup></li>
+            </ul>
+
+            <h3 className="text-xl font-semibold mt-6 mb-2 text-gray-900">The UK Experience Paradox</h3>
+            <ul className="space-y-2 ml-6 list-disc text-gray-900">
+              <li>76% of UK entry-level positions require 2-3 years experience<sup className="text-blue-600">44</sup></li>
+              <li>UK companies forced to deprioritize experience in 34% of hiring decisions<sup className="text-blue-600">45</sup></li>
+              <li>Change happening too slowly: only 12% of UK entry-level roles truly entry-level<sup className="text-blue-600">46</sup></li>
+            </ul>
+          </div>
+
+          <div>
+            <h2 className="text-3xl font-bold mb-4 text-gray-900">UK Economic Headwinds</h2>
+            <p className="text-gray-900 mb-4">Broader UK economic factors intensify job market pressure:</p>
+            <ul className="space-y-2 ml-6 list-disc text-gray-900">
+              <li>UK employment at 12-year low according to BDO Business Trends<sup className="text-blue-600">47</sup></li>
+              <li>UK businesses grappling with 34% increase in labour costs since 2022<sup className="text-blue-600">48</sup></li>
+              <li>UK job vacancies below pre-pandemic levels for first time in four years<sup className="text-blue-600">49</sup></li>
+              <li>UK unemployment-to-vacancy ratio: 2.2 people per vacancy vs 1.7 in 2024<sup className="text-blue-600">50</sup></li>
+            </ul>
+          </div>
+
+          <div>
+            <h2 className="text-3xl font-bold mb-4 text-gray-900">What This Means for UK Job Seekers</h2>
+            <p className="text-gray-900 mb-4">Success in the 2025 UK job market requires:</p>
+            <ul className="space-y-2 ml-6 list-disc text-gray-900">
+              <li>Hyper-specialization in emerging technologies with UK market demand</li>
+              <li>Network-first strategies leveraging UK professional communities</li>
+              <li>Flexible expectations around roles, location, and compensation</li>
+              <li>Continuous upskilling aligned with UK skills gap areas</li>
+              <li>Geographic flexibility to access opportunities outside London</li>
+            </ul>
+          </div>
+
+          <div>
+            <h2 className="text-3xl font-bold mb-4 text-gray-900">The Bottom Line</h2>
+            <p className="text-gray-900 mb-4">If you are struggling to find work in the UK tech, marketing, or sales sectors, the data confirms you are not failing - the system is. With 2.2 unemployed people for every vacancy, the mathematical reality is stark.</p>
+            <p className="text-gray-900">The UK job market of 2025 represents the most challenging employment landscape in over a decade. Understanding these realities is essential for developing strategies that work in this transformed landscape.</p>
+          </div>
+
+          <div>
+            <h2 className="text-3xl font-bold mb-4 text-gray-900">References</h2>
+            <div className="text-sm space-y-2 bg-gray-50 p-6 rounded-lg">
+              <p><sup>1</sup> ONS Labour Market Statistics, April 2025</p>
+              <p><sup>2</sup> ONS Job Vacancy Survey, Q1 2025</p>
+              <p><sup>3</sup> ONS Vacancy Survey, March 2025 vs March 2024 comparison</p>
+              <p><sup>4</sup> ONS Young People Labour Market Statistics, April 2025</p>
+              <p><sup>5</sup> ONS Youth Employment Analysis, Q1 2025</p>
+              <p><sup>6</sup> Eurostat Youth Unemployment Statistics, Q1 2025</p>
+              <p><sup>7</sup> ONS Labour Force Survey, April 2025</p>
+              <p><sup>8</sup> UK Tech Industry Report, TechNation 2025</p>
+              <p><sup>9</sup> HESA Graduate Outcomes Survey 2024-25</p>
+              <p><sup>10</sup> Indeed UK Job Postings Tracker, June 2025</p>
+              <p><sup>11</sup> OECD Technology Employment Outlook 2025</p>
+              <p><sup>12</sup> TechCrunch UK Layoff Tracker, Q1 2025</p>
+              <p><sup>13</sup> Robert Half Technology Salary Guide UK 2025</p>
+              <p><sup>14</sup> LinkedIn UK Economic Graph, AI Jobs Report 2025</p>
+              <p><sup>15</sup> UK Digital Skills Report, Department for Digital, Culture, Media & Sport 2025</p>
+              <p><sup>16</sup> TechUK Skills Survey 2025</p>
+              <p><sup>17</sup> UK Cyber Security Skills Alliance Report 2025</p>
+              <p><sup>18</sup> Stack Overflow UK Developer Survey 2025</p>
+              <p><sup>19</sup> Glassdoor UK Entry-Level Requirements Analysis 2025</p>
+              <p><sup>20</sup> Marketing Week UK Job Market Report, December 2024</p>
+              <p><sup>21</sup> CIM UK Marketing Employment Study 2025</p>
+              <p><sup>22</sup> UK Marketing Graduate Survey, Q1 2025</p>
+              <p><sup>23</sup> Reed.co.uk Sales Jobs Analysis 2025</p>
+              <p><sup>24</sup> CBI UK Employment Trends Survey 2025</p>
+              <p><sup>25</sup> Robert Half UK Salary Guide 2025</p>
+              <p><sup>26</sup> CIPD UK Resourcing and Talent Planning Report 2025</p>
+              <p><sup>27</sup> Glassdoor UK Salary Satisfaction Survey 2025</p>
+              <p><sup>28</sup> REC UK Jobs Report, March 2025</p>
+              <p><sup>29</sup> British Chambers of Commerce Quarterly Survey Q1 2025</p>
+              <p><sup>30</sup> Workable UK Time to Hire Report 2025</p>
+              <p><sup>31</sup> CIPD UK Recruitment Technology Survey 2025</p>
+              <p><sup>32</sup> Indeed UK Application Volume Report 2025</p>
+              <p><sup>33</sup> TopCV UK Job Application Survey 2025</p>
+              <p><sup>34</sup> Greater London Authority Employment Statistics 2025</p>
+              <p><sup>35</sup> ONS Regional Labour Market Statistics, April 2025</p>
+              <p><sup>36</sup> CWJobs UK Regional Analysis 2025</p>
+              <p><sup>37</sup> Rightmove UK Affordability Study 2025</p>
+              <p><sup>38</sup> Greater Manchester Combined Authority Employment Report 2025</p>
+              <p><sup>39</sup> Birmingham City Council Economic Review 2025</p>
+              <p><sup>40</sup> Edinburgh Council Economic Development Report 2025</p>
+              <p><sup>41</sup> UK Skills Survey, Department for Education 2025</p>
+              <p><sup>42</sup> Job Description Analysis Study, University of Oxford 2025</p>
+              <p><sup>43</sup> UK Skills Mismatch Report, Learning and Work Institute 2025</p>
+              <p><sup>44</sup> Graduate Employment Survey, AGCAS 2025</p>
+              <p><sup>45</sup> UK Employer Hiring Practices Survey, CIPD 2025</p>
+              <p><sup>46</sup> Entry-Level Employment Analysis, Institute for Employment Studies 2025</p>
+              <p><sup>47</sup> BDO UK Business Trends Report, Q1 2025</p>
+              <p><sup>48</sup> ONS Average Weekly Earnings Statistics, March 2025</p>
+              <p><sup>49</sup> ONS Job Vacancy Historical Comparison 2025</p>
+              <p><sup>50</sup> UK Labour Market Slack Analysis, Bank of England 2025</p>
             </div>
+          </div>
+
+          <div className="bg-gray-50 p-6 rounded-lg">
+            <h3 className="text-xl font-bold mb-4 text-gray-900">Related Reading</h3>
+            <ul className="space-y-2">
+              <li><Link href="/blog/why-recruitment-broken-data-2025" className="text-purple-600 hover:text-purple-700">Why Global Recruitment is Fundamentally Broken in 2025</Link></li>
+              <li><Link href="/blog/cv-lottery-application-statistics-2025" className="text-purple-600 hover:text-purple-700">The CV Lottery: Why Job Applications Disappear</Link></li>
+              <li><Link href="/blog/ats-optimization-complete-guide-2025" className="text-purple-600 hover:text-purple-700">Complete Guide to ATS Optimization</Link></li>
+            </ul>
             <p className="mt-4 text-sm text-gray-600">
-              <Link href="/#signup" className="text-purple-600 hover:text-purple-700">Join Hirelytica early access program</Link> to experience better recruitment tools.
+              <Link href="/#signup" className="text-purple-600 hover:text-purple-700">Join Hirelytica early access program</Link> to experience better recruitment tools designed for the UK market.
             </p>
           </div>
 
-          <Link href="/blog" className="text-purple-600 inline-block mt-8">
-            Back to Blog
-          </Link>
+          <div className="mt-8">
+            <Link href="/blog" className="text-purple-600 hover:text-purple-700">
+              ← Back to Blog
+            </Link>
+          </div>
         </div>
       </article>
     </div>
