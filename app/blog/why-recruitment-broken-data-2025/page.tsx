@@ -24,7 +24,7 @@ export default function RecruitmentBrokenPost() {
           <span>12 min read</span>
         </div>
 
-        <div className="space-y-8 text-lg leading-relaxed">
+        <div className="space-y-8 text-lg leading-relaxed text-gray-900">
           <p className="text-xl mb-8">
             The global recruitment industry is facing a systemic crisis that spans multiple countries and affects millions of job seekers worldwide. Here is the international data proving why recruitment systems are broken across the UK, US, Canada, and Australia.
           </p>
@@ -47,27 +47,27 @@ export default function RecruitmentBrokenPost() {
             <div className="space-y-6">
               <div>
                 <h3 className="text-xl font-semibold mb-2">1. ATS Systems Block Good Candidates Worldwide</h3>
-                <p>Applicant Tracking Systems reject 75% of qualified candidates in the US due to formatting issues<sup className="text-blue-600">7</sup>. In the UK, ATS parsing accuracy averages only 43% for modern CV formats<sup className="text-blue-600">8</sup>. A recent study of 1,000 software engineers across the UK, US, and Canada found that identical resumes with different formatting had response rates varying from 4% to 34%<sup className="text-blue-600">9</sup>.</p>
+                <p className="text-gray-900">Applicant Tracking Systems reject 75% of qualified candidates in the US due to formatting issues<sup className="text-blue-600">7</sup>. In the UK, ATS parsing accuracy averages only 43% for modern CV formats<sup className="text-blue-600">8</sup>. A recent study of 1,000 software engineers across the UK, US, and Canada found that identical resumes with different formatting had response rates varying from 4% to 34%<sup className="text-blue-600">9</sup>.</p>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold mb-2">2. Entry-Level Jobs Require Experience Globally</h3>
-                <p>This problem spans multiple countries: 76% of UK entry-level positions require 2+ years of experience<sup className="text-blue-600">10</sup>, while 82% of US entry-level roles have similar requirements<sup className="text-blue-600">11</sup>. Graduate unemployment in the UK sits at 12.3%<sup className="text-blue-600">12</sup>, compared to 8.9% in Germany where apprenticeship programs provide clear pathways<sup className="text-blue-600">13</sup>.</p>
+                <p className="text-gray-900">This problem spans multiple countries: 76% of UK entry-level positions require 2+ years of experience<sup className="text-blue-600">10</sup>, while 82% of US entry-level roles have similar requirements<sup className="text-blue-600">11</sup>. Graduate unemployment in the UK sits at 12.3%<sup className="text-blue-600">12</sup>, compared to 8.9% in Germany where apprenticeship programs provide clear pathways<sup className="text-blue-600">13</sup>.</p>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold mb-2">3. Job Descriptions Are Unrealistically Complex</h3>
-                <p>Analysis of 50,000 job postings across English-speaking countries reveals: UK job postings average 23 required skills (up from 8 in 2019)<sup className="text-blue-600">14</sup>, US postings average 21 skills<sup className="text-blue-600">15</sup>, while Australian postings average 19 skills<sup className="text-blue-600">16</sup>. A Marketing Executive role in London requiring 10 specialized skills offered £28,000, while a similar US role requiring 12 skills offered $45,000<sup className="text-blue-600">17</sup>.</p>
+                <p className="text-gray-900">Analysis of 50,000 job postings across English-speaking countries reveals: UK job postings average 23 required skills (up from 8 in 2019)<sup className="text-blue-600">14</sup>, US postings average 21 skills<sup className="text-blue-600">15</sup>, while Australian postings average 19 skills<sup className="text-blue-600">16</sup>. A Marketing Executive role in London requiring 10 specialized skills offered £28,000, while a similar US role requiring 12 skills offered $45,000<sup className="text-blue-600">17</sup>.</p>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold mb-2">4. Candidate Ghosting is a Global Epidemic</h3>
-                <p>The ghosting problem affects multiple markets: 67% of UK job seekers report being ghosted after interviews<sup className="text-blue-600">18</sup>, 71% in the US<sup className="text-blue-600">19</sup>, and 59% in Canada<sup className="text-blue-600">20</sup>. Only 23% of UK companies provide feedback on rejections<sup className="text-blue-600">21</sup>, compared to 31% in the Netherlands where feedback is often legally required<sup className="text-blue-600">22</sup>.</p>
+                <p className="text-gray-900">The ghosting problem affects multiple markets: 67% of UK job seekers report being ghosted after interviews<sup className="text-blue-600">18</sup>, 71% in the US<sup className="text-blue-600">19</sup>, and 59% in Canada<sup className="text-blue-600">20</sup>. Only 23% of UK companies provide feedback on rejections<sup className="text-blue-600">21</sup>, compared to 31% in the Netherlands where feedback is often legally required<sup className="text-blue-600">22</sup>.</p>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold mb-2">5. Diversity Goals Fall Short Internationally</h3>
-                <p>While 73% of UK companies have diversity hiring goals<sup className="text-blue-600">23</sup>, only 23% use blind recruitment practices. In the US, 81% of companies have diversity goals but only 19% use structured hiring processes<sup className="text-blue-600">24</sup>. Name-based discrimination affects 25% of ethnic minority candidates in the UK<sup className="text-blue-600">25</sup> and 31% in the US<sup className="text-blue-600">26</sup>.</p>
+                <p className="text-gray-900">While 73% of UK companies have diversity hiring goals<sup className="text-blue-600">23</sup>, only 23% use blind recruitment practices. In the US, 81% of companies have diversity goals but only 19% use structured hiring processes<sup className="text-blue-600">24</sup>. Name-based discrimination affects 25% of ethnic minority candidates in the UK<sup className="text-blue-600">25</sup> and 31% in the US<sup className="text-blue-600">26</sup>.</p>
               </div>
             </div>
           </div>
@@ -90,15 +90,15 @@ export default function RecruitmentBrokenPost() {
             <div className="space-y-4">
               <div>
                 <h4 className="text-lg font-semibold">Germany: The Apprenticeship Model</h4>
-                <p>67% of German companies offer structured apprenticeship programs, resulting in youth unemployment of only 8.1% compared to the UK 14.3%<sup className="text-blue-600">33</sup>.</p>
+                <p className="text-gray-900">67% of German companies offer structured apprenticeship programs, resulting in youth unemployment of only 8.1% compared to the UK 14.3%<sup className="text-blue-600">33</sup>.</p>
               </div>
               <div>
                 <h4 className="text-lg font-semibold">Netherlands: Transparency Requirements</h4>
-                <p>Mandatory salary ranges in Dutch job postings and standardized feedback processes result in 89% candidate satisfaction rates<sup className="text-blue-600">34</sup>.</p>
+                <p className="text-gray-900">Mandatory salary ranges in Dutch job postings and standardized feedback processes result in 89% candidate satisfaction rates<sup className="text-blue-600">34</sup>.</p>
               </div>
               <div>
                 <h4 className="text-lg font-semibold">Singapore: Skills-First Approach</h4>
-                <p>Government-sponsored skills assessment platforms achieve 67% job matching accuracy compared to 23% in traditional Western markets<sup className="text-blue-600">35</sup>.</p>
+                <p className="text-gray-900">Government-sponsored skills assessment platforms achieve 67% job matching accuracy compared to 23% in traditional Western markets<sup className="text-blue-600">35</sup>.</p>
               </div>
             </div>
           </div>
@@ -125,41 +125,41 @@ export default function RecruitmentBrokenPost() {
           <div>
             <h2 className="text-3xl font-bold mb-4">References</h2>
             <div className="text-sm space-y-2 bg-gray-50 p-6 rounded-lg">
-              <p><sup>1</sup> CIPD Resourcing and Talent Planning Survey 2025, UK</p>
-              <p><sup>2</sup> Indeed Global Hiring Analytics Report 2025</p>
-              <p><sup>3</sup> Workable Time to Hire Benchmark Report 2025, UK vs US comparison</p>
-              <p><sup>4</sup> Harvard Business Review, Getting Through the ATS September 2024</p>
-              <p><sup>5</sup> UK Recruitment Industry Survey, British Chambers of Commerce 2025</p>
-              <p><sup>6</sup> Statistics Canada Labour Force Survey, Q1 2025</p>
-              <p><sup>7</sup> US Bureau of Labor Statistics, Employment Situation Summary 2025</p>
-              <p><sup>8</sup> TopResume ATS Study, UK Market Analysis 2025</p>
-              <p><sup>9</sup> International Journal of Human Resource Management, ATS Parsing Accuracy Study 2025</p>
-              <p><sup>10</sup> UK Department for Work and Pensions, Graduate Labour Market Statistics 2025</p>
-              <p><sup>11</sup> National Association of Colleges and Employers (NACE), Job Outlook 2025</p>
-              <p><sup>12</sup> ONS Graduate Labour Market Statistics, Q1 2025</p>
-              <p><sup>13</sup> Federal Institute for Vocational Education and Training, Germany 2025</p>
-              <p><sup>14</sup> Reed.co.uk Job Market Report 2025</p>
-              <p><sup>15</sup> LinkedIn Economic Graph, US Skills Requirements Analysis 2025</p>
-              <p><sup>16</sup> SEEK Employment Report, Australia Q1 2025</p>
-              <p><sup>17</sup> Glassdoor Global Salary Report 2025</p>
-              <p><sup>18</sup> YouGov UK Employment Survey 2025</p>
-              <p><sup>19</sup> Indeed US Candidate Experience Report 2025</p>
-              <p><sup>20</sup> Workopolis Canada Hiring Trends 2025</p>
-              <p><sup>21</sup> CIPD Candidate Experience Report UK 2025</p>
-              <p><sup>22</sup> Netherlands Enterprise Agency Employment Law Guide 2025</p>
-              <p><sup>23</sup> Equality and Human Rights Commission Annual Report 2025</p>
-              <p><sup>24</sup> Society for Human Resource Management (SHRM) Diversity Report 2025</p>
-              <p><sup>25</sup> Centre for Social Investigation, Nuffield College Oxford 2025</p>
-              <p><sup>26</sup> National Bureau of Economic Research, Field Experiment Study 2024</p>
-              <p><sup>27</sup> CIPD Resourcing and Talent Planning Survey 2025</p>
-              <p><sup>28</sup> Society for Human Resource Management Cost-per-Hire Report 2025</p>
-              <p><sup>29</sup> Canadian HR Reporter Compensation Survey 2025</p>
-              <p><sup>30</sup> Australian HR Institute Metrics Report 2025</p>
-              <p><sup>31</sup> CIPD Labour Turnover Survey 2025</p>
-              <p><sup>32</sup> Work Institute Retention Report UK 2025</p>
-              <p><sup>33</sup> OECD Employment Outlook 2025</p>
-              <p><sup>34</sup> Netherlands Chamber of Commerce Employment Report 2025</p>
-              <p><sup>35</sup> SkillsFuture Singapore Annual Report 2024</p>
+              <p className="text-gray-900"><sup>1</sup> CIPD Resourcing and Talent Planning Survey 2025, UK</p>
+              <p className="text-gray-900"><sup>2</sup> Indeed Global Hiring Analytics Report 2025</p>
+              <p className="text-gray-900"><sup>3</sup> Workable Time to Hire Benchmark Report 2025, UK vs US comparison</p>
+              <p className="text-gray-900"><sup>4</sup> Harvard Business Review, Getting Through the ATS September 2024</p>
+              <p className="text-gray-900"><sup>5</sup> UK Recruitment Industry Survey, British Chambers of Commerce 2025</p>
+              <p className="text-gray-900"><sup>6</sup> Statistics Canada Labour Force Survey, Q1 2025</p>
+              <p className="text-gray-900"><sup>7</sup> US Bureau of Labor Statistics, Employment Situation Summary 2025</p>
+              <p className="text-gray-900"><sup>8</sup> TopResume ATS Study, UK Market Analysis 2025</p>
+              <p className="text-gray-900"><sup>9</sup> International Journal of Human Resource Management, ATS Parsing Accuracy Study 2025</p>
+              <p className="text-gray-900"><sup>10</sup> UK Department for Work and Pensions, Graduate Labour Market Statistics 2025</p>
+              <p className="text-gray-900"><sup>11</sup> National Association of Colleges and Employers (NACE), Job Outlook 2025</p>
+              <p className="text-gray-900"><sup>12</sup> ONS Graduate Labour Market Statistics, Q1 2025</p>
+              <p className="text-gray-900"><sup>13</sup> Federal Institute for Vocational Education and Training, Germany 2025</p>
+              <p className="text-gray-900"><sup>14</sup> Reed.co.uk Job Market Report 2025</p>
+              <p className="text-gray-900"><sup>15</sup> LinkedIn Economic Graph, US Skills Requirements Analysis 2025</p>
+              <p className="text-gray-900"><sup>16</sup> SEEK Employment Report, Australia Q1 2025</p>
+              <p className="text-gray-900"><sup>17</sup> Glassdoor Global Salary Report 2025</p>
+              <p className="text-gray-900"><sup>18</sup> YouGov UK Employment Survey 2025</p>
+              <p className="text-gray-900"><sup>19</sup> Indeed US Candidate Experience Report 2025</p>
+              <p className="text-gray-900"><sup>20</sup> Workopolis Canada Hiring Trends 2025</p>
+              <p className="text-gray-900"><sup>21</sup> CIPD Candidate Experience Report UK 2025</p>
+              <p className="text-gray-900"><sup>22</sup> Netherlands Enterprise Agency Employment Law Guide 2025</p>
+              <p className="text-gray-900"><sup>23</sup> Equality and Human Rights Commission Annual Report 2025</p>
+              <p className="text-gray-900"><sup>24</sup> Society for Human Resource Management (SHRM) Diversity Report 2025</p>
+              <p className="text-gray-900"><sup>25</sup> Centre for Social Investigation, Nuffield College Oxford 2025</p>
+              <p className="text-gray-900"><sup>26</sup> National Bureau of Economic Research, Field Experiment Study 2024</p>
+              <p className="text-gray-900"><sup>27</sup> CIPD Resourcing and Talent Planning Survey 2025</p>
+              <p className="text-gray-900"><sup>28</sup> Society for Human Resource Management Cost-per-Hire Report 2025</p>
+              <p className="text-gray-900"><sup>29</sup> Canadian HR Reporter Compensation Survey 2025</p>
+              <p className="text-gray-900"><sup>30</sup> Australian HR Institute Metrics Report 2025</p>
+              <p className="text-gray-900"><sup>31</sup> CIPD Labour Turnover Survey 2025</p>
+              <p className="text-gray-900"><sup>32</sup> Work Institute Retention Report UK 2025</p>
+              <p className="text-gray-900"><sup>33</sup> OECD Employment Outlook 2025</p>
+              <p className="text-gray-900"><sup>34</sup> Netherlands Chamber of Commerce Employment Report 2025</p>
+              <p className="text-gray-900"><sup>35</sup> SkillsFuture Singapore Annual Report 2024</p>
             </div>
           </div>
 

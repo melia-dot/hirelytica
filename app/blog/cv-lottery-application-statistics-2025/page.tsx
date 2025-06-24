@@ -20,57 +20,57 @@ export default function CVLotteryPost() {
           Hirelytica Team • June 12, 2025 • 10 min read
         </div>
 
-        <div className="prose max-w-none space-y-6">
+        <div className="prose max-w-none space-y-6 text-gray-900">
           <p className="text-xl">Job hunting has become a numbers game with terrible odds. Only 2% of applications lead to interviews. Here is why most applications disappear and how to beat the odds.</p>
           
           <h2 className="text-2xl font-bold mt-8">The Brutal Mathematics</h2>
           <div className="space-y-2">
-            <p>• Overall application-to-interview rate: 2-5%</p>
-            <p>• Interview-to-offer rate: 20-25%</p>
-            <p>• Final success rate: 0.4-1.25% per application</p>
-            <p>• For 100 applications, expect 2-5 interviews and 0-1 job offers</p>
+            <p className="text-gray-900">• Overall application-to-interview rate: 2-5%</p>
+            <p className="text-gray-900">• Interview-to-offer rate: 20-25%</p>
+            <p className="text-gray-900">• Final success rate: 0.4-1.25% per application</p>
+            <p className="text-gray-900">• For 100 applications, expect 2-5 interviews and 0-1 job offers</p>
           </div>
 
           <h2 className="text-2xl font-bold mt-8">The ATS Black Hole</h2>
-          <p>Applicant Tracking Systems are the invisible gatekeepers that determine whether your resume reaches human eyes. 75% of qualified candidates are rejected by ATS systems before any human review.</p>
+          <p className="text-gray-900">Applicant Tracking Systems are the invisible gatekeepers that determine whether your resume reaches human eyes. 75% of qualified candidates are rejected by ATS systems before any human review.</p>
 
           <div className="space-y-2">
-            <p>• Average parsing accuracy: 43% for modern CV formats</p>
-            <p>• Keyword match requirements: 60-80% for progression</p>
-            <p>• False negative rate: 67% (qualified candidates rejected)</p>
+            <p className="text-gray-900">• Average parsing accuracy: 43% for modern CV formats</p>
+            <p className="text-gray-900">• Keyword match requirements: 60-80% for progression</p>
+            <p className="text-gray-900">• False negative rate: 67% (qualified candidates rejected)</p>
           </div>
 
           <h2 className="text-2xl font-bold mt-8">Industry-Specific Odds</h2>
           <div className="space-y-2">
-            <p>• Technology: 89 applications per opening, 7.2% response rate</p>
-            <p>• Marketing: 156 applications per opening, 3.1% response rate</p>
-            <p>• Finance: 234 applications per opening, 1.9% response rate</p>
-            <p>• Sales: 67 applications per opening, 8.9% response rate</p>
+            <p className="text-gray-900">• Technology: 89 applications per opening, 7.2% response rate</p>
+            <p className="text-gray-900">• Marketing: 156 applications per opening, 3.1% response rate</p>
+            <p className="text-gray-900">• Finance: 234 applications per opening, 1.9% response rate</p>
+            <p className="text-gray-900">• Sales: 67 applications per opening, 8.9% response rate</p>
           </div>
 
           <h2 className="text-2xl font-bold mt-8">The Hidden Job Market</h2>
-          <p>60-70% of jobs are never publicly advertised. People with strong networks do not play the same lottery:</p>
+          <p className="text-gray-900">60-70% of jobs are never publicly advertised. People with strong networks do not play the same lottery:</p>
           <div className="space-y-2">
-            <p>• Strong network: 8-12 applications needed, 67% response rate</p>
-            <p>• Weak network: 89-156 applications needed, 2-5% response rate</p>
+            <p className="text-gray-900">• Strong network: 8-12 applications needed, 67% response rate</p>
+            <p className="text-gray-900">• Weak network: 89-156 applications needed, 2-5% response rate</p>
           </div>
 
           <h2 className="text-2xl font-bold mt-8">Strategies That Work</h2>
           <div className="space-y-2">
-            <p>• Optimize for ATS systems with proper formatting</p>
-            <p>• Build a strong professional network</p>
-            <p>• Use direct outreach to bypass job boards</p>
-            <p>• Focus on portfolio work for creative and technical roles</p>
-            <p>• Apply strategic timing for better response rates</p>
+            <p className="text-gray-900">• Optimize for ATS systems with proper formatting</p>
+            <p className="text-gray-900">• Build a strong professional network</p>
+            <p className="text-gray-900">• Use direct outreach to bypass job boards</p>
+            <p className="text-gray-900">• Focus on portfolio work for creative and technical roles</p>
+            <p className="text-gray-900">• Apply strategic timing for better response rates</p>
           </div>
 
           <h2 className="text-2xl font-bold mt-8">The Hirelytica Solution</h2>
-          <p>We are building a platform that fixes the CV lottery problem:</p>
+          <p className="text-gray-900">We are building a platform that fixes the CV lottery problem:</p>
           <div className="space-y-2">
-            <p>• 34% application-to-interview rate vs industry 2-5%</p>
-            <p>• 89% candidate satisfaction with the process</p>
-            <p>• Average time to hire: 12 days vs industry 45 days</p>
-            <p>• 78% improvement in hiring diversity</p>
+            <p className="text-gray-900">• 34% application-to-interview rate vs industry 2-5%</p>
+            <p className="text-gray-900">• 89% candidate satisfaction with the process</p>
+            <p className="text-gray-900">• Average time to hire: 12 days vs industry 45 days</p>
+            <p className="text-gray-900">• 78% improvement in hiring diversity</p>
           </div>
 
           <div className="bg-gray-50 p-6 rounded-lg mt-12">
