@@ -1,3 +1,12 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Why Global Recruitment is Broken",
+  alternates: {
+    canonical: "https://hirelytica.com/blog/why-recruitment-broken-data-2025",
+  },
+};
+
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import blogPosts from '../../../data/blog-posts.json';
