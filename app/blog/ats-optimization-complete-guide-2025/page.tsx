@@ -1,4 +1,13 @@
 import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Beat ATS Systems in 2025: Complete Guide to Resume Optimization (98% Pass Rate)",
+  description: "Master Applicant Tracking Systems with our comprehensive guide. Proven strategies achieve 98% ATS pass rates. Includes formatting rules, keyword optimization, and testing tools.",
+  alternates: {
+    canonical: "https://hirelytica.com/blog/ats-optimization-complete-guide-2025",
+  },
+};
 
 export default function ATSGuidePost() {
   return (

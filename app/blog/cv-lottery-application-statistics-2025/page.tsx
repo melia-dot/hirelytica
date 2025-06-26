@@ -1,4 +1,13 @@
 import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "The CV Lottery: Why 98% of Job Applications Disappear Into the Void",
+  description: "Only 2% of job applications lead to interviews. Discover why ATS systems reject 75% of qualified candidates and how to beat the CV lottery with proven strategies.",
+  alternates: {
+    canonical: "https://hirelytica.com/blog/cv-lottery-application-statistics-2025",
+  },
+};
 
 export default function CVLotteryPost() {
   return (

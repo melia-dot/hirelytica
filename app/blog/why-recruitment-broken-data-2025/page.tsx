@@ -1,4 +1,13 @@
 import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Why Global Recruitment is Broken",
+  description: "89% of hiring managers admit their recruitment process is flawed. Discover why ATS systems, ghosting, and unrealistic job requirements are destroying hiring across the UK, US, and Canada.",
+  alternates: {
+    canonical: "https://hirelytica.com/blog/why-recruitment-broken-data-2025",
+  },
+};
 
 export default function RecruitmentBrokenPost() {
   return (
