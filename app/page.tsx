@@ -161,9 +161,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-// Add this section to your landing page (app/page.tsx)
-// Insert before the signup section
-
+{/* FAQ Section */}
 <section className="py-24 bg-gray-50">
   <div className="max-w-4xl mx-auto px-5">
     <div className="text-center mb-16">
