@@ -60,6 +60,9 @@ export default function LandingPage() {
               <Link href="/blog" className="text-white/90 hover:text-white font-medium">Blog</Link>
               <a href="#signup" onClick={scrollToSignup} className="bg-white/20 text-white px-4 py-2 rounded-lg hover:bg-white/30 font-medium transition-colors">Early Access</a>
             </div>
+            <div className="md:hidden">
+              <Link href="/blog" className="text-white/90 hover:text-white font-medium">Blog</Link>
+            </div>
           </nav>
         </div>
       </header>
@@ -68,7 +71,7 @@ export default function LandingPage() {
       <main className="py-24">
         <div className="max-w-6xl mx-auto px-5 text-center">
           <h1 className="text-5xl md:text-7xl font-black text-white mb-8 leading-tight">
-            Let&apos;s End the CV Casino
+            Let&apos;s End the CV Lottery
           </h1>
           <p className="text-xl text-white/90 mb-12 max-w-3xl mx-auto">
             The recruitment system is broken. Job seekers waste hours tailoring CVs only to get ignored. Employers drown in irrelevant applications while missing great candidates. We&apos;re fixing both sides.

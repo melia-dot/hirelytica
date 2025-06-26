@@ -1,3 +1,5 @@
+// File: /app/api/signup/route.ts
+
 import { Resend } from 'resend';
 import { NextRequest, NextResponse } from 'next/server';
 
@@ -7,35 +9,24 @@ export async function POST(request: NextRequest) {
   try {
     const { name, email, company } = await request.json();
 
-    if (!name || !email) {
+    // Validate input
+    if (!name || !email || !company) {
       return NextResponse.json(
         { error: 'Missing required fields' },
-        { 
-          status: 400,
-          headers: {
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': 'POST, OPTIONS',
-            'Access-Control-Allow-Headers': 'Content-Type',
-          }
-        }
+        { status: 400 }
       );
     }
 
+    // Email validation
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
       return NextResponse.json(
         { error: 'Invalid email address' },
-        { 
-          status: 400,
-          headers: {
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Methods': 'POST, OPTIONS',
-            'Access-Control-Allow-Headers': 'Content-Type',
-          }
-        }
+        { status: 400 }
       );
     }
 
+    // Send welcome email to user
     await resend.emails.send({
       from: 'Hirelytica <hello@hirelytica.com>',
       to: [email],
@@ -62,7 +53,7 @@ export async function POST(request: NextRequest) {
             <div class="content">
               <p>Hi ${name},</p>
               
-              <p>Thanks for signing up for early access to Hirelytica! We're excited to have you${company ? ` and ${company}` : ""} join our community of forward-thinking companies revolutionizing their hiring process.</p>
+              <p>Thanks for signing up for early access to Hirelytica! We're excited to have ${company} join our community of forward-thinking companies revolutionizing their hiring process.</p>
               
               <p><strong>What's next?</strong></p>
               <ul>
@@ -82,6 +73,7 @@ export async function POST(request: NextRequest) {
       `,
     });
 
+    // Send notification email to you
     await resend.emails.send({
       from: 'Hirelytica <hello@hirelytica.com>',
       to: ['mikael@nuvancelabs.com'],
@@ -90,7 +82,7 @@ export async function POST(request: NextRequest) {
         <h2>New Early Access Signup</h2>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Company:</strong> ${company || "Not provided"}</p>
+        <p><strong>Company:</strong> ${company}</p>
         <p><strong>Date:</strong> ${new Date().toLocaleDateString()}</p>
       `,
     });
@@ -98,37 +90,13 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ 
       success: true, 
       message: 'Signup successful! Welcome email sent.' 
-    }, {
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Methods': 'POST, OPTIONS',
-        'Access-Control-Allow-Headers': 'Content-Type',
-      }
     });
 
   } catch (error) {
     console.error('Signup error:', error);
     return NextResponse.json(
-      { error: 'Failed to process signup', details: error instanceof Error ? error.message : String(error) },
-      { 
-        status: 500,
-        headers: {
-          'Access-Control-Allow-Origin': '*',
-          'Access-Control-Allow-Methods': 'POST, OPTIONS',
-          'Access-Control-Allow-Headers': 'Content-Type',
-        }
-      }
+      { error: 'Failed to process signup' },
+      { status: 500 }
     );
   }
-}
-
-export async function OPTIONS() {
-  return new NextResponse(null, {
-    status: 200,
-    headers: {
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'POST, OPTIONS',
-      'Access-Control-Allow-Headers': 'Content-Type',
-    },
-  });
 }

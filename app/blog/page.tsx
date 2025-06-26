@@ -16,7 +16,7 @@ export default function BlogPage() {
 
       <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white py-16">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-4">Hirelytica Blog</h1>
+          <h1 className="text-3xl md:text-5xl font-bold mb-4">Hirelytica Blog</h1>
           <p className="text-xl opacity-90">
             Insights on recruitment, hiring, and the future of work
           </p>
@@ -24,7 +24,7 @@ export default function BlogPage() {
       </div>
 
       <div className="max-w-6xl mx-auto px-4 py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {blogPosts.map((post) => (
             <article key={post.slug} className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <div className="p-6">
@@ -48,10 +48,7 @@ export default function BlogPage() {
                   href={`/blog/${post.slug}`}
                   className="inline-flex items-center text-purple-600 hover:text-purple-700 font-medium"
                 >
-                  Read More
-                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
+                  Read More →
                 </Link>
               </div>
             </article>

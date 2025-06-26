@@ -5,6 +5,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Hirelytica',
   description: 'Fix recruitment for good',
+  viewport: 'width=device-width, initial-scale=1',
   icons: {
     icon: '/favicon.svg',
   },

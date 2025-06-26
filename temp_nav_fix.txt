@@ -1,0 +1,37 @@
+import { useState } from 'react';
+import Link from 'next/link';
+
+export default function HirelyticaPage() {
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
+
+  const scrollToSignup = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const signupElement = document.getElementById('signup');
+    if (signupElement) {
+      signupElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600">
+      {/* Header */}
+      <header className="py-5">
+        <div className="max-w-6xl mx-auto px-5">
+          <nav className="flex justify-between items-center">
+            <div className="text-3xl font-black text-white">Hirelytica</div>
+            
+            {/* Desktop Navigation */}
+            <div className="hidden md:flex gap-8 items-center">
+              <a href="#jobseekers" className="text-white/90 hover:text-white font-medium">For Job Seekers</a>
+              <a href="#employers" className="text-white/90 hover:text-white font-medium">For Employers</a>
+              <Link href="/blog" className="text-white/90 hover:text-white font-medium">Blog</Link>
+              <a href="#signup" onClick={scrollToSignup} className="bg-white/20 text-white px-4 py-2 rounded-lg hover:bg-white/30 font-medium transition-colors">Early Access</a>
+            </div>
+            
+            {/* Mobile Navigation - Blog Only */}
+            <div className="md:hidden">
+              <Link href="/blog" className="text-white/90 hover:text-white font-medium">Blog</Link>
+            </div>
+          </nav>
+        </div>
+      </header>
