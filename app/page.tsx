@@ -206,7 +206,7 @@ export default function LandingPage() {
           How does Hirelytica solve ATS problems?
         </h3>
         <p className="text-gray-700">
-          We automatically format your CV for ATS compatibility and match keywords to each job description. Our system knows how different ATS platforms work and optimizes your application accordingly - no more black holes.
+          While modern ATS systems have improved with AI and can understand context better than before, they still struggle with complex career narratives, industry transitions, and showcasing transferable skills. Our CV bank optimizes not just for keyword matching, but for presenting your experience in the clearest, most compelling way that both ATS and humans can understand.
         </p>
       </div>
 
