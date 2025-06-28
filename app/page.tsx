@@ -161,104 +161,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-{/* FAQ Section */}
-<section className="py-24 bg-gray-50">
-  <div className="max-w-4xl mx-auto px-5">
-    <div className="text-center mb-16">
-      <h2 className="text-4xl font-bold text-gray-900 mb-4">
-        Frequently Asked Questions
-      </h2>
-      <p className="text-xl text-gray-600">
-        Everything you need to know about Hirelytica
-      </p>
-    </div>
-
-    <div className="space-y-8">
-      <div className="bg-white rounded-lg p-6 shadow-sm">
-        <h3 className="text-xl font-semibold text-gray-900 mb-3">
-          What is a CV bank and how is it different?
-        </h3>
-        <p className="text-gray-700">
-          Unlike other services that make you upload multiple CV versions, our CV bank stores all your experience in one intelligent database. You can talk about your background conversationally or upload your existing CVs - we consolidate everything into one smart system that creates perfect applications forever.
-        </p>
-      </div>
-
-      <div className="bg-white rounded-lg p-6 shadow-sm">
-        <h3 className="text-xl font-semibold text-gray-900 mb-3">
-          How does conversational CV building work?
-        </h3>
-        <p className="text-gray-700">
-          Simply tell us about your experience in natural language - no formatting or structuring needed. Our AI extracts your skills, achievements, and background to build your comprehensive CV bank. It&apos;s like having a conversation with a career counselor who remembers everything.
-        </p>
-      </div>
-
-      <div className="bg-white rounded-lg p-6 shadow-sm">
-        <h3 className="text-xl font-semibold text-gray-900 mb-3">
-          Does my CV bank get smarter over time?
-        </h3>
-        <p className="text-gray-700">
-          Yes! Every time you apply for a job, our AI learns what works and adds any new bullet points or improvements back to your CV bank. Your applications get better and more targeted with each use.
-        </p>
-      </div>
-
-      <div className="bg-white rounded-lg p-6 shadow-sm">
-        <h3 className="text-xl font-semibold text-gray-900 mb-3">
-          Do ATS systems automatically reject resumes?
-        </h3>
-        <p className="text-gray-700">
-          No. This is one of the biggest myths in job searching. Research shows that 90-95% of resumes are actually reviewed by humans. The real issue is search visibility - making sure recruiters can find your resume when they search the ATS database using keywords. Hirelytica optimizes your applications to be discoverable by recruiters while presenting your experience clearly to both systems and humans.
-        </p>
-      </div>
-
-      <div className="bg-white rounded-lg p-6 shadow-sm">
-        <h3 className="text-xl font-semibold text-gray-900 mb-3">
-          How does Hirelytica solve ATS problems?
-        </h3>
-        <p className="text-gray-700">
-          While modern ATS systems have improved with AI and can understand context better than before, they still struggle with complex career narratives, industry transitions, and showcasing transferable skills. Our CV bank optimizes not just for keyword matching, but for presenting your experience in the clearest, most compelling way that both ATS and humans can understand.
-        </p>
-      </div>
-
-      <div className="bg-white rounded-lg p-6 shadow-sm">
-        <h3 className="text-xl font-semibold text-gray-900 mb-3">
-          Can I import my existing CVs?
-        </h3>
-        <p className="text-gray-700">
-          Absolutely! Upload all your CV versions and we&apos;ll consolidate them into one comprehensive CV bank. No more managing 50 different files - one upload and you&apos;re done forever.
-        </p>
-      </div>
-
-      <div className="bg-white rounded-lg p-6 shadow-sm">
-        <h3 className="text-xl font-semibold text-gray-900 mb-3">
-          Is Hirelytica free to use?
-        </h3>
-        <p className="text-gray-700">
-          We&apos;re currently in early access with limited free accounts. Join our waitlist to be among the first to experience the future of job applications. Premium features will be available as we scale.
-        </p>
-      </div>
-
-      <div className="bg-white rounded-lg p-6 shadow-sm">
-        <h3 className="text-xl font-semibold text-gray-900 mb-3">
-          How is this different from other CV builders?
-        </h3>
-        <p className="text-gray-700">
-          Traditional CV builders create static documents. Hirelytica creates a living, learning system. Other tools focus on templates - we focus on matching your experience to what employers actually want to see.
-        </p>
-      </div>
-
-      <div className="bg-white rounded-lg p-6 shadow-sm">
-        <h3 className="text-xl font-semibold text-gray-900 mb-3">
-          Will this work for my industry?
-        </h3>
-        <p className="text-gray-700">
-          Yes! Our CV bank works for any industry - tech, marketing, sales, finance, healthcare, and more. The AI understands industry-specific terminology and requirements to create targeted applications for your field.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-      {/* Signup Section */}
+      {/* Main Signup Section - MOVED UP */}
       <section id="signup" className="py-20 bg-gradient-to-br from-indigo-500 to-purple-600">
         <div className="max-w-6xl mx-auto px-5">
           <div className="text-center mb-12">
@@ -320,6 +223,122 @@ export default function LandingPage() {
               </div>
             )}
           </div>
+        </div>
+      </section>
+
+      {/* FAQ Section - MOVED BELOW CTA */}
+      <section className="py-24 bg-white">
+        <div className="max-w-4xl mx-auto px-5">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-xl text-gray-600">
+              Everything you need to know about Hirelytica
+            </p>
+          </div>
+
+          <div className="space-y-8">
+            <div className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                What is a CV bank and how is it different?
+              </h3>
+              <p className="text-gray-700">
+                Unlike other services that make you upload multiple CV versions, our CV bank stores all your experience in one intelligent database. You can talk about your background conversationally or upload your existing CVs - we consolidate everything into one smart system that creates perfect applications forever.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                How does conversational CV building work?
+              </h3>
+              <p className="text-gray-700">
+                Simply tell us about your experience in natural language - no formatting or structuring needed. Our AI extracts your skills, achievements, and background to build your comprehensive CV bank. It&apos;s like having a conversation with a career counselor who remembers everything.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                Does my CV bank get smarter over time?
+              </h3>
+              <p className="text-gray-700">
+                Yes! Every time you apply for a job, our AI learns what works and adds any new bullet points or improvements back to your CV bank. Your applications get better and more targeted with each use.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                Do ATS systems automatically reject resumes?
+              </h3>
+              <p className="text-gray-700">
+                No. This is one of the biggest myths in job searching. Research shows that 90-95% of resumes are actually reviewed by humans. The real issue is search visibility - making sure recruiters can find your resume when they search the ATS database using keywords. Hirelytica optimizes your applications to be discoverable by recruiters while presenting your experience clearly to both systems and humans.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                How does Hirelytica solve ATS problems?
+              </h3>
+              <p className="text-gray-700">
+                While modern ATS systems have improved with AI and can understand context better than before, they still struggle with complex career narratives, industry transitions, and showcasing transferable skills. Our CV bank optimizes not just for keyword matching, but for presenting your experience in the clearest, most compelling way that both ATS and humans can understand.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                Can I import my existing CVs?
+              </h3>
+              <p className="text-gray-700">
+                Absolutely! Upload all your CV versions and we&apos;ll consolidate them into one comprehensive CV bank. No more managing 50 different files - one upload and you&apos;re done forever.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                Is Hirelytica free to use?
+              </h3>
+              <p className="text-gray-700">
+                We&apos;re currently in early access with limited free accounts. Join our waitlist to be among the first to experience the future of job applications. Premium features will be available as we scale.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                How is this different from other CV builders?
+              </h3>
+              <p className="text-gray-700">
+                Traditional CV builders create static documents. Hirelytica creates a living, learning system. Other tools focus on templates - we focus on matching your experience to what employers actually want to see.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                Will this work for my industry?
+              </h3>
+              <p className="text-gray-700">
+                Yes! Our CV bank works for any industry - tech, marketing, sales, finance, healthcare, and more. The AI understands industry-specific terminology and requirements to create targeted applications for your field.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer CTA Section - NEW */}
+      <section className="py-16 bg-gradient-to-br from-purple-600 to-indigo-500">
+        <div className="max-w-4xl mx-auto px-5 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            Don&apos;t Let Another Great Opportunity Slip Away
+          </h2>
+          <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
+            Join thousands of professionals who are already transforming their job search. Early access spots are limited.
+          </p>
+          <a 
+            href="#signup" 
+            onClick={scrollToSignup}
+            className="inline-block bg-white text-purple-600 px-8 py-4 rounded-xl text-lg font-semibold hover:shadow-lg transition-shadow"
+          >
+            Secure Your Early Access
+          </a>
         </div>
       </section>
     </div>
