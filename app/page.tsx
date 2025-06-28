@@ -203,6 +203,15 @@ export default function LandingPage() {
 
       <div className="bg-white rounded-lg p-6 shadow-sm">
         <h3 className="text-xl font-semibold text-gray-900 mb-3">
+          Do ATS systems automatically reject resumes?
+        </h3>
+        <p className="text-gray-700">
+          No. This is one of the biggest myths in job searching. Research shows that 90-95% of resumes are actually reviewed by humans. The real issue is search visibility - making sure recruiters can find your resume when they search the ATS database using keywords. Hirelytica optimizes your applications to be discoverable by recruiters while presenting your experience clearly to both systems and humans.
+        </p>
+      </div>
+
+      <div className="bg-white rounded-lg p-6 shadow-sm">
+        <h3 className="text-xl font-semibold text-gray-900 mb-3">
           How does Hirelytica solve ATS problems?
         </h3>
         <p className="text-gray-700">
