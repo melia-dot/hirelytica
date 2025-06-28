@@ -2,17 +2,15 @@
 
 export default function Page() {
   return (
-    <article className="max-w-4xl mx-auto px-6 py-12">
-      <header className="mb-12">
-        <h1 className="text-4xl font-bold mb-4">
-          Get Found by Recruiters: Complete ATS Optimization Guide 2025
-        </h1>
-        <p className="text-lg italic">
-          Originally published as &quot;Beat ATS Systems&quot; - Updated with accurate industry insights
-        </p>
-      </header>
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-3xl font-bold mb-4">
+        Get Found by Recruiters: Complete ATS Optimization Guide 2025
+      </h1>
+      <p className="text-lg mb-8">
+        Originally published as &quot;Beat ATS Systems&quot; - Updated with accurate industry insights
+      </p>
 
-      <div className="space-y-8">
+      <div className="space-y-6">
         <section>
           <h2 className="text-2xl font-bold mb-4">The Real ATS Problem: You&apos;re Invisible, Not Rejected</h2>
           
@@ -34,7 +32,7 @@ export default function Page() {
           
           <p className="mb-4">Let&apos;s clear up the biggest misconception in job searching. <strong>Applicant Tracking Systems don&apos;t automatically reject resumes</strong>. Here&apos;s what they actually do:</p>
           
-          <ul className="list-disc pl-6 space-y-2 mb-4">
+          <ul className="list-disc list-inside mb-4 space-y-2">
             <li><strong>Store and organize</strong> your application in a searchable database</li>
             <li><strong>Parse your resume</strong> to extract key information into structured fields</li>
             <li><strong>Enable keyword searches</strong> so recruiters can find candidates with specific skills</li>
@@ -60,7 +58,7 @@ export default function Page() {
 
           <p className="mb-4">Here&apos;s what actually happens to your resume:</p>
           
-          <ol className="list-decimal pl-6 space-y-2 mb-4">
+          <ol className="list-decimal list-inside mb-4 space-y-2">
             <li><strong>Your resume gets stored</strong> in the ATS database (not rejected)</li>
             <li><strong>Recruiters search using keywords</strong> from the job description</li>
             <li><strong>Your resume doesn&apos;t appear</strong> if it lacks the right keywords</li>
@@ -76,7 +74,7 @@ export default function Page() {
           <p className="mb-4">Understanding recruiter behavior is crucial for optimization. Here&apos;s the typical search process:</p>
 
           <h3 className="text-xl font-semibold mb-3">Primary Search Terms</h3>
-          <ul className="list-disc pl-6 space-y-2 mb-4">
+          <ul className="list-disc list-inside mb-4 space-y-2">
             <li><strong>Job titles</strong> exactly as listed in the job description</li>
             <li><strong>Core technical skills</strong> (programming languages, software, certifications)</li>
             <li><strong>Years of experience</strong> with specific technologies</li>
@@ -86,7 +84,7 @@ export default function Page() {
 
           <h3 className="text-xl font-semibold mb-3">Boolean Search Patterns</h3>
           <p className="mb-2">Recruiters often use Boolean logic like:</p>
-          <ul className="list-disc pl-6 space-y-2 mb-4">
+          <ul className="list-disc list-inside mb-4 space-y-2">
             <li>&quot;Data Scientist&quot; AND Python AND &quot;machine learning&quot; AND PhD</li>
             <li>&quot;Project Manager&quot; AND Agile AND Scrum AND &quot;5+ years&quot;</li>
             <li>&quot;Software Engineer&quot; AND Java AND AWS NOT contractor</li>
@@ -100,7 +98,7 @@ export default function Page() {
 
           <h3 className="text-xl font-semibold mb-3">1. Strategic Keyword Integration</h3>
           <p className="mb-2"><strong>Map job description keywords to your experience:</strong></p>
-          <ul className="list-disc pl-6 space-y-2 mb-4">
+          <ul className="list-disc list-inside mb-4 space-y-2">
             <li>If they want &quot;project management,&quot; include that exact phrase</li>
             <li>Use both acronyms and full terms (&quot;SEO&quot; and &quot;search engine optimization&quot;)</li>
             <li>Include skill synonyms (&quot;JavaScript&quot; and &quot;JS&quot;)</li>
@@ -108,7 +106,7 @@ export default function Page() {
 
           <h3 className="text-xl font-semibold mb-3">2. Skills Section Optimization</h3>
           <p className="mb-2">Create a dedicated skills section with:</p>
-          <ul className="list-disc pl-6 space-y-2 mb-4">
+          <ul className="list-disc list-inside mb-4 space-y-2">
             <li>Technical skills matching the job requirements</li>
             <li>Industry-specific terminology</li>
             <li>Relevant certifications and tools</li>
@@ -117,7 +115,7 @@ export default function Page() {
 
           <h3 className="text-xl font-semibold mb-3">3. Experience Section Formatting</h3>
           <p className="mb-2"><strong>Use this proven structure:</strong></p>
-          <div className="bg-gray-100 p-4 rounded-lg font-mono text-sm mb-4">
+          <div className="border p-4 rounded mb-4 font-mono text-sm">
             Job Title at Company Name<br/>
             [Date Range]<br/>
             • Achievement using [Keyword] that resulted in [Quantified Result]<br/>
@@ -127,7 +125,7 @@ export default function Page() {
 
           <h3 className="text-xl font-semibold mb-3">4. Education and Certifications</h3>
           <p className="mb-2">Include exact degree names and certifications as listed in job requirements:</p>
-          <ul className="list-disc pl-6 space-y-2 mb-4">
+          <ul className="list-disc list-inside mb-4 space-y-2">
             <li>Full degree names, not abbreviations</li>
             <li>Relevant certifications with full official names</li>
             <li>Professional development courses</li>
@@ -143,7 +141,7 @@ export default function Page() {
           </p>
 
           <h3 className="text-xl font-semibold mb-3">✅ What Works Well:</h3>
-          <ul className="list-disc pl-6 space-y-2 mb-4">
+          <ul className="list-disc list-inside mb-4 space-y-2">
             <li><strong>PDF format</strong> (preserves formatting for human readers)</li>
             <li><strong>Standard fonts</strong> (Arial, Calibri, Times New Roman)</li>
             <li><strong>Clear section headers</strong> (Experience, Education, Skills)</li>
@@ -152,7 +150,7 @@ export default function Page() {
           </ul>
 
           <h3 className="text-xl font-semibold mb-3">⚠️ What Can Cause Parsing Issues:</h3>
-          <ul className="list-disc pl-6 space-y-2 mb-4">
+          <ul className="list-disc list-inside mb-4 space-y-2">
             <li><strong>Headers and footers</strong> with contact information</li>
             <li><strong>Tables and text boxes</strong> with crucial information</li>
             <li><strong>Overly complex graphics</strong> that contain text</li>
@@ -165,7 +163,7 @@ export default function Page() {
           
           <p className="mb-4">Let&apos;s address persistent misconceptions:</p>
 
-          <div className="space-y-6">
+          <div className="space-y-4">
             <div>
               <h3 className="text-lg font-semibold mb-2">Myth: &quot;ATS automatically rejects 75% of resumes&quot;</h3>
               <p>
@@ -197,7 +195,7 @@ export default function Page() {
           
           <p className="mb-4">The goal isn&apos;t to &quot;beat&quot; an ATS—it&apos;s to <strong>get discovered by the recruiters using it</strong>. Focus on:</p>
           
-          <ul className="list-disc pl-6 space-y-2 mb-4">
+          <ul className="list-disc list-inside mb-4 space-y-2">
             <li><strong>Strategic keyword integration</strong> that matches recruiter searches</li>
             <li><strong>Clear, professional formatting</strong> that both systems and humans can read</li>
             <li><strong>Quantified achievements</strong> that demonstrate your value</li>
@@ -209,15 +207,15 @@ export default function Page() {
           </p>
         </section>
 
-        <div className="mt-12 p-6 bg-blue-50 rounded-lg">
-          <p className="text-center text-lg">
+        <div className="border p-6 rounded-lg mt-8">
+          <p className="text-center">
             <em>Ready to optimize your resume for maximum recruiter discovery? <a href="https://hirelytica.com" className="text-blue-600 hover:underline">Try Hirelytica&apos;s evidence-based optimization platform</a> - no myths, just results.</em>
           </p>
         </div>
 
-        <section className="mt-12">
+        <section className="mt-8">
           <h2 className="text-2xl font-bold mb-4">Sources</h2>
-          <div className="bg-gray-50 p-6 rounded-lg">
+          <div className="border p-4 rounded">
             <ol className="space-y-2 text-sm">
               <li>1. Simplify Research on ATS Myths and Recruiter Practices - <a href="https://simplify.jobs/blog/debunking-applicant-tracking-system-ats-myths/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">https://simplify.jobs/blog/debunking-applicant-tracking-system-ats-myths/</a></li>
               <li>2. The Interview Guys ATS Rejection Myth Analysis - <a href="https://blog.theinterviewguys.com/ats-resume-rejection-myth/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">https://blog.theinterviewguys.com/ats-resume-rejection-myth/</a></li>
@@ -230,6 +228,6 @@ export default function Page() {
           </div>
         </section>
       </div>
-    </article>
+    </div>
   );
 }
