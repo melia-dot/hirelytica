@@ -1,121 +1,130 @@
 // app/blog/ats-optimization-complete-guide-2025/page.tsx
 
+import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Get Found by Recruiters: Complete ATS Optimization Guide 2025",
+  description: "Evidence-based ATS optimization guide. Research shows 90-95% of resumes are reviewed by humans - learn how to get discovered by recruiters.",
+  alternates: {
+    canonical: "https://hirelytica.com/blog/ats-optimization-complete-guide-2025",
+  },
+};
+
 export default function Page() {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-4">
-        Get Found by Recruiters: Complete ATS Optimization Guide 2025
-      </h1>
-      <p className="text-lg mb-8">
-        Originally published as &quot;Beat ATS Systems&quot; - Updated with accurate industry insights
-      </p>
+    <div className="min-h-screen bg-white">
+      <header className="bg-white border-b border-gray-200">
+        <div className="max-w-4xl mx-auto px-4 py-4">
+          <Link href="/" className="text-2xl font-bold text-purple-600">
+            Hirelytica
+          </Link>
+        </div>
+      </header>
 
-      <div className="space-y-6">
-        <section>
-          <h2 className="text-2xl font-bold mb-4">The Real ATS Problem: You&apos;re Invisible, Not Rejected</h2>
+      <article className="max-w-4xl mx-auto px-4 py-16">
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          Get Found by Recruiters: Complete ATS Optimization Guide 2025
+        </h1>
+        
+        <div className="text-gray-600 mb-6">
+          Hirelytica Team • June 28, 2025 • 15 min read
+        </div>
+
+        <div className="prose max-w-none space-y-6 text-gray-900">
+          <p className="text-xl">Originally published as "Beat ATS Systems" - Updated with accurate industry insights</p>
           
-          <p className="mb-4">
-            If you&apos;re wondering why your job applications disappear into the void, here&apos;s the uncomfortable truth: <strong>your resume probably isn&apos;t being rejected by robots</strong>. Instead, it&apos;s sitting unnoticed in an ATS database because recruiters can&apos;t find it when they search.
+          <h2 className="text-2xl font-bold mt-8">The Real ATS Problem: You're Invisible, Not Rejected</h2>
+          <p className="text-gray-900">
+            If you're wondering why your job applications disappear into the void, here's the uncomfortable truth: <strong>your resume probably isn't being rejected by robots</strong>. Instead, it's sitting unnoticed in an ATS database because recruiters can't find it when they search.
           </p>
 
-          <p className="mb-4">
-            This reality check aligns with insights from industry professionals who actually work with these systems daily. As highlighted in <a href="https://www.youtube.com/watch?v=nUlomY7RsIg" target="_blank" rel="noopener" className="text-blue-600 hover:underline">this revealing breakdown by a recruitment expert</a>, many commonly held beliefs about ATS systems are simply wrong, and understanding how they really work is crucial for job search success.
+          <p className="text-gray-900">
+            This reality check aligns with insights from industry professionals who actually work with these systems daily. As highlighted in <a href="https://www.youtube.com/watch?v=nUlomY7RsIg" target="_blank" rel="noopener" className="text-purple-600 hover:text-purple-700">this revealing breakdown by a recruitment expert</a>, many commonly held beliefs about ATS systems are simply wrong, and understanding how they really work is crucial for job search success.
           </p>
 
-          <p className="mb-4">
-            Recent industry research reveals that <a href="https://simplify.jobs/blog/debunking-applicant-tracking-system-ats-myths/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">90-95% of resumes are actually reviewed by humans</a>, contradicting the widespread myth that &quot;75% are rejected by bots.&quot; Additional research from <a href="https://blog.theinterviewguys.com/ats-resume-rejection-myth/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">The Interview Guys confirms</a> that &quot;none of the major ATS systems automatically reject resumes or hide them from recruiters.&quot; The real challenge? <strong>Most qualified candidates remain invisible to recruiters searching ATS databases</strong>.
-          </p>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-bold mb-4">What ATS Systems Actually Do (Spoiler: They Don&apos;t Reject You)</h2>
-          
-          <p className="mb-4">Let&apos;s clear up the biggest misconception in job searching. <strong>Applicant Tracking Systems don&apos;t automatically reject resumes</strong>. Here&apos;s what they actually do:</p>
-          
-          <ul className="list-disc list-inside mb-4 space-y-2">
-            <li><strong>Store and organize</strong> your application in a searchable database</li>
-            <li><strong>Parse your resume</strong> to extract key information into structured fields</li>
-            <li><strong>Enable keyword searches</strong> so recruiters can find candidates with specific skills</li>
-            <li><strong>Track your progress</strong> through the hiring pipeline</li>
-            <li><strong>Manage recruiter workflows</strong> and candidate communication</li>
-          </ul>
-
-          <p className="mb-4">
-            As <a href="https://thetechresume.com/samples/ats-myths-busted" target="_blank" rel="noopener" className="text-blue-600 hover:underline">Amy Miller, former recruiter at Amazon, Google, and Microsoft, explains</a>: <em>&quot;The idea that the ATS is this mythical, genius, AI-infused tool is crazy. Anyone who has been in an ATS and has used it for work is laughing at this idea.&quot;</em>
+          <p className="text-gray-900">
+            Recent industry research reveals that <a href="https://simplify.jobs/blog/debunking-applicant-tracking-system-ats-myths/" target="_blank" rel="noopener" className="text-purple-600 hover:text-purple-700">90-95% of resumes are actually reviewed by humans</a>, contradicting the widespread myth that "75% are rejected by bots." Additional research from <a href="https://blog.theinterviewguys.com/ats-resume-rejection-myth/" target="_blank" rel="noopener" className="text-purple-600 hover:text-purple-700">The Interview Guys confirms</a> that "none of the major ATS systems automatically reject resumes or hide them from recruiters." The real challenge? <strong>Most qualified candidates remain invisible to recruiters searching ATS databases</strong>.
           </p>
 
-          <p className="mb-4">
-            Similarly, <a href="https://simplify.jobs/blog/debunking-applicant-tracking-system-ats-myths/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">Jan Tegze, an experienced tech recruiter, reports</a>: <em>&quot;From my experience over the years, I can confidently say that 90-95% or more of all applications are reviewed by a human.&quot;</em>
+          <h2 className="text-2xl font-bold mt-8">What ATS Systems Actually Do (Spoiler: They Don't Reject You)</h2>
+          <p className="text-gray-900">Let's clear up the biggest misconception in job searching. <strong>Applicant Tracking Systems don't automatically reject resumes</strong>. Here's what they actually do:</p>
+          
+          <div className="space-y-2">
+            <p className="text-gray-900">• <strong>Store and organize</strong> your application in a searchable database</p>
+            <p className="text-gray-900">• <strong>Parse your resume</strong> to extract key information into structured fields</p>
+            <p className="text-gray-900">• <strong>Enable keyword searches</strong> so recruiters can find candidates with specific skills</p>
+            <p className="text-gray-900">• <strong>Track your progress</strong> through the hiring pipeline</p>
+            <p className="text-gray-900">• <strong>Manage recruiter workflows</strong> and candidate communication</p>
+          </div>
+
+          <p className="text-gray-900">
+            As <a href="https://thetechresume.com/samples/ats-myths-busted" target="_blank" rel="noopener" className="text-purple-600 hover:text-purple-700">Amy Miller, former recruiter at Amazon, Google, and Microsoft, explains</a>: <em>"The idea that the ATS is this mythical, genius, AI-infused tool is crazy. Anyone who has been in an ATS and has used it for work is laughing at this idea."</em>
           </p>
-        </section>
 
-        <section>
-          <h2 className="text-2xl font-bold mb-4">The Real Reason Your Applications &quot;Disappear&quot;</h2>
-          
-          <p className="mb-4">
-            When recruiters receive hundreds of applications, they don&apos;t read them all sequentially. Instead, they search the ATS database using specific keywords and filters. According to <a href="https://www.jobscan.co/applicant-tracking-systems" target="_blank" rel="noopener" className="text-blue-600 hover:underline">Jobscan research</a>, <strong>99.7% of recruiters use keyword filters in their ATS to find candidates</strong>. Additionally, <a href="https://www.selectsoftwarereviews.com/blog/applicant-tracking-system-statistics" target="_blank" rel="noopener" className="text-blue-600 hover:underline">research from SelectSoftwareReviews</a> shows that nearly 99% of Fortune 500 companies use ATS platforms regularly.
+          <p className="text-gray-900">
+            Similarly, <a href="https://simplify.jobs/blog/debunking-applicant-tracking-system-ats-myths/" target="_blank" rel="noopener" className="text-purple-600 hover:text-purple-700">Jan Tegze, an experienced tech recruiter, reports</a>: <em>"From my experience over the years, I can confidently say that 90-95% or more of all applications are reviewed by a human."</em>
           </p>
 
-          <p className="mb-4">Here&apos;s what actually happens to your resume:</p>
+          <h2 className="text-2xl font-bold mt-8">The Real Reason Your Applications "Disappear"</h2>
+          <p className="text-gray-900">
+            When recruiters receive hundreds of applications, they don't read them all sequentially. Instead, they search the ATS database using specific keywords and filters. According to <a href="https://www.jobscan.co/applicant-tracking-systems" target="_blank" rel="noopener" className="text-purple-600 hover:text-purple-700">Jobscan research</a>, <strong>99.7% of recruiters use keyword filters in their ATS to find candidates</strong>. Additionally, <a href="https://www.selectsoftwarereviews.com/blog/applicant-tracking-system-statistics" target="_blank" rel="noopener" className="text-purple-600 hover:text-purple-700">research from SelectSoftwareReviews</a> shows that nearly 99% of Fortune 500 companies use ATS platforms regularly.
+          </p>
+
+          <p className="text-gray-900">Here's what actually happens to your resume:</p>
           
-          <ol className="list-decimal list-inside mb-4 space-y-2">
-            <li><strong>Your resume gets stored</strong> in the ATS database (not rejected)</li>
-            <li><strong>Recruiters search using keywords</strong> from the job description</li>
-            <li><strong>Your resume doesn&apos;t appear</strong> if it lacks the right keywords</li>
-            <li><strong>You never hear back</strong> because they never found you</li>
-          </ol>
+          <div className="space-y-2">
+            <p className="text-gray-900">• <strong>Your resume gets stored</strong> in the ATS database (not rejected)</p>
+            <p className="text-gray-900">• <strong>Recruiters search using keywords</strong> from the job description</p>
+            <p className="text-gray-900">• <strong>Your resume doesn't appear</strong> if it lacks the right keywords</p>
+            <p className="text-gray-900">• <strong>You never hear back</strong> because they never found you</p>
+          </div>
 
-          <p className="mb-4">It&apos;s not rejection—it&apos;s invisibility.</p>
-        </section>
+          <p className="text-gray-900">It's not rejection—it's invisibility.</p>
 
-        <section>
-          <h2 className="text-2xl font-bold mb-4">How Recruiters Actually Search ATS Databases</h2>
-          
-          <p className="mb-4">Understanding recruiter behavior is crucial for optimization. Here&apos;s the typical search process:</p>
+          <h2 className="text-2xl font-bold mt-8">How Recruiters Actually Search ATS Databases</h2>
+          <p className="text-gray-900">Understanding recruiter behavior is crucial for optimization. Here's the typical search process:</p>
 
-          <h3 className="text-xl font-semibold mb-3">Primary Search Terms</h3>
-          <ul className="list-disc list-inside mb-4 space-y-2">
-            <li><strong>Job titles</strong> exactly as listed in the job description</li>
-            <li><strong>Core technical skills</strong> (programming languages, software, certifications)</li>
-            <li><strong>Years of experience</strong> with specific technologies</li>
-            <li><strong>Education requirements</strong> (degree level, specific majors)</li>
-            <li><strong>Location preferences</strong> for remote or on-site roles</li>
-          </ul>
+          <h3 className="text-xl font-bold mt-6">Primary Search Terms</h3>
+          <div className="space-y-2">
+            <p className="text-gray-900">• <strong>Job titles</strong> exactly as listed in the job description</p>
+            <p className="text-gray-900">• <strong>Core technical skills</strong> (programming languages, software, certifications)</p>
+            <p className="text-gray-900">• <strong>Years of experience</strong> with specific technologies</p>
+            <p className="text-gray-900">• <strong>Education requirements</strong> (degree level, specific majors)</p>
+            <p className="text-gray-900">• <strong>Location preferences</strong> for remote or on-site roles</p>
+          </div>
 
-          <h3 className="text-xl font-semibold mb-3">Boolean Search Patterns</h3>
-          <p className="mb-2">Recruiters often use Boolean logic like:</p>
-          <ul className="list-disc list-inside mb-4 space-y-2">
-            <li>&quot;Data Scientist&quot; AND Python AND &quot;machine learning&quot; AND PhD</li>
-            <li>&quot;Project Manager&quot; AND Agile AND Scrum AND &quot;5+ years&quot;</li>
-            <li>&quot;Software Engineer&quot; AND Java AND AWS NOT contractor</li>
-          </ul>
-        </section>
+          <h3 className="text-xl font-bold mt-6">Boolean Search Patterns</h3>
+          <p className="text-gray-900">Recruiters often use Boolean logic like:</p>
+          <div className="space-y-2">
+            <p className="text-gray-900">• "Data Scientist" AND Python AND "machine learning" AND PhD</p>
+            <p className="text-gray-900">• "Project Manager" AND Agile AND Scrum AND "5+ years"</p>
+            <p className="text-gray-900">• "Software Engineer" AND Java AND AWS NOT contractor</p>
+          </div>
 
-        <section>
-          <h2 className="text-2xl font-bold mb-4">ATS Optimization That Actually Works</h2>
-          
-          <p className="mb-4">Forget the myths about &quot;beating robots.&quot; Focus on being discoverable by human recruiters:</p>
+          <h2 className="text-2xl font-bold mt-8">ATS Optimization That Actually Works</h2>
+          <p className="text-gray-900">Forget the myths about "beating robots." Focus on being discoverable by human recruiters:</p>
 
-          <h3 className="text-xl font-semibold mb-3">1. Strategic Keyword Integration</h3>
-          <p className="mb-2"><strong>Map job description keywords to your experience:</strong></p>
-          <ul className="list-disc list-inside mb-4 space-y-2">
-            <li>If they want &quot;project management,&quot; include that exact phrase</li>
-            <li>Use both acronyms and full terms (&quot;SEO&quot; and &quot;search engine optimization&quot;)</li>
-            <li>Include skill synonyms (&quot;JavaScript&quot; and &quot;JS&quot;)</li>
-          </ul>
+          <h3 className="text-xl font-bold mt-6">1. Strategic Keyword Integration</h3>
+          <p className="text-gray-900"><strong>Map job description keywords to your experience:</strong></p>
+          <div className="space-y-2">
+            <p className="text-gray-900">• If they want "project management," include that exact phrase</p>
+            <p className="text-gray-900">• Use both acronyms and full terms ("SEO" and "search engine optimization")</p>
+            <p className="text-gray-900">• Include skill synonyms ("JavaScript" and "JS")</p>
+          </div>
 
-          <h3 className="text-xl font-semibold mb-3">2. Skills Section Optimization</h3>
-          <p className="mb-2">Create a dedicated skills section with:</p>
-          <ul className="list-disc list-inside mb-4 space-y-2">
-            <li>Technical skills matching the job requirements</li>
-            <li>Industry-specific terminology</li>
-            <li>Relevant certifications and tools</li>
-            <li>Software and programming languages</li>
-          </ul>
+          <h3 className="text-xl font-bold mt-6">2. Skills Section Optimization</h3>
+          <p className="text-gray-900">Create a dedicated skills section with:</p>
+          <div className="space-y-2">
+            <p className="text-gray-900">• Technical skills matching the job requirements</p>
+            <p className="text-gray-900">• Industry-specific terminology</p>
+            <p className="text-gray-900">• Relevant certifications and tools</p>
+            <p className="text-gray-900">• Software and programming languages</p>
+          </div>
 
-          <h3 className="text-xl font-semibold mb-3">3. Experience Section Formatting</h3>
-          <p className="mb-2"><strong>Use this proven structure:</strong></p>
-          <div className="border p-4 rounded mb-4 font-mono text-sm">
+          <h3 className="text-xl font-bold mt-6">3. Experience Section Formatting</h3>
+          <p className="text-gray-900"><strong>Use this proven structure:</strong></p>
+          <div className="bg-gray-50 p-4 rounded-lg font-mono text-sm text-gray-800">
             Job Title at Company Name<br/>
             [Date Range]<br/>
             • Achievement using [Keyword] that resulted in [Quantified Result]<br/>
@@ -123,111 +132,91 @@ export default function Page() {
             • Collaborated with [Team Type] using [Tool/Method] to deliver [Outcome]
           </div>
 
-          <h3 className="text-xl font-semibold mb-3">4. Education and Certifications</h3>
-          <p className="mb-2">Include exact degree names and certifications as listed in job requirements:</p>
-          <ul className="list-disc list-inside mb-4 space-y-2">
-            <li>Full degree names, not abbreviations</li>
-            <li>Relevant certifications with full official names</li>
-            <li>Professional development courses</li>
-            <li>Industry-specific training</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-bold mb-4">Modern ATS Formatting Best Practices</h2>
-          
-          <p className="mb-4">
-            Contrary to popular myths, <a href="https://enhancv.com/blog/busting-ats-myths/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">Enhancv&apos;s comprehensive ATS testing research</a> found that modern ATS systems can handle various formats effectively. Their testing revealed that single-column templates scored an average of 93% while double-column scored 86%, debunking the myth that double-column formats are unusable.
+          <h2 className="text-2xl font-bold mt-8">Modern ATS Formatting Best Practices</h2>
+          <p className="text-gray-900">
+            Contrary to popular myths, <a href="https://enhancv.com/blog/busting-ats-myths/" target="_blank" rel="noopener" className="text-purple-600 hover:text-purple-700">Enhancv's comprehensive ATS testing research</a> found that modern ATS systems can handle various formats effectively. Their testing revealed that single-column templates scored an average of 93% while double-column scored 86%, debunking the myth that double-column formats are unusable.
           </p>
 
-          <h3 className="text-xl font-semibold mb-3">✅ What Works Well:</h3>
-          <ul className="list-disc list-inside mb-4 space-y-2">
-            <li><strong>PDF format</strong> (preserves formatting for human readers)</li>
-            <li><strong>Standard fonts</strong> (Arial, Calibri, Times New Roman)</li>
-            <li><strong>Clear section headers</strong> (Experience, Education, Skills)</li>
-            <li><strong>Bullet points</strong> for easy scanning</li>
-            <li><strong>Standard date formats</strong> (MM/YYYY)</li>
-          </ul>
+          <h3 className="text-xl font-bold mt-6">✅ What Works Well:</h3>
+          <div className="space-y-2">
+            <p className="text-gray-900">• <strong>PDF format</strong> (preserves formatting for human readers)</p>
+            <p className="text-gray-900">• <strong>Standard fonts</strong> (Arial, Calibri, Times New Roman)</p>
+            <p className="text-gray-900">• <strong>Clear section headers</strong> (Experience, Education, Skills)</p>
+            <p className="text-gray-900">• <strong>Bullet points</strong> for easy scanning</p>
+            <p className="text-gray-900">• <strong>Standard date formats</strong> (MM/YYYY)</p>
+          </div>
 
-          <h3 className="text-xl font-semibold mb-3">⚠️ What Can Cause Parsing Issues:</h3>
-          <ul className="list-disc list-inside mb-4 space-y-2">
-            <li><strong>Headers and footers</strong> with contact information</li>
-            <li><strong>Tables and text boxes</strong> with crucial information</li>
-            <li><strong>Overly complex graphics</strong> that contain text</li>
-            <li><strong>Unusual file formats</strong> (Pages, InDesign files)</li>
-          </ul>
-        </section>
+          <h3 className="text-xl font-bold mt-6">⚠️ What Can Cause Parsing Issues:</h3>
+          <div className="space-y-2">
+            <p className="text-gray-900">• <strong>Headers and footers</strong> with contact information</p>
+            <p className="text-gray-900">• <strong>Tables and text boxes</strong> with crucial information</p>
+            <p className="text-gray-900">• <strong>Overly complex graphics</strong> that contain text</p>
+            <p className="text-gray-900">• <strong>Unusual file formats</strong> (Pages, InDesign files)</p>
+          </div>
 
-        <section>
-          <h2 className="text-2xl font-bold mb-4">Common ATS Myths Debunked</h2>
+          <h2 className="text-2xl font-bold mt-8">Common ATS Myths Debunked</h2>
+          <p className="text-gray-900">Let's address persistent misconceptions:</p>
+
+          <h3 className="text-lg font-bold mt-6">Myth: "ATS automatically rejects 75% of resumes"</h3>
+          <p className="text-gray-900">
+            <strong>Reality</strong>: <a href="https://simplify.jobs/blog/debunking-applicant-tracking-system-ats-myths/" target="_blank" rel="noopener" className="text-purple-600 hover:text-purple-700">Research shows 90-95% of resumes are reviewed by humans</a>. The issue is search visibility, not automatic rejection.
+          </p>
+
+          <h3 className="text-lg font-bold mt-6">Myth: "You need perfect keyword matching"</h3>
+          <p className="text-gray-900"><strong>Reality</strong>: Modern ATS understand synonyms and context. Natural language integration works better than keyword stuffing.</p>
+
+          <h3 className="text-lg font-bold mt-6">Myth: "PDF format doesn't work with ATS"</h3>
+          <p className="text-gray-900">
+            <strong>Reality</strong>: <a href="https://enhancv.com/blog/busting-ats-myths/" target="_blank" rel="noopener" className="text-purple-600 hover:text-purple-700">Most modern ATS systems handle PDFs effectively</a>. PDF is often preferred for human readability.
+          </p>
+
+          <h2 className="text-2xl font-bold mt-8">Key Takeaways</h2>
+          <p className="text-gray-900">The goal isn't to "beat" an ATS—it's to <strong>get discovered by the recruiters using it</strong>. Focus on:</p>
           
-          <p className="mb-4">Let&apos;s address persistent misconceptions:</p>
+          <div className="space-y-2">
+            <p className="text-gray-900">• <strong>Strategic keyword integration</strong> that matches recruiter searches</p>
+            <p className="text-gray-900">• <strong>Clear, professional formatting</strong> that both systems and humans can read</p>
+            <p className="text-gray-900">• <strong>Quantified achievements</strong> that demonstrate your value</p>
+            <p className="text-gray-900">• <strong>Industry-specific optimization</strong> for your target roles</p>
+          </div>
 
-          <div className="space-y-4">
-            <div>
-              <h3 className="text-lg font-semibold mb-2">Myth: &quot;ATS automatically rejects 75% of resumes&quot;</h3>
-              <p>
-                <strong>Reality</strong>: <a href="https://simplify.jobs/blog/debunking-applicant-tracking-system-ats-myths/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">Research shows 90-95% of resumes are reviewed by humans</a>. The issue is search visibility, not automatic rejection.
-              </p>
-            </div>
+          <p className="text-gray-900">
+            Remember: <strong>ATS systems are tools that help recruiters find you, not barriers designed to keep you out</strong>. Optimize for discoverability, and you'll see dramatically improved application response rates.
+          </p>
 
-            <div>
-              <h3 className="text-lg font-semibold mb-2">Myth: &quot;You need perfect keyword matching&quot;</h3>
-              <p><strong>Reality</strong>: Modern ATS understand synonyms and context. Natural language integration works better than keyword stuffing.</p>
-            </div>
+          <div className="bg-gray-50 p-6 rounded-lg mt-12">
+            <p className="text-center text-gray-900">
+              <em>Ready to optimize your resume for maximum recruiter discovery? <a href="https://hirelytica.com" className="text-purple-600 hover:text-purple-700">Try Hirelytica's evidence-based optimization platform</a> - no myths, just results.</em>
+            </p>
+          </div>
 
-            <div>
-              <h3 className="text-lg font-semibold mb-2">Myth: &quot;PDF format doesn&apos;t work with ATS&quot;</h3>
-              <p>
-                <strong>Reality</strong>: <a href="https://enhancv.com/blog/busting-ats-myths/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">Most modern ATS systems handle PDFs effectively</a>. PDF is often preferred for human readability.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-semibold mb-2">Myth: &quot;Graphics and design elements break ATS&quot;</h3>
-              <p><strong>Reality</strong>: While overly complex designs can cause parsing issues, clean, professional formatting with visual elements works fine.</p>
+          <h2 className="text-2xl font-bold mt-8">Sources</h2>
+          <div className="bg-gray-50 p-6 rounded-lg">
+            <div className="space-y-2 text-sm text-gray-700">
+              <p>1. Simplify Research on ATS Myths and Recruiter Practices - <a href="https://simplify.jobs/blog/debunking-applicant-tracking-system-ats-myths/" target="_blank" rel="noopener" className="text-purple-600 hover:text-purple-700">https://simplify.jobs/blog/debunking-applicant-tracking-system-ats-myths/</a></p>
+              <p>2. The Interview Guys ATS Rejection Myth Analysis - <a href="https://blog.theinterviewguys.com/ats-resume-rejection-myth/" target="_blank" rel="noopener" className="text-purple-600 hover:text-purple-700">https://blog.theinterviewguys.com/ats-resume-rejection-myth/</a></p>
+              <p>3. The Tech Resume Inside Out by Gergely Orosz - <a href="https://thetechresume.com/samples/ats-myths-busted" target="_blank" rel="noopener" className="text-purple-600 hover:text-purple-700">https://thetechresume.com/samples/ats-myths-busted</a></p>
+              <p>4. Jobscan 2025 ATS Usage Statistics - <a href="https://www.jobscan.co/applicant-tracking-systems" target="_blank" rel="noopener" className="text-purple-600 hover:text-purple-700">https://www.jobscan.co/applicant-tracking-systems</a></p>
+              <p>5. SelectSoftwareReviews ATS Statistics - <a href="https://www.selectsoftwarereviews.com/blog/applicant-tracking-system-statistics" target="_blank" rel="noopener" className="text-purple-600 hover:text-purple-700">https://www.selectsoftwarereviews.com/blog/applicant-tracking-system-statistics</a></p>
+              <p>6. Enhancv ATS Testing Research 2024 - <a href="https://enhancv.com/blog/busting-ats-myths/" target="_blank" rel="noopener" className="text-purple-600 hover:text-purple-700">https://enhancv.com/blog/busting-ats-myths/</a></p>
+              <p>7. Industry Expert ATS Reality Check - <a href="https://www.youtube.com/watch?v=nUlomY7RsIg" target="_blank" rel="noopener" className="text-purple-600 hover:text-purple-700">https://www.youtube.com/watch?v=nUlomY7RsIg</a></p>
             </div>
           </div>
-        </section>
 
-        <section>
-          <h2 className="text-2xl font-bold mb-4">Key Takeaways</h2>
-          
-          <p className="mb-4">The goal isn&apos;t to &quot;beat&quot; an ATS—it&apos;s to <strong>get discovered by the recruiters using it</strong>. Focus on:</p>
-          
-          <ul className="list-disc list-inside mb-4 space-y-2">
-            <li><strong>Strategic keyword integration</strong> that matches recruiter searches</li>
-            <li><strong>Clear, professional formatting</strong> that both systems and humans can read</li>
-            <li><strong>Quantified achievements</strong> that demonstrate your value</li>
-            <li><strong>Industry-specific optimization</strong> for your target roles</li>
-          </ul>
+          <div className="bg-gray-50 p-6 rounded-lg mt-12">
+            <h3 className="text-xl font-bold mb-4">Related Reading</h3>
+            <div className="space-y-2">
+              <Link href="/blog/cv-lottery-application-statistics-2025" className="text-purple-600 hover:text-purple-700 block">The CV Lottery: Why 98% of Job Applications Disappear</Link>
+              <Link href="/blog/uk-job-market-crisis-2025" className="text-purple-600 hover:text-purple-700 block">The UK Job Market Crisis: Why Finding Work Has Never Been Harder</Link>
+              <Link href="/blog/why-recruitment-broken-data-2025" className="text-purple-600 hover:text-purple-700 block">Why UK Recruitment is Fundamentally Broken in 2025</Link>
+            </div>
+          </div>
 
-          <p className="mb-4">
-            Remember: <strong>ATS systems are tools that help recruiters find you, not barriers designed to keep you out</strong>. Optimize for discoverability, and you&apos;ll see dramatically improved application response rates.
-          </p>
-        </section>
-
-        <div className="border p-6 rounded-lg mt-8">
-          <p className="text-center">
-            <em>Ready to optimize your resume for maximum recruiter discovery? <a href="https://hirelytica.com" className="text-blue-600 hover:underline">Try Hirelytica&apos;s evidence-based optimization platform</a> - no myths, just results.</em>
-          </p>
+          <Link href="/blog" className="text-purple-600 inline-block mt-8">
+            Back to Blog
+          </Link>
         </div>
-
-        <section className="mt-8">
-          <h2 className="text-2xl font-bold mb-4">Sources</h2>
-          <div className="border p-4 rounded">
-            <ol className="space-y-2 text-sm">
-              <li>1. Simplify Research on ATS Myths and Recruiter Practices - <a href="https://simplify.jobs/blog/debunking-applicant-tracking-system-ats-myths/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">https://simplify.jobs/blog/debunking-applicant-tracking-system-ats-myths/</a></li>
-              <li>2. The Interview Guys ATS Rejection Myth Analysis - <a href="https://blog.theinterviewguys.com/ats-resume-rejection-myth/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">https://blog.theinterviewguys.com/ats-resume-rejection-myth/</a></li>
-              <li>3. The Tech Resume Inside Out by Gergely Orosz - <a href="https://thetechresume.com/samples/ats-myths-busted" target="_blank" rel="noopener" className="text-blue-600 hover:underline">https://thetechresume.com/samples/ats-myths-busted</a></li>
-              <li>4. Jobscan 2025 ATS Usage Statistics - <a href="https://www.jobscan.co/applicant-tracking-systems" target="_blank" rel="noopener" className="text-blue-600 hover:underline">https://www.jobscan.co/applicant-tracking-systems</a></li>
-              <li>5. SelectSoftwareReviews ATS Statistics - <a href="https://www.selectsoftwarereviews.com/blog/applicant-tracking-system-statistics" target="_blank" rel="noopener" className="text-blue-600 hover:underline">https://www.selectsoftwarereviews.com/blog/applicant-tracking-system-statistics</a></li>
-              <li>6. Enhancv ATS Testing Research 2024 - <a href="https://enhancv.com/blog/busting-ats-myths/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">https://enhancv.com/blog/busting-ats-myths/</a></li>
-              <li>7. Industry Expert ATS Reality Check - <a href="https://www.youtube.com/watch?v=nUlomY7RsIg" target="_blank" rel="noopener" className="text-blue-600 hover:underline">https://www.youtube.com/watch?v=nUlomY7RsIg</a></li>
-            </ol>
-          </div>
-        </section>
-      </div>
+      </article>
     </div>
   );
 }
