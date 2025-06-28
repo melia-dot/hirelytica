@@ -12,29 +12,29 @@ export default function Page() {
         </p>
       </header>
 
-      <div className="prose prose-lg max-w-none space-y-8">
+      <div className="space-y-8">
         <section>
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">The Real ATS Problem: You&apos;re Invisible, Not Rejected</h2>
+          <h2 className="text-2xl font-bold mb-4">The Real ATS Problem: You&apos;re Invisible, Not Rejected</h2>
           
-          <p className="text-gray-700 mb-4">
+          <p className="mb-4">
             If you&apos;re wondering why your job applications disappear into the void, here&apos;s the uncomfortable truth: <strong>your resume probably isn&apos;t being rejected by robots</strong>. Instead, it&apos;s sitting unnoticed in an ATS database because recruiters can&apos;t find it when they search.
           </p>
 
-          <p className="text-gray-700 mb-4">
+          <p className="mb-4">
             This reality check aligns with insights from industry professionals who actually work with these systems daily. As highlighted in <a href="https://www.youtube.com/watch?v=nUlomY7RsIg" target="_blank" rel="noopener" className="text-blue-600 hover:underline">this revealing breakdown by a recruitment expert</a>, many commonly held beliefs about ATS systems are simply wrong, and understanding how they really work is crucial for job search success.
           </p>
 
-          <p className="text-gray-700 mb-4">
+          <p className="mb-4">
             Recent industry research reveals that <a href="https://simplify.jobs/blog/debunking-applicant-tracking-system-ats-myths/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">90-95% of resumes are actually reviewed by humans</a>, contradicting the widespread myth that &quot;75% are rejected by bots.&quot; Additional research from <a href="https://blog.theinterviewguys.com/ats-resume-rejection-myth/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">The Interview Guys confirms</a> that &quot;none of the major ATS systems automatically reject resumes or hide them from recruiters.&quot; The real challenge? <strong>Most qualified candidates remain invisible to recruiters searching ATS databases</strong>.
           </p>
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">What ATS Systems Actually Do (Spoiler: They Don&apos;t Reject You)</h2>
+          <h2 className="text-2xl font-bold mb-4">What ATS Systems Actually Do (Spoiler: They Don&apos;t Reject You)</h2>
           
-          <p className="text-gray-700 mb-4">Let&apos;s clear up the biggest misconception in job searching. <strong>Applicant Tracking Systems don&apos;t automatically reject resumes</strong>. Here&apos;s what they actually do:</p>
+          <p className="mb-4">Let&apos;s clear up the biggest misconception in job searching. <strong>Applicant Tracking Systems don&apos;t automatically reject resumes</strong>. Here&apos;s what they actually do:</p>
           
-          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <ul className="list-disc pl-6 space-y-2 mb-4">
             <li><strong>Store and organize</strong> your application in a searchable database</li>
             <li><strong>Parse your resume</strong> to extract key information into structured fields</li>
             <li><strong>Enable keyword searches</strong> so recruiters can find candidates with specific skills</li>
@@ -42,11 +42,11 @@ export default function Page() {
             <li><strong>Manage recruiter workflows</strong> and candidate communication</li>
           </ul>
 
-          <p className="text-gray-700 mb-4">
+          <p className="mb-4">
             As <a href="https://thetechresume.com/samples/ats-myths-busted" target="_blank" rel="noopener" className="text-blue-600 hover:underline">Amy Miller, former recruiter at Amazon, Google, and Microsoft, explains</a>: <em>&quot;The idea that the ATS is this mythical, genius, AI-infused tool is crazy. Anyone who has been in an ATS and has used it for work is laughing at this idea.&quot;</em>
           </p>
 
-          <p className="text-gray-700 mb-4">
+          <p className="mb-4">
             Similarly, <a href="https://simplify.jobs/blog/debunking-applicant-tracking-system-ats-myths/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">Jan Tegze, an experienced tech recruiter, reports</a>: <em>&quot;From my experience over the years, I can confidently say that 90-95% or more of all applications are reviewed by a human.&quot;</em>
           </p>
         </section>
