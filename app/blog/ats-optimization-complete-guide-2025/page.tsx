@@ -4,10 +4,10 @@ export default function Page() {
   return (
     <article className="max-w-4xl mx-auto px-6 py-12">
       <header className="mb-12">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl font-bold mb-4">
           Get Found by Recruiters: Complete ATS Optimization Guide 2025
         </h1>
-        <p className="text-lg text-gray-600 italic">
+        <p className="text-lg italic">
           Originally published as &quot;Beat ATS Systems&quot; - Updated with accurate industry insights
         </p>
       </header>
@@ -52,31 +52,31 @@ export default function Page() {
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">The Real Reason Your Applications &quot;Disappear&quot;</h2>
+          <h2 className="text-2xl font-bold mb-4">The Real Reason Your Applications &quot;Disappear&quot;</h2>
           
-          <p className="text-gray-700 mb-4">
+          <p className="mb-4">
             When recruiters receive hundreds of applications, they don&apos;t read them all sequentially. Instead, they search the ATS database using specific keywords and filters. According to <a href="https://www.jobscan.co/applicant-tracking-systems" target="_blank" rel="noopener" className="text-blue-600 hover:underline">Jobscan research</a>, <strong>99.7% of recruiters use keyword filters in their ATS to find candidates</strong>. Additionally, <a href="https://www.selectsoftwarereviews.com/blog/applicant-tracking-system-statistics" target="_blank" rel="noopener" className="text-blue-600 hover:underline">research from SelectSoftwareReviews</a> shows that nearly 99% of Fortune 500 companies use ATS platforms regularly.
           </p>
 
-          <p className="text-gray-700 mb-4">Here&apos;s what actually happens to your resume:</p>
+          <p className="mb-4">Here&apos;s what actually happens to your resume:</p>
           
-          <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-4">
+          <ol className="list-decimal pl-6 space-y-2 mb-4">
             <li><strong>Your resume gets stored</strong> in the ATS database (not rejected)</li>
             <li><strong>Recruiters search using keywords</strong> from the job description</li>
             <li><strong>Your resume doesn&apos;t appear</strong> if it lacks the right keywords</li>
             <li><strong>You never hear back</strong> because they never found you</li>
           </ol>
 
-          <p className="text-gray-700 mb-4">It&apos;s not rejection—it&apos;s invisibility.</p>
+          <p className="mb-4">It&apos;s not rejection—it&apos;s invisibility.</p>
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">How Recruiters Actually Search ATS Databases</h2>
+          <h2 className="text-2xl font-bold mb-4">How Recruiters Actually Search ATS Databases</h2>
           
-          <p className="text-gray-700 mb-4">Understanding recruiter behavior is crucial for optimization. Here&apos;s the typical search process:</p>
+          <p className="mb-4">Understanding recruiter behavior is crucial for optimization. Here&apos;s the typical search process:</p>
 
-          <h3 className="text-2xl font-semibold text-gray-900 mb-3">Primary Search Terms</h3>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <h3 className="text-xl font-semibold mb-3">Primary Search Terms</h3>
+          <ul className="list-disc pl-6 space-y-2 mb-4">
             <li><strong>Job titles</strong> exactly as listed in the job description</li>
             <li><strong>Core technical skills</strong> (programming languages, software, certifications)</li>
             <li><strong>Years of experience</strong> with specific technologies</li>
@@ -84,9 +84,9 @@ export default function Page() {
             <li><strong>Location preferences</strong> for remote or on-site roles</li>
           </ul>
 
-          <h3 className="text-2xl font-semibold text-gray-900 mb-3">Boolean Search Patterns</h3>
-          <p className="text-gray-700 mb-2">Recruiters often use Boolean logic like:</p>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <h3 className="text-xl font-semibold mb-3">Boolean Search Patterns</h3>
+          <p className="mb-2">Recruiters often use Boolean logic like:</p>
+          <ul className="list-disc pl-6 space-y-2 mb-4">
             <li>&quot;Data Scientist&quot; AND Python AND &quot;machine learning&quot; AND PhD</li>
             <li>&quot;Project Manager&quot; AND Agile AND Scrum AND &quot;5+ years&quot;</li>
             <li>&quot;Software Engineer&quot; AND Java AND AWS NOT contractor</li>
@@ -94,29 +94,29 @@ export default function Page() {
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">ATS Optimization That Actually Works</h2>
+          <h2 className="text-2xl font-bold mb-4">ATS Optimization That Actually Works</h2>
           
-          <p className="text-gray-700 mb-4">Forget the myths about &quot;beating robots.&quot; Focus on being discoverable by human recruiters:</p>
+          <p className="mb-4">Forget the myths about &quot;beating robots.&quot; Focus on being discoverable by human recruiters:</p>
 
-          <h3 className="text-2xl font-semibold text-gray-900 mb-3">1. Strategic Keyword Integration</h3>
-          <p className="text-gray-700 mb-2"><strong>Map job description keywords to your experience:</strong></p>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <h3 className="text-xl font-semibold mb-3">1. Strategic Keyword Integration</h3>
+          <p className="mb-2"><strong>Map job description keywords to your experience:</strong></p>
+          <ul className="list-disc pl-6 space-y-2 mb-4">
             <li>If they want &quot;project management,&quot; include that exact phrase</li>
             <li>Use both acronyms and full terms (&quot;SEO&quot; and &quot;search engine optimization&quot;)</li>
             <li>Include skill synonyms (&quot;JavaScript&quot; and &quot;JS&quot;)</li>
           </ul>
 
-          <h3 className="text-2xl font-semibold text-gray-900 mb-3">2. Skills Section Optimization</h3>
-          <p className="text-gray-700 mb-2">Create a dedicated skills section with:</p>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <h3 className="text-xl font-semibold mb-3">2. Skills Section Optimization</h3>
+          <p className="mb-2">Create a dedicated skills section with:</p>
+          <ul className="list-disc pl-6 space-y-2 mb-4">
             <li>Technical skills matching the job requirements</li>
             <li>Industry-specific terminology</li>
             <li>Relevant certifications and tools</li>
             <li>Software and programming languages</li>
           </ul>
 
-          <h3 className="text-2xl font-semibold text-gray-900 mb-3">3. Experience Section Formatting</h3>
-          <p className="text-gray-700 mb-2"><strong>Use this proven structure:</strong></p>
+          <h3 className="text-xl font-semibold mb-3">3. Experience Section Formatting</h3>
+          <p className="mb-2"><strong>Use this proven structure:</strong></p>
           <div className="bg-gray-100 p-4 rounded-lg font-mono text-sm mb-4">
             Job Title at Company Name<br/>
             [Date Range]<br/>
@@ -125,9 +125,9 @@ export default function Page() {
             • Collaborated with [Team Type] using [Tool/Method] to deliver [Outcome]
           </div>
 
-          <h3 className="text-2xl font-semibold text-gray-900 mb-3">4. Education and Certifications</h3>
-          <p className="text-gray-700 mb-2">Include exact degree names and certifications as listed in job requirements:</p>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <h3 className="text-xl font-semibold mb-3">4. Education and Certifications</h3>
+          <p className="mb-2">Include exact degree names and certifications as listed in job requirements:</p>
+          <ul className="list-disc pl-6 space-y-2 mb-4">
             <li>Full degree names, not abbreviations</li>
             <li>Relevant certifications with full official names</li>
             <li>Professional development courses</li>
@@ -136,14 +136,14 @@ export default function Page() {
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Modern ATS Formatting Best Practices</h2>
+          <h2 className="text-2xl font-bold mb-4">Modern ATS Formatting Best Practices</h2>
           
-          <p className="text-gray-700 mb-4">
+          <p className="mb-4">
             Contrary to popular myths, <a href="https://enhancv.com/blog/busting-ats-myths/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">Enhancv&apos;s comprehensive ATS testing research</a> found that modern ATS systems can handle various formats effectively. Their testing revealed that single-column templates scored an average of 93% while double-column scored 86%, debunking the myth that double-column formats are unusable.
           </p>
 
-          <h3 className="text-2xl font-semibold text-green-600 mb-3">✅ What Works Well:</h3>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <h3 className="text-xl font-semibold mb-3">✅ What Works Well:</h3>
+          <ul className="list-disc pl-6 space-y-2 mb-4">
             <li><strong>PDF format</strong> (preserves formatting for human readers)</li>
             <li><strong>Standard fonts</strong> (Arial, Calibri, Times New Roman)</li>
             <li><strong>Clear section headers</strong> (Experience, Education, Skills)</li>
@@ -151,8 +151,8 @@ export default function Page() {
             <li><strong>Standard date formats</strong> (MM/YYYY)</li>
           </ul>
 
-          <h3 className="text-2xl font-semibold text-yellow-600 mb-3">⚠️ What Can Cause Parsing Issues:</h3>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <h3 className="text-xl font-semibold mb-3">⚠️ What Can Cause Parsing Issues:</h3>
+          <ul className="list-disc pl-6 space-y-2 mb-4">
             <li><strong>Headers and footers</strong> with contact information</li>
             <li><strong>Tables and text boxes</strong> with crucial information</li>
             <li><strong>Overly complex graphics</strong> that contain text</li>
@@ -161,50 +161,50 @@ export default function Page() {
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Common ATS Myths Debunked</h2>
+          <h2 className="text-2xl font-bold mb-4">Common ATS Myths Debunked</h2>
           
-          <p className="text-gray-700 mb-4">Let&apos;s address persistent misconceptions:</p>
+          <p className="mb-4">Let&apos;s address persistent misconceptions:</p>
 
           <div className="space-y-6">
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Myth: &quot;ATS automatically rejects 75% of resumes&quot;</h3>
-              <p className="text-gray-700">
+              <h3 className="text-lg font-semibold mb-2">Myth: &quot;ATS automatically rejects 75% of resumes&quot;</h3>
+              <p>
                 <strong>Reality</strong>: <a href="https://simplify.jobs/blog/debunking-applicant-tracking-system-ats-myths/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">Research shows 90-95% of resumes are reviewed by humans</a>. The issue is search visibility, not automatic rejection.
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Myth: &quot;You need perfect keyword matching&quot;</h3>
-              <p className="text-gray-700"><strong>Reality</strong>: Modern ATS understand synonyms and context. Natural language integration works better than keyword stuffing.</p>
+              <h3 className="text-lg font-semibold mb-2">Myth: &quot;You need perfect keyword matching&quot;</h3>
+              <p><strong>Reality</strong>: Modern ATS understand synonyms and context. Natural language integration works better than keyword stuffing.</p>
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Myth: &quot;PDF format doesn&apos;t work with ATS&quot;</h3>
-              <p className="text-gray-700">
+              <h3 className="text-lg font-semibold mb-2">Myth: &quot;PDF format doesn&apos;t work with ATS&quot;</h3>
+              <p>
                 <strong>Reality</strong>: <a href="https://enhancv.com/blog/busting-ats-myths/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">Most modern ATS systems handle PDFs effectively</a>. PDF is often preferred for human readability.
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Myth: &quot;Graphics and design elements break ATS&quot;</h3>
-              <p className="text-gray-700"><strong>Reality</strong>: While overly complex designs can cause parsing issues, clean, professional formatting with visual elements works fine.</p>
+              <h3 className="text-lg font-semibold mb-2">Myth: &quot;Graphics and design elements break ATS&quot;</h3>
+              <p><strong>Reality</strong>: While overly complex designs can cause parsing issues, clean, professional formatting with visual elements works fine.</p>
             </div>
           </div>
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Key Takeaways</h2>
+          <h2 className="text-2xl font-bold mb-4">Key Takeaways</h2>
           
-          <p className="text-gray-700 mb-4">The goal isn&apos;t to &quot;beat&quot; an ATS—it&apos;s to <strong>get discovered by the recruiters using it</strong>. Focus on:</p>
+          <p className="mb-4">The goal isn&apos;t to &quot;beat&quot; an ATS—it&apos;s to <strong>get discovered by the recruiters using it</strong>. Focus on:</p>
           
-          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
+          <ul className="list-disc pl-6 space-y-2 mb-4">
             <li><strong>Strategic keyword integration</strong> that matches recruiter searches</li>
             <li><strong>Clear, professional formatting</strong> that both systems and humans can read</li>
             <li><strong>Quantified achievements</strong> that demonstrate your value</li>
             <li><strong>Industry-specific optimization</strong> for your target roles</li>
           </ul>
 
-          <p className="text-gray-700 mb-4">
+          <p className="mb-4">
             Remember: <strong>ATS systems are tools that help recruiters find you, not barriers designed to keep you out</strong>. Optimize for discoverability, and you&apos;ll see dramatically improved application response rates.
           </p>
         </section>
@@ -216,9 +216,9 @@ export default function Page() {
         </div>
 
         <section className="mt-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Sources</h2>
+          <h2 className="text-2xl font-bold mb-4">Sources</h2>
           <div className="bg-gray-50 p-6 rounded-lg">
-            <ol className="space-y-2 text-sm text-gray-700">
+            <ol className="space-y-2 text-sm">
               <li>1. Simplify Research on ATS Myths and Recruiter Practices - <a href="https://simplify.jobs/blog/debunking-applicant-tracking-system-ats-myths/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">https://simplify.jobs/blog/debunking-applicant-tracking-system-ats-myths/</a></li>
               <li>2. The Interview Guys ATS Rejection Myth Analysis - <a href="https://blog.theinterviewguys.com/ats-resume-rejection-myth/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">https://blog.theinterviewguys.com/ats-resume-rejection-myth/</a></li>
               <li>3. The Tech Resume Inside Out by Gergely Orosz - <a href="https://thetechresume.com/samples/ats-myths-busted" target="_blank" rel="noopener" className="text-blue-600 hover:underline">https://thetechresume.com/samples/ats-myths-busted</a></li>
