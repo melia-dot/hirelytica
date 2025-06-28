@@ -1,42 +1,42 @@
 [
   {
-    "slug": "uk-job-market-crisis-2025",
-    "title": "The UK Job Market Crisis: Why Finding Work Has Never Been Harder in 2025",
-    "date": "2025-06-23",
+    "slug": "workplace-ageism-guide-2025",
+    "title": "Fighting Workplace Ageism: A Complete Guide for Experienced Professionals in 2025",
+    "excerpt": "Combat age discrimination in hiring with proven strategies. Learn how to modernize your approach, showcase value, and overcome ageist bias in the job market.",
     "author": "Hirelytica Team",
-    "readTime": "8 min read",
-    "excerpt": "The brutal reality facing tech, marketing, and sales professionals in June 2025. Unemployment rises to 4.6% with job vacancies declining for 31st consecutive quarter. Youth unemployment hits devastating 14.3%.",
-    "keywords": "UK job market 2025, unemployment rate, tech jobs crisis, youth unemployment, job search difficulties",
-    "wordCount": 2400
-  },
-  {
-    "slug": "why-recruitment-broken-data-2025",
-    "title": "Why UK Recruitment is Fundamentally Broken in 2025: The Data Behind the Crisis",
-    "date": "2025-06-18",
-    "author": "Hirelytica Team",
-    "readTime": "12 min read",
-    "excerpt": "Comprehensive analysis of why recruitment fails candidates and employers. 89% of hiring managers admit their process is flawed. Here's the data proving recruitment is broken and our solution.",
-    "keywords": "recruitment problems UK, hiring process broken, ATS failures, job application statistics",
-    "wordCount": 2800
-  },
-  {
-    "slug": "cv-lottery-application-statistics-2025", 
-    "title": "The CV Lottery: Why 98% of Job Applications Disappear Into the Void",
-    "date": "2025-06-12",
-    "author": "Hirelytica Team",
-    "readTime": "10 min read",
-    "excerpt": "Job hunting has become a numbers game with terrible odds. Only 2% of applications lead to interviews. We analyze why job applications feel like playing the lottery and how to beat the odds.",
-    "keywords": "job application success rate, CV rejection statistics, ATS pass rates, job search tips",
-    "wordCount": 2600
+    "date": "June 28, 2025",
+    "readTime": "12 min read"
   },
   {
     "slug": "ats-optimization-complete-guide-2025",
-    "title": "Beat ATS Systems in 2025: Complete Guide to Resume Optimization (98% Pass Rate)",
-    "date": "2025-06-05",
+    "title": "Get Found by Recruiters: Complete ATS Optimization Guide 2025",
+    "excerpt": "Evidence-based ATS optimization guide. Research shows 90-95% of resumes are reviewed by humans - learn how to get discovered by recruiters.",
     "author": "Hirelytica Team",
-    "readTime": "15 min read",
-    "excerpt": "Master Applicant Tracking Systems with our comprehensive 2025 guide. Proven strategies that achieve 98% ATS pass rates. Includes templates, keyword optimization, and formatting secrets.",
-    "keywords": "ATS optimization 2025, resume ATS friendly, applicant tracking system tips, CV formatting guide",
-    "wordCount": 3200
+    "date": "June 28, 2025",
+    "readTime": "15 min read"
+  },
+  {
+    "slug": "cv-lottery-application-statistics-2025",
+    "title": "The CV Lottery: Why 98% of Job Applications Disappear Into the Void",
+    "excerpt": "Only 2% of job applications lead to interviews. Discover why ATS systems reject 75% of qualified candidates and how to beat the CV lottery with proven strategies.",
+    "author": "Hirelytica Team",
+    "date": "June 12, 2025",
+    "readTime": "10 min read"
+  },
+  {
+    "slug": "uk-job-market-crisis-2025",
+    "title": "The UK Job Market Crisis: Why Finding Work Has Never Been Harder",
+    "excerpt": "UK unemployment hits record highs while job vacancies remain unfilled. Explore the data behind the recruitment crisis and what it means for job seekers.",
+    "author": "Hirelytica Team",
+    "date": "May 28, 2025",
+    "readTime": "8 min read"
+  },
+  {
+    "slug": "why-recruitment-broken-data-2025",
+    "title": "Why Global Recruitment is Fundamentally Broken in 2025",
+    "excerpt": "The global hiring system is failing employers and candidates alike. Dive into the data showing why traditional recruitment methods no longer work.",
+    "author": "Hirelytica Team",
+    "date": "May 15, 2025",
+    "readTime": "12 min read"
   }
 ]
