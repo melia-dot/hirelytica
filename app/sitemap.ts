@@ -1,34 +1,31 @@
-export default function sitemap() {
+// app/sitemap.ts
+
+import { MetadataRoute } from 'next'
+import blogPosts from '../data/blog-posts.json'
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  // Generate blog URLs dynamically from your JSON file
+  const blogUrls = blogPosts.map((post) => ({
+    url: `https://hirelytica.com/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }))
+
   return [
     {
       url: 'https://hirelytica.com',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
+      changeFrequency: 'yearly',
       priority: 1,
     },
     {
       url: 'https://hirelytica.com/blog',
       lastModified: new Date(),
-      changeFrequency: 'weekly', 
+      changeFrequency: 'weekly',
       priority: 0.8,
     },
-    {
-      url: 'https://hirelytica.com/blog/why-recruitment-is-broken',
-      lastModified: new Date('2025-06-18'),
-      changeFrequency: 'monthly',
-      priority: 0.6,
-    },
-    {
-      url: 'https://hirelytica.com/blog/cv-casino-job-applications',
-      lastModified: new Date('2025-06-12'),
-      changeFrequency: 'monthly',
-      priority: 0.6,
-    },
-    {
-      url: 'https://hirelytica.com/blog/ats-optimization-guide-2025',
-      lastModified: new Date('2025-06-05'),
-      changeFrequency: 'monthly',
-      priority: 0.6,
-    },
+    // All blog posts dynamically added
+    ...blogUrls
   ]
 }
