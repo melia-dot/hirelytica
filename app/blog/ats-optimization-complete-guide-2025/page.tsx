@@ -30,8 +30,8 @@ export default function Page() {
         "url": "https://hirelytica.com/logo.png"
       }
     },
-    "datePublished": "2025-01-15",
-    "dateModified": "2025-01-15",
+    "datePublished": "2025-07-03",
+    "dateModified": "2025-07-03",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://hirelytica.com/blog/ats-optimization-complete-guide-2025"
@@ -99,7 +99,7 @@ export default function Page() {
           </h1>
           
           <div className="text-gray-600 mb-6">
-            <time dateTime="2025-01-15">January 15, 2025</time> • Hirelytica Team • 12 min read
+            <time dateTime="2025-07-03">July 3, 2025</time> • Hirelytica Team • 12 min read
           </div>
 
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
