@@ -267,7 +267,7 @@ export default function Page() {
               <li><strong>Regulatory frameworks develop</strong> - Clear guidelines for compliant AI usage</li>
             </ul>
 
-            <p className="font-semibold"><strong>However, as of July 2025, the vast majority of companies still rely on basic ATS systems that organize and track applications without automated decision-making.</strong></p>
+            <p className="font-semibold"><strong>However, as at July 2025, the vast majority of companies still rely on basic ATS systems that organize and track applications without automated decision-making.</strong></p>
           </section>
 
           <section id="better-strategy" role="region" aria-labelledby="strategy-heading">
