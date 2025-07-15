@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Major ATS Systems Compared: AI Features & Capabilities Guide 2025 | Hirelytica",
-  description: "Comprehensive comparison of major ATS platforms including Workday, Greenhouse, SmartRecruiters, Lever, iCIMS, and more. Complete analysis of AI features, candidate scoring, and automation capabilities.",
+  description: "Comprehensive comparison of 14 major ATS platforms including Workday, Greenhouse, SmartRecruiters, Lever, iCIMS, Taleo, SuccessFactors, Jobvite, Ashby, and more. Complete analysis of AI features, candidate scoring, and automation capabilities.",
   alternates: {
     canonical: "https://hirelytica.com/blog/major-ats-systems-ai-comparison-2025",
   },
@@ -17,7 +17,7 @@ export default function Page() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Major ATS Systems Compared: AI Features & Capabilities Guide 2025",
-    "description": "Comprehensive comparison of major ATS platforms and their AI capabilities including Workday HiredScore, Greenhouse, SmartRecruiters, Lever, iCIMS, and other leading systems",
+    "description": "Comprehensive comparison of 14 major ATS platforms and their AI capabilities including Workday HiredScore, Greenhouse, SmartRecruiters, Lever, iCIMS, Taleo, SuccessFactors, Jobvite, Ashby, and other leading systems",
     "author": {
       "@type": "Organization",
       "name": "Hirelytica",
@@ -31,15 +31,15 @@ export default function Page() {
         "url": "https://hirelytica.com/logo.png"
       }
     },
-    "datePublished": "2025-07-03",
-    "dateModified": "2025-07-03",
+    "datePublished": "2025-07-15",
+    "dateModified": "2025-07-15",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://hirelytica.com/blog/major-ats-systems-ai-comparison-2025"
     },
-    "keywords": ["ATS comparison", "AI recruiting", "Workday HiredScore", "Greenhouse", "SmartRecruiters", "Lever", "iCIMS", "applicant tracking systems"],
+    "keywords": ["ATS comparison", "AI recruiting", "Workday HiredScore", "Greenhouse", "SmartRecruiters", "Lever", "iCIMS", "Taleo", "SuccessFactors", "Jobvite", "Ashby", "Bullhorn", "Personio", "applicant tracking systems"],
     "articleSection": "Technology Comparison",
-    "wordCount": 4500
+    "wordCount": 5200
   };
 
   const faqSchema = {
@@ -51,7 +51,7 @@ export default function Page() {
         "name": "Which ATS systems have AI candidate scoring?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "As at July 2025, Workday HiredScore, SmartRecruiters SmartAssistant, iCIMS Role Fit, and some third-party integrations with Lever offer AI candidate scoring. Greenhouse explicitly avoids AI scoring to maintain human oversight."
+          "text": "As at July 2025, Workday HiredScore, SmartRecruiters SmartAssistant, iCIMS Role Fit, Ashby AI scoring, and some third-party integrations with Lever offer AI candidate scoring. Greenhouse explicitly avoids AI scoring to maintain human oversight."
         }
       },
       {
@@ -100,12 +100,12 @@ export default function Page() {
           </h1>
           
           <div className="text-gray-600 mb-6">
-            <time dateTime="2025-07-03">July 3, 2025</time> • Hirelytica Research Team • 20 min read
+            <time dateTime="2025-07-15">July 15, 2025</time> • Hirelytica Research Team • 25 min read
           </div>
 
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
             The <dfn className="font-semibold">Applicant Tracking System (ATS)</dfn> landscape has evolved dramatically with AI integration. 
-            This comprehensive analysis examines the AI capabilities, automation features, and decision-making roles of major ATS platforms 
+            This comprehensive analysis examines the AI capabilities, automation features, and decision-making roles of 14 major ATS platforms 
             as at July 2025, providing evidence-based insights for organizations evaluating their hiring technology stack.
           </p>
         </header>
@@ -119,21 +119,46 @@ export default function Page() {
               <h3 className="text-lg font-bold text-blue-900 mb-3">Key Findings</h3>
               <dl className="space-y-2 text-blue-800">
                 <dt className="font-semibold">AI Adoption Spectrum:</dt>
-                <dd>From Greenhouse&apos;s human-only approach to Workday HiredScore&apos;s advanced AI orchestration</dd>
+                <dd>From Greenhouse's human-only approach to Workday HiredScore's advanced AI orchestration</dd>
                 
                 <dt className="font-semibold">Enterprise vs. SMB:</dt>
-                <dd>Sophisticated AI tools remain primarily in enterprise-tier platforms</dd>
+                <dd>Sophisticated AI tools remain primarily in enterprise-tier platforms, with legacy systems like Taleo still widely deployed</dd>
                 
                 <dt className="font-semibold">Legal Compliance:</dt>
                 <dd>All platforms emphasize human oversight to comply with regulations like NYC Local Law 144</dd>
+                
+                <dt className="font-semibold">Market Specialization:</dt>
+                <dd>Specialized platforms like Bullhorn (staffing) and Ashby (tech startups) show targeted AI innovation</dd>
               </dl>
             </aside>
 
-            <p>Our analysis of 8 major ATS platforms reveals a diverse landscape of AI implementation, from basic automation to sophisticated machine learning capabilities. The key insight: <strong>no major platform currently uses AI for automated hiring decisions</strong> - instead, AI serves as an assistant to human recruiters.</p>
+            <p>Our analysis of 14 major ATS platforms reveals a diverse landscape of AI implementation, from basic automation to sophisticated machine learning capabilities. The key insight: <strong>no major platform currently uses AI for automated hiring decisions</strong> - instead, AI serves as an assistant to human recruiters.</p>
           </section>
 
           <section id="comparison-grid" role="region" aria-labelledby="grid-heading">
-            <h2 id="grid-heading" className="text-3xl font-bold text-gray-900 mt-8">ATS Platform Comparison Grid</h2>
+            <h2 id="grid-heading" className="text-3xl font-bold text-gray-900 mt-8">Complete ATS Platform Comparison Grid</h2>
+            
+            <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 my-6">
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Color Coding Guide</h3>
+              <div className="space-y-2 text-sm">
+                <div className="flex items-center space-x-2">
+                  <div className="w-4 h-4 bg-blue-900 rounded"></div>
+                  <span><strong>Dark Blue:</strong> High AI automation - job seekers face more AI screening</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <div className="w-4 h-4 bg-blue-500 rounded"></div>
+                  <span><strong>Medium Blue:</strong> Moderate automation - mixed AI and human screening</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <div className="w-4 h-4 bg-blue-200 rounded"></div>
+                  <span><strong>Light Blue:</strong> Low automation - primarily human screening</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <div className="w-4 h-4 bg-yellow-400 rounded"></div>
+                  <span><strong>Gold Names:</strong> Most commercially successful platforms - highest likelihood job seekers will encounter these systems</span>
+                </div>
+              </div>
+            </div>
             
             <div className="overflow-x-auto my-8">
               <table className="w-full border-collapse border border-gray-300 text-sm">
@@ -148,69 +173,120 @@ export default function Page() {
                   </tr>
                 </thead>
                 <tbody>
+                  {/* HIGH AUTOMATION TIER */}
                   <tr>
-                    <td className="border border-gray-300 p-3 font-semibold">Workday HiredScore</td>
+                    <td className="border border-gray-300 p-3 font-semibold text-yellow-600">Workday HiredScore</td>
                     <td className="border border-gray-300 p-3">Advanced AI grading, diversity insights, talent rediscovery</td>
                     <td className="border border-gray-300 p-3">✅ AI-powered candidate grading</td>
-                    <td className="border border-gray-300 p-3">High - Predictive analytics</td>
+                    <td className="border border-gray-300 p-3 bg-blue-900 text-white font-semibold">High - Predictive analytics</td>
                     <td className="border border-gray-300 p-3">Enterprise (Fortune 500)</td>
                     <td className="border border-gray-300 p-3">Custom enterprise pricing</td>
                   </tr>
                   <tr className="bg-gray-50">
-                    <td className="border border-gray-300 p-3 font-semibold">Greenhouse</td>
+                    <td className="border border-gray-300 p-3 font-semibold text-yellow-600">SuccessFactors (SAP)</td>
+                    <td className="border border-gray-300 p-3">SAP AI Business Services, machine learning recommendations</td>
+                    <td className="border border-gray-300 p-3">✅ AI-powered candidate recommendations</td>
+                    <td className="border border-gray-300 p-3 bg-blue-900 text-white font-semibold">High - ERP-integrated automation</td>
+                    <td className="border border-gray-300 p-3">Large Enterprise (SAP ecosystem)</td>
+                    <td className="border border-gray-300 p-3">SAP SuccessFactors suite pricing</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 p-3 font-semibold">Ashby</td>
+                    <td className="border border-gray-300 p-3">Modern AI scoring, automated screening, analytics</td>
+                    <td className="border border-gray-300 p-3">✅ AI candidate scoring and ranking</td>
+                    <td className="border border-gray-300 p-3 bg-blue-900 text-white font-semibold">High - Modern AI implementation</td>
+                    <td className="border border-gray-300 p-3">Tech Startups & Scale-ups</td>
+                    <td className="border border-gray-300 p-3">$3/month per user minimum</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-300 p-3 font-semibold">Bullhorn</td>
+                    <td className="border border-gray-300 p-3">Automation Suite, AI-powered matching, candidate discovery</td>
+                    <td className="border border-gray-300 p-3">✅ AI scoring for staffing workflows</td>
+                    <td className="border border-gray-300 p-3 bg-blue-900 text-white font-semibold">High - Staffing-optimized automation</td>
+                    <td className="border border-gray-300 p-3">Staffing Agencies & RPOs</td>
+                    <td className="border border-gray-300 p-3">Custom pricing for agencies</td>
+                  </tr>
+                  {/* MEDIUM AUTOMATION TIER */}
+                  <tr>
+                    <td className="border border-gray-300 p-3 font-semibold text-yellow-600">Taleo (Oracle)</td>
+                    <td className="border border-gray-300 p-3">Basic automation, workflow management, legacy AI modules</td>
+                    <td className="border border-gray-300 p-3">⚠️ Limited AI scoring (legacy implementation)</td>
+                    <td className="border border-gray-300 p-3 bg-blue-500 text-white font-semibold">Medium - Established automation</td>
+                    <td className="border border-gray-300 p-3">Large Enterprise (Legacy)</td>
+                    <td className="border border-gray-300 p-3">Oracle Cloud HCM suite pricing</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-300 p-3 font-semibold text-yellow-600">SmartRecruiters</td>
+                    <td className="border border-gray-300 p-3">SmartAssistant matching, Winston AI modules</td>
+                    <td className="border border-gray-300 p-3">✅ Intelligence-assisted match scores</td>
+                    <td className="border border-gray-300 p-3 bg-blue-500 text-white font-semibold">Medium - AI recommendations</td>
+                    <td className="border border-gray-300 p-3">Enterprise (50+ employees)</td>
+                    <td className="border border-gray-300 p-3">Quote-based, no free trial</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 p-3 font-semibold">Lever</td>
+                    <td className="border border-gray-300 p-3">AI Interview Companion, nurture recommendations</td>
+                    <td className="border border-gray-300 p-3">⚠️ Via third-party integrations only</td>
+                    <td className="border border-gray-300 p-3 bg-blue-500 text-white font-semibold">Medium - Workflow automation</td>
+                    <td className="border border-gray-300 p-3">Mid-market to Enterprise</td>
+                    <td className="border border-gray-300 p-3">Transparent, headcount-based</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-300 p-3 font-semibold text-yellow-600">iCIMS</td>
+                    <td className="border border-gray-300 p-3">Role Fit scoring, AI Copilot, Digital Assistant</td>
+                    <td className="border border-gray-300 p-3">✅ Role Fit candidate scoring</td>
+                    <td className="border border-gray-300 p-3 bg-blue-500 text-white font-semibold">Medium - Cautious AI approach</td>
+                    <td className="border border-gray-300 p-3">Enterprise (high volume)</td>
+                    <td className="border border-gray-300 p-3">Custom enterprise pricing</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 p-3 font-semibold">Jobvite (Employ Inc)</td>
+                    <td className="border border-gray-300 p-3">Evolve AI platform, candidate matching, social recruiting AI</td>
+                    <td className="border border-gray-300 p-3">✅ AI candidate ranking and insights</td>
+                    <td className="border border-gray-300 p-3 bg-blue-500 text-white font-semibold">Medium - AI-enhanced workflows</td>
+                    <td className="border border-gray-300 p-3">Mid-market to Enterprise</td>
+                    <td className="border border-gray-300 p-3">Tiered pricing, quote-based</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-300 p-3 font-semibold">Personio</td>
+                    <td className="border border-gray-300 p-3">AI job ad optimization, automated screening, talent pool management</td>
+                    <td className="border border-gray-300 p-3">✅ AI application scoring and filtering</td>
+                    <td className="border border-gray-300 p-3 bg-blue-500 text-white font-semibold">Medium - European compliance-focused</td>
+                    <td className="border border-gray-300 p-3">European SMBs & Mid-market</td>
+                    <td className="border border-gray-300 p-3">€8-16/month per employee</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 p-3 font-semibold">Workable</td>
+                    <td className="border border-gray-300 p-3">AI Screening Assistant, candidate matching</td>
+                    <td className="border border-gray-300 p-3">✅ AI profile scores and summaries</td>
+                    <td className="border border-gray-300 p-3 bg-blue-500 text-white font-semibold">Medium - AI-assisted screening</td>
+                    <td className="border border-gray-300 p-3">SMB to Mid-market</td>
+                    <td className="border border-gray-300 p-3">$149-599/month per user</td>
+                  </tr>
+                  {/* LOW AUTOMATION TIER */}
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-300 p-3 font-semibold text-yellow-600">Greenhouse</td>
                     <td className="border border-gray-300 p-3">AI interview questions, job descriptions, report filters</td>
                     <td className="border border-gray-300 p-3">❌ Explicitly no AI scoring</td>
-                    <td className="border border-gray-300 p-3">Low - Human-centric approach</td>
+                    <td className="border border-gray-300 p-3 bg-blue-200 text-blue-900 font-semibold">Low - Human-centric approach</td>
                     <td className="border border-gray-300 p-3">Mid-market to Enterprise</td>
                     <td className="border border-gray-300 p-3">Undisclosed, no free trial</td>
                   </tr>
                   <tr>
-                    <td className="border border-gray-300 p-3 font-semibold">SmartRecruiters</td>
-                    <td className="border border-gray-300 p-3">SmartAssistant matching, Winston AI modules</td>
-                    <td className="border border-gray-300 p-3">✅ Intelligence-assisted match scores</td>
-                    <td className="border border-gray-300 p-3">Medium - AI recommendations</td>
-                    <td className="border border-gray-300 p-3">Enterprise (50+ employees)</td>
-                    <td className="border border-gray-300 p-3">Quote-based, no free trial</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="border border-gray-300 p-3 font-semibold">Lever</td>
-                    <td className="border border-gray-300 p-3">AI Interview Companion, nurture recommendations</td>
-                    <td className="border border-gray-300 p-3">⚠️ Via third-party integrations only</td>
-                    <td className="border border-gray-300 p-3">Medium - Workflow automation</td>
-                    <td className="border border-gray-300 p-3">Mid-market to Enterprise</td>
-                    <td className="border border-gray-300 p-3">Transparent, headcount-based</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-gray-300 p-3 font-semibold">iCIMS</td>
-                    <td className="border border-gray-300 p-3">Role Fit scoring, AI Copilot, Digital Assistant</td>
-                    <td className="border border-gray-300 p-3">✅ Role Fit candidate scoring</td>
-                    <td className="border border-gray-300 p-3">Medium - Cautious AI approach</td>
-                    <td className="border border-gray-300 p-3">Enterprise (high volume)</td>
-                    <td className="border border-gray-300 p-3">Custom enterprise pricing</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="border border-gray-300 p-3 font-semibold">BambooHR</td>
+                    <td className="border border-gray-300 p-3 font-semibold text-yellow-600">BambooHR</td>
                     <td className="border border-gray-300 p-3">Basic talent pools, manual workflows</td>
                     <td className="border border-gray-300 p-3">❌ No automated scoring</td>
-                    <td className="border border-gray-300 p-3">Low - Primarily manual</td>
+                    <td className="border border-gray-300 p-3 bg-blue-200 text-blue-900 font-semibold">Low - Primarily manual</td>
                     <td className="border border-gray-300 p-3">Small to Medium Business</td>
                     <td className="border border-gray-300 p-3">$15-35/month per user</td>
                   </tr>
-                  <tr>
+                  <tr className="bg-gray-50">
                     <td className="border border-gray-300 p-3 font-semibold">JazzHR</td>
                     <td className="border border-gray-300 p-3">Basic automation, workflow customization</td>
                     <td className="border border-gray-300 p-3">❌ No AI candidate scoring</td>
-                    <td className="border border-gray-300 p-3">Low - Entry-level automation</td>
+                    <td className="border border-gray-300 p-3 bg-blue-200 text-blue-900 font-semibold">Low - Entry-level automation</td>
                     <td className="border border-gray-300 p-3">Small Business</td>
                     <td className="border border-gray-300 p-3">$75-450/month flat rate</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="border border-gray-300 p-3 font-semibold">Workable</td>
-                    <td className="border border-gray-300 p-3">AI Screening Assistant, candidate matching</td>
-                    <td className="border border-gray-300 p-3">✅ AI profile scores and summaries</td>
-                    <td className="border border-gray-300 p-3">Medium - AI-assisted screening</td>
-                    <td className="border border-gray-300 p-3">SMB to Mid-market</td>
-                    <td className="border border-gray-300 p-3">$149-599/month per user</td>
                   </tr>
                 </tbody>
               </table>
@@ -226,10 +302,10 @@ export default function Page() {
               <dl className="space-y-4">
                 <dt className="font-bold text-gray-900">What It Does:</dt>
                 <dd>
-                  <p>HiredScore represents the most sophisticated AI implementation in recruiting as at July 2025. Following Workday&apos;s acquisition in April 2024, it offers:</p>
+                  <p>HiredScore represents the most sophisticated AI implementation in recruiting as at July 2025. Following Workday's acquisition in April 2024, it offers:</p>
                   <ul className="list-disc pl-6 space-y-1 mt-2">
                     <li><strong>Candidate Grading:</strong> AI evaluates candidates against job requirements with explainable scoring</li>
-                    <li><strong>Talent Rediscovery:</strong> Surfaces qualified past applicants for new roles using the &quot;fetch&quot; feature</li>
+                    <li><strong>Talent Rediscovery:</strong> Surfaces qualified past applicants for new roles using the "fetch" feature</li>
                     <li><strong>Diversity Insights:</strong> Real-time diversity analytics integrated into recruiter workflows</li>
                     <li><strong>Predictive Analytics:</strong> Uses 11+ years of data to predict candidate success</li>
                   </ul>
@@ -242,9 +318,54 @@ export default function Page() {
                 <dd>
                   <p>Available primarily to Fortune 100/500 organizations with 25,000+ employees. CEO Athena Karp noted in March 2024 that clients typically have workforces of 100,000+ employees, indicating extremely limited adoption beyond large enterprises.</p>
                 </dd>
+              </dl>
+            </article>
 
-                <dt className="font-bold text-gray-900">Key Quote:</dt>
-                <dd className="italic">&quot;Our average client will hire less than 2% of the candidates that apply. That means they&apos;re rejecting 98% of candidates&quot; - but this is human rejection after AI assistance, not automated rejection.</dd>
+            <article className="border-l-4 border-gray-500 pl-6 my-8">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Enterprise Legacy: Taleo & SuccessFactors</h3>
+              
+              <dl className="space-y-4">
+                <dt className="font-bold text-gray-900">Taleo (Oracle):</dt>
+                <dd>
+                  <p>Still deployed across thousands of large enterprises despite Oracle's focus shifting to Oracle HCM Cloud. Limited AI capabilities but massive market presence through existing contracts.</p>
+                </dd>
+
+                <dt className="font-bold text-gray-900">SuccessFactors (SAP):</dt>
+                <dd>
+                  <p>Leverages SAP's AI Business Services for more sophisticated automation than Taleo. Strong in organizations already committed to SAP's enterprise ecosystem, with AI capabilities integrated across the full employee lifecycle.</p>
+                </dd>
+              </dl>
+            </article>
+
+            <article className="border-l-4 border-green-500 pl-6 my-8">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Specialized Market Leaders</h3>
+              
+              <dl className="space-y-4">
+                <dt className="font-bold text-gray-900">Ashby (Tech Startups):</dt>
+                <dd>
+                  <p>Modern AI-first platform popular in Y Combinator companies and tech scale-ups. Offers sophisticated AI scoring with transparent pricing that starts much lower than enterprise competitors.</p>
+                </dd>
+
+                <dt className="font-bold text-gray-900">Bullhorn (Staffing Agencies):</dt>
+                <dd>
+                  <p>Dominates the staffing and RPO market with AI optimized for high-volume, fast-paced placement workflows. The automation is designed for the unique needs of external recruiters.</p>
+                </dd>
+
+                <dt className="font-bold text-gray-900">Personio (European Market):</dt>
+                <dd>
+                  <p>Leading GDPR-compliant platform in Europe with AI features designed around European data protection regulations. Strong in German, UK, and broader European SMB markets.</p>
+                </dd>
+              </dl>
+            </article>
+
+            <article className="border-l-4 border-blue-500 pl-6 my-8">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Jobvite Evolution</h3>
+              
+              <dl className="space-y-4">
+                <dt className="font-bold text-gray-900">Post-Acquisition Innovation:</dt>
+                <dd>
+                  <p>Following Employ Inc's acquisition, Jobvite has accelerated AI development through their Evolve platform. The integration with JazzHR (also owned by Employ) creates an interesting SMB-to-enterprise pathway.</p>
+                </dd>
               </dl>
             </article>
 
@@ -252,92 +373,70 @@ export default function Page() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Greenhouse: The Human-Centric Approach</h3>
               
               <dl className="space-y-4">
-                <dt className="font-bold text-gray-900">What It Does:</dt>
-                <dd>
-                  <p>Greenhouse explicitly avoids AI for candidate evaluation, focusing on structured hiring:</p>
-                  <ul className="list-disc pl-6 space-y-1 mt-2">
-                    <li><strong>AI-Generated Content:</strong> Job descriptions, interview questions, scorecard attributes</li>
-                    <li><strong>Workflow Automation:</strong> Report generation, note summarization, scheduling</li>
-                    <li><strong>Integration AI:</strong> BrightHire partnership for automated interview notes</li>
-                    <li><strong>Sourcing Tools:</strong> Talent Filtering and Talent Rediscovery (launched 2024)</li>
-                  </ul>
-                </dd>
-
-                <dt className="font-bold text-gray-900">AI Type:</dt>
-                <dd><strong>Assistance-Only</strong> - Explicitly no scoring, ranking, or automated decisions</dd>
-
                 <dt className="font-bold text-gray-900">Philosophy:</dt>
                 <dd>
-                  <p>From their official documentation: <em>&quot;Greenhouse believes that the critical step of evaluating and deciding who to hire should remain with hiring teams. AI or algorithmic technology may be prone to bias so we believe that people are best suited to make hiring decisions.&quot;</em></p>
+                  <p>From their official documentation: <em>"Greenhouse believes that the critical step of evaluating and deciding who to hire should remain with hiring teams. AI or algorithmic technology may be prone to bias so we believe that people are best suited to make hiring decisions."</em></p>
                 </dd>
 
                 <dt className="font-bold text-gray-900">Legal Compliance:</dt>
                 <dd>This approach aligns with NYC Local Law 144 and EU AI Act regulations by maintaining human decision-making as the baseline.</dd>
               </dl>
             </article>
+          </section>
 
-            <article className="border-l-4 border-blue-500 pl-6 my-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">SmartRecruiters: Balanced AI Integration</h3>
-              
-              <dl className="space-y-4">
-                <dt className="font-bold text-gray-900">What It Does:</dt>
-                <dd>
-                  <p>SmartRecruiters offers moderate AI capabilities through its SmartAssistant platform:</p>
-                  <ul className="list-disc pl-6 space-y-1 mt-2">
-                    <li><strong>SmartAssistant:</strong> Candidate discovery and matching with bias mitigation</li>
-                    <li><strong>Winston AI Modules:</strong> Match, Screen, Chat, and Companion features</li>
-                    <li><strong>Intelligence-Assisted Scoring:</strong> Match scores based on skills and experience</li>
-                    <li><strong>Automated Outreach:</strong> AI-powered candidate engagement</li>
-                  </ul>
-                </dd>
+          <section id="job-seeker-insights" role="region" aria-labelledby="insights-heading">
+            <h2 id="insights-heading" className="text-3xl font-bold text-gray-900 mt-8">What This Means for Job Seekers</h2>
 
-                <dt className="font-bold text-gray-900">AI Type:</dt>
-                <dd><strong>Recommendation-Based AI</strong> - Scores and suggests candidates but emphasizes human decision-making</dd>
+            <p className="mb-6">The color coding in our comparison grid reveals critical intelligence for job seekers:</p>
 
-                <dt className="font-bold text-gray-900">Bias Mitigation:</dt>
-                <dd>SmartAssistant algorithms specifically avoid analyzing personal data (name, age, gender) and don&apos;t factor in past hiring decisions to minimize bias reinforcement.</dd>
-              </dl>
-            </article>
+            <dl className="space-y-4 mt-6">
+              <dt className="font-bold text-gray-900 flex items-center">
+                <span className="w-4 h-4 bg-yellow-400 rounded mr-2"></span>
+                Gold Platform Names = Most Likely Encounters:
+              </dt>
+              <dd><strong>Workday, Taleo, SuccessFactors, Greenhouse, SmartRecruiters, iCIMS, and BambooHR</strong> represent the platforms you're statistically most likely to encounter during your job search. These systems power the majority of job applications across different company sizes.</dd>
 
-            <article className="border-l-4 border-orange-500 pl-6 my-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Lever: CRM-Focused with AI Companions</h3>
-              
-              <dl className="space-y-4">
-                <dt className="font-bold text-gray-900">What It Does:</dt>
-                <dd>
-                  <p>Lever combines ATS and CRM functionality with selective AI implementation:</p>
-                  <ul className="list-disc pl-6 space-y-1 mt-2">
-                    <li><strong>AI Interview Companion:</strong> Structured interview process automation</li>
-                    <li><strong>Nurture Recommendations:</strong> AI-suggested candidate outreach timing and messaging</li>
-                    <li><strong>Talent Intelligence:</strong> Diversity and inclusion analytics</li>
-                    <li><strong>Third-Party Integrations:</strong> Partners like Sapia for AI-powered screening</li>
-                  </ul>
-                </dd>
+              <dt className="font-bold text-gray-900 flex items-center">
+                <span className="w-4 h-4 bg-blue-900 rounded mr-2"></span>
+                Dark Blue (High Automation) = Expect AI Screening:
+              </dt>
+              <dd>When applying through <strong>Workday HiredScore, SuccessFactors, Ashby, or Bullhorn</strong>, your application will likely undergo AI analysis before human review. Focus on keyword optimization and clear formatting.</dd>
 
-                <dt className="font-bold text-gray-900">AI Type:</dt>
-                <dd><strong>Workflow Enhancement</strong> - AI supports processes but doesn&apos;t score candidates natively</dd>
-              </dl>
-            </article>
+              <dt className="font-bold text-gray-900 flex items-center">
+                <span className="w-4 h-4 bg-blue-500 rounded mr-2"></span>
+                Medium Blue = Mixed Approach:
+              </dt>
+              <dd>Most enterprise platforms use <strong>AI assistance with human oversight</strong>. Your application gets AI scoring but humans make final decisions. Balance keyword optimization with authentic content.</dd>
 
-            <article className="border-l-4 border-red-500 pl-6 my-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">iCIMS: Cautious Enterprise AI</h3>
-              
-              <dl className="space-y-4">
-                <dt className="font-bold text-gray-900">What It Does:</dt>
-                <dd>
-                  <p>iCIMS takes a measured approach to AI implementation with enterprise-focused features:</p>
-                  <ul className="list-disc pl-6 space-y-1 mt-2">
-                    <li><strong>Role Fit Scoring:</strong> Candidates grouped into tiers based on AI analysis</li>
-                    <li><strong>AI Copilot:</strong> Interview guides, job description optimization, candidate emails</li>
-                    <li><strong>Digital Assistant:</strong> Real-time candidate Q&A and interview scheduling</li>
-                    <li><strong>Bias Auditing:</strong> Built-in compliance and transparency features</li>
-                  </ul>
-                </dd>
+              <dt className="font-bold text-gray-900 flex items-center">
+                <span className="w-4 h-4 bg-blue-200 rounded mr-2"></span>
+                Light Blue (Low Automation) = Human-First Review:
+              </dt>
+              <dd>Platforms like <strong>Greenhouse and BambooHR</strong> emphasize human evaluation. Focus on compelling storytelling and clear communication over keyword stuffing.</dd>
+            </dl>
 
-                <dt className="font-bold text-gray-900">AI Type:</dt>
-                <dd><strong>Compliance-First AI</strong> - Advanced features with emphasis on bias audits and human oversight</dd>
-              </dl>
-            </article>
+            <aside className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-6" role="complementary">
+              <h3 className="text-lg font-bold text-yellow-900 mb-3">Strategic Application Insight</h3>
+              <p className="text-yellow-800">Job seekers should adapt their application strategy based on which ATS they're facing. <strong>High-automation platforms require more technical optimization, while human-centric systems reward authentic storytelling.</strong> Knowing the difference can significantly improve your success rate.</p>
+            </aside>
+          </section>
+
+          <section id="market-insights" role="region" aria-labelledby="market-insights-heading">
+            <h2 id="market-insights-heading" className="text-3xl font-bold text-gray-900 mt-8">Market Insights by Segment</h2>
+
+            <dl className="space-y-6 mt-6">
+              <dt className="font-bold text-gray-900">Enterprise (Fortune 500):</dt>
+              <dd><strong>Workday HiredScore, Taleo, SuccessFactors, iCIMS</strong> - Legacy systems still dominate but AI capabilities vary dramatically. Many enterprises run multiple ATS platforms across different divisions.</dd>
+
+              <dt className="font-bold text-gray-900">Mid-Market:</dt>
+              <dd><strong>Greenhouse, SmartRecruiters, Lever, Jobvite</strong> - Competitive market with platforms differentiating on AI approach, workflow automation, and integration capabilities.</dd>
+
+              <dt className="font-bold text-gray-900">SMB & Startups:</dt>
+              <dd><strong>Ashby, Workable, BambooHR, JazzHR</strong> - Price-sensitive segment where modern platforms like Ashby are gaining ground with AI-first features at lower price points.</dd>
+
+              <dt className="font-bold text-gray-900">Specialized Markets:</dt>
+              <dd><strong>Bullhorn (Staffing), Personio (Europe)</strong> - Vertical-specific solutions often provide better AI implementations for their particular use cases than general-purpose platforms.</dd>
+            </dl>
           </section>
 
           <section id="key-takeaways" role="region" aria-labelledby="takeaways-heading">
@@ -347,23 +446,28 @@ export default function Page() {
               <dt className="font-bold text-gray-900">AI Reality vs. Marketing:</dt>
               <dd><strong>No major ATS platform uses AI for automated hiring decisions</strong> as at July 2025. AI serves as an assistant to human recruiters, not a replacement.</dd>
 
-              <dt className="font-bold text-gray-900">Market Segmentation:</dt>
-              <dd><strong>Sophisticated AI remains primarily in enterprise platforms</strong> with custom pricing, limiting adoption to large organizations.</dd>
+              <dt className="font-bold text-gray-900">Market Fragmentation:</dt>
+              <dd><strong>The ATS market remains highly fragmented</strong> with different platforms serving different organizational sizes, industries, and geographic regions.</dd>
+
+              <dt className="font-bold text-gray-900">Legacy Systems Persist:</dt>
+              <dd><strong>Taleo and SuccessFactors still power many large enterprises</strong> despite newer platforms offering more sophisticated AI capabilities.</dd>
+
+              <dt className="font-bold text-gray-900">Specialized Solutions Win:</dt>
+              <dd><strong>Vertical-specific platforms like Bullhorn and Ashby often provide better AI</strong> for their target markets than general-purpose enterprise solutions.</dd>
 
               <dt className="font-bold text-gray-900">Compliance First:</dt>
-              <dd><strong>Legal requirements drive product development</strong>, with platforms emphasizing human oversight and bias mitigation.</dd>
-
-              <dt className="font-bold text-gray-900">Choose Based on Needs:</dt>
-              <dd><strong>Platform selection should prioritize core hiring requirements</strong> over AI features that may not provide immediate value.</dd>
+              <dd><strong>Legal requirements drive product development</strong>, with platforms emphasizing human oversight and bias mitigation across all segments.</dd>
             </dl>
           </section>
 
           <section id="conclusion" role="region" aria-labelledby="conclusion-heading">
             <h2 id="conclusion-heading" className="text-3xl font-bold text-gray-900 mt-8">The Bottom Line</h2>
 
-            <p>The ATS landscape in 2025 reveals a sophisticated but nuanced approach to AI integration. While the technology exists for advanced automation, legal, ethical, and practical considerations have led most vendors toward AI-assisted rather than AI-automated hiring.</p>
+            <p>The ATS landscape in 2025 reveals a sophisticated but nuanced approach to AI integration across 14 major platforms. While the technology exists for advanced automation, legal, ethical, and practical considerations have led most vendors toward AI-assisted rather than AI-automated hiring.</p>
 
             <p><strong>The key insight: AI in ATS systems serves to enhance human decision-making, not replace it.</strong> This approach balances efficiency gains with the need for fairness, compliance, and human judgment in hiring decisions.</p>
+
+            <p>Whether you're evaluating enterprise solutions like Workday or considering specialized platforms like Ashby or Bullhorn, the core principle remains the same: AI provides recommendations, humans make decisions.</p>
 
             <aside className="bg-purple-50 border border-purple-200 rounded-lg p-6 my-8" role="complementary">
               <h3 className="text-lg font-bold text-purple-900 mb-3">Ready to Optimize Your Hiring Process?</h3>
@@ -379,18 +483,22 @@ export default function Page() {
                 <li>2. Greenhouse Software. (2025). <em>AI/ML Security & Privacy</em>. Technical Documentation.</li>
                 <li>3. SmartRecruiters. (2024). <em>44 Statistics on AI in Recruitment for 2024</em>. Industry Report.</li>
                 <li>4. iCIMS. (2025). <em>AI Candidate Screening: How Does iCIMS Compare?</em>. Platform Analysis.</li>
-                <li>5. Lever Inc. (2025). <em>Flexible Recruiting Software for Today&apos;s Hiring Teams</em>. Product Overview.</li>
-                <li>6. NYC Local Law 144. (2023). <em>Automated Employment Decision Tools</em>. New York City Council.</li>
-                <li>7. TechTarget. (2025). <em>Top AI recruiting tools and software of 2025</em>. Technology Analysis.</li>
-                <li>8. G2. (2025). <em>Best Applicant Tracking Systems (ATS): User Reviews</em>. User Research.</li>
-                <li>9. People Managing People. (2025). <em>20 Best AI ATS Software of 2025</em>. Software Review.</li>
-                <li>10. Karp, A. (2024). <em>HiredScore Client Profile Analysis</em>. UNLEASH Conference, March 2024.</li>
+                <li>5. Lever Inc. (2025). <em>Flexible Recruiting Software for Today's Hiring Teams</em>. Product Overview.</li>
+                <li>6. Oracle Corporation. (2025). <em>Oracle Taleo Cloud Service</em>. Product Documentation.</li>
+                <li>7. SAP SE. (2025). <em>SAP SuccessFactors Recruiting Management</em>. Platform Overview.</li>
+                <li>8. Jobvite Inc. (2025). <em>Evolve AI Platform</em>. Product Documentation.</li>
+                <li>9. Ashby Inc. (2025). <em>Modern ATS with AI-Powered Hiring</em>. Platform Analysis.</li>
+                <li>10. Bullhorn Inc. (2025). <em>Automation Suite</em>. Staffing Technology Overview.</li>
+                <li>11. Personio GmbH. (2025). <em>AI in European Recruitment</em>. Regional Analysis.</li>
+                <li>12. NYC Local Law 144. (2023). <em>Automated Employment Decision Tools</em>. New York City Council.</li>
+                <li>13. EU AI Act. (2024). <em>Regulation on Artificial Intelligence</em>. European Parliament.</li>
+                <li>14. Karp, A. (2024). <em>HiredScore Client Profile Analysis</em>. UNLEASH Conference, March 2024.</li>
               </ol>
             </section>
 
             <section id="about-author" className="mt-8">
               <h3 className="text-lg font-bold text-gray-900 mb-2">About Hirelytica</h3>
-              <p className="text-gray-700">Hirelytica provides evidence-based insights into recruitment technology and job search strategies. Our research focuses on how hiring systems actually work, not how they&apos;re marketed, helping both job seekers and employers make informed decisions.</p>
+              <p className="text-gray-700">Hirelytica provides evidence-based insights into recruitment technology and job search strategies. Our research focuses on how hiring systems actually work, not how they're marketed, helping both job seekers and employers make informed decisions.</p>
               <Link href="/" className="text-purple-600 hover:text-purple-700 underline">Visit Hirelytica →</Link>
             </section>
           </footer>
