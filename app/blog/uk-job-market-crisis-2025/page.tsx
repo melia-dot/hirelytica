@@ -9,9 +9,31 @@ export const metadata: Metadata = {
   },
 };
 
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "UK Job Market Crisis: Why Finding Work Has Never Been Harder in 2025",
+  "description": "UK unemployment hits 4.6% with youth unemployment at 14.3%. Analysis of 50+ official sources reveals why the UK job market has become impossible for tech, marketing, and sales professionals.",
+  "author": {
+    "@type": "Organization",
+    "name": "Hirelytica"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hirelytica"
+  },
+  "url": "https://hirelytica.com/blog/uk-job-market-crisis-2025"
+};
+
 export default function UKJobMarketCrisisPost() {
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(articleSchema)
+        }}
+      />
       <header className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 py-4">
           <Link href="/" className="text-2xl font-bold text-purple-600">

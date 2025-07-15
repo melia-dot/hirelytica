@@ -11,9 +11,31 @@ export const metadata: Metadata = {
   },
 };
 
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Fighting Workplace Ageism: A Complete Guide for Experienced Professionals in 2025",
+  "description": "Combat age discrimination in hiring with proven strategies. Learn how to modernize your approach, showcase value, and overcome ageist bias in the job market.",
+  "author": {
+    "@type": "Organization",
+    "name": "Hirelytica"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hirelytica"
+  },
+  "url": "https://hirelytica.com/blog/workplace-ageism-guide-2025"
+};
+
 export default function Page() {
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(articleSchema)
+        }}
+      />
       <header className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 py-4">
           <Link href="/" className="text-2xl font-bold text-purple-600">
