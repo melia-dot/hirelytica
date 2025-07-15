@@ -2,18 +2,22 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import './globals.css';
 
-export const metadata: Metadata = {
-  title: 'Hirelytica',
-  description: 'Fix recruitment for good',
-  viewport: 'width=device-width, initial-scale=1',
-  icons: {
-    icon: '/favicon.svg',
-  },
-  // Google Site Verification added here
-  verification: {
-    google: 'xyaYVpBXs-1uA15lMZcTEO8Hvz-T8GjU_VFKfQzsAtc',
-  },
-};
+export function generateMetadata() {
+  return {
+    title: 'Hirelytica',
+    description: 'Fix recruitment for good',
+    viewport: 'width=device-width, initial-scale=1',
+    icons: {
+      icon: '/favicon.svg',
+    },
+    verification: {
+      google: 'xyaYVpBXs-1uA15lMZcTEO8Hvz-T8GjU_VFKfQzsAtc',
+    },
+    other: {
+      'msvalidate.01': '3F149F3AD89374A45E0B36B758D94BE5'
+    }
+  }
+}
 
 export default function RootLayout({
   children,
