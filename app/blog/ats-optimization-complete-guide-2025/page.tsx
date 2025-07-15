@@ -30,15 +30,15 @@ export default function Page() {
         "url": "https://hirelytica.com/logo.png"
       }
     },
-    "datePublished": "2025-07-03",
-    "dateModified": "2025-07-03",
+    "datePublished": "2025-07-15",
+    "dateModified": "2025-07-15",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://hirelytica.com/blog/ats-optimization-complete-guide-2025"
     },
     "keywords": ["ATS systems", "job applications", "recruitment", "applicant tracking system", "hiring process"],
     "articleSection": "Job Search",
-    "wordCount": 2500
+    "wordCount": 2800
   };
 
   const faqSchema = {
@@ -99,7 +99,7 @@ export default function Page() {
           </h1>
           
           <div className="text-gray-600 mb-6">
-            <time dateTime="2025-07-03">July 3, 2025</time> • Hirelytica Team • 12 min read
+            <time dateTime="2025-07-15">July 15, 2025</time> • Hirelytica Team • 14 min read
           </div>
 
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
@@ -179,6 +179,42 @@ export default function Page() {
                 </ul>
               </dd>
             </dl>
+          </section>
+
+          <section id="ai-nuances" role="region" aria-labelledby="ai-nuances-heading">
+            <h2 id="ai-nuances-heading" className="text-2xl font-bold text-gray-900 mt-8">The AI Assistance Reality</h2>
+            
+            <p>While the core ATS functionality remains organizational, modern platforms increasingly offer AI scoring and ranking features. However, HR professionals seem to report these function as assistive tools rather than automated decision-makers.</p>
+
+            <h3 className="text-xl font-bold text-gray-900 mt-6">How AI Actually Gets Used</h3>
+            <dl className="space-y-4">
+              <dt className="font-bold text-gray-900">AI Scoring Features:</dt>
+              <dd>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li><strong>Candidate ranking</strong> - AI scores help prioritize which applications to review first</li>
+                  <li><strong>Match percentages</strong> - Algorithms suggest compatibility between candidates and job requirements</li>
+                  <li><strong>Skill extraction</strong> - AI identifies relevant skills and experience from resumes</li>
+                  <li><strong>Profile summaries</strong> - Automated candidate highlights for quick recruiter review</li>
+                </ul>
+              </dd>
+
+              <dt className="font-bold text-gray-900 mt-4">The Human Override Reality:</dt>
+              <dd>
+                <ul className="list-disc pl-6 space-y-2">
+                  <li><strong>Recruiters control filters</strong> - Can view all candidates regardless of AI scores</li>
+                  <li><strong>Final decisions remain human</strong> - AI recommendations don&apos;t automatically eliminate candidates</li>
+                  <li><strong>Score transparency</strong> - Recruiters can see why AI assigned specific rankings</li>
+                  <li><strong>Easy overrides</strong> - Human judgment can trump AI recommendations at any stage</li>
+                </ul>
+              </dd>
+            </dl>
+
+            <aside className="bg-green-50 border border-green-200 rounded-lg p-6 my-6" role="complementary">
+              <h4 className="text-lg font-bold text-green-900 mb-2">The Key Distinction</h4>
+              <p className="text-green-800">AI assistance helps recruiters prioritize their review process, but it doesn&apos;t replace human decision-making. Think of it as a sorting mechanism, not a rejection mechanism.</p>
+            </aside>
+
+            <p><strong>The practical impact:</strong> Your application might get an AI score, but that score helps determine review priority, not whether you get rejected. A lower AI score might mean you get reviewed later, not that you get automatically filtered out.</p>
           </section>
 
           <section id="legal-compliance" role="region" aria-labelledby="legal-heading">
@@ -267,7 +303,7 @@ export default function Page() {
               <li><strong>Regulatory frameworks develop</strong> - Clear guidelines for compliant AI usage</li>
             </ul>
 
-            <p className="font-semibold"><strong>However, as at July 2025, the vast majority of companies still rely on basic ATS systems that organize and track applications without automated decision-making.</strong></p>
+            <p className="font-semibold"><strong>However, as of July 2025, the vast majority of companies still rely on basic ATS systems that organize and track applications without automated decision-making.</strong></p>
           </section>
 
           <section id="better-strategy" role="region" aria-labelledby="strategy-heading">
@@ -286,6 +322,15 @@ export default function Page() {
 
             <h3 className="text-xl font-bold text-gray-900 mt-6">Quality Over Quantity</h3>
             <p>Instead of applying to 100 jobs with generic resumes, apply to 20 jobs with highly tailored applications. Since humans are making decisions, human-focused customization matters more than algorithmic optimization.</p>
+
+            <h3 className="text-xl font-bold text-gray-900 mt-6">Smart AI Considerations</h3>
+            <p>If you suspect an employer uses AI scoring features:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><strong>Include relevant keywords naturally</strong> - AI scoring often looks for job-relevant terms</li>
+              <li><strong>Structure information clearly</strong> - Help AI parsing identify your key qualifications</li>
+              <li><strong>Don&apos;t sacrifice readability</strong> - Human review remains the final decision point</li>
+              <li><strong>Focus on substance over gaming</strong> - AI systems are becoming better at detecting keyword stuffing</li>
+            </ul>
           </section>
 
           <section id="key-takeaways" role="region" aria-labelledby="takeaways-heading">
@@ -295,8 +340,11 @@ export default function Page() {
               <dt className="font-bold text-gray-900">ATS Reality:</dt>
               <dd><strong>ATS systems organize applications, they don&apos;t reject them.</strong> Every rejection decision is made by a human.</dd>
 
+              <dt className="font-bold text-gray-900">AI Assistance:</dt>
+              <dd><strong>AI scoring may help prioritize review order</strong> but doesn&apos;t automatically eliminate candidates from consideration.</dd>
+
               <dt className="font-bold text-gray-900">Application Strategy:</dt>
-              <dd><strong>Optimize for human readers, not algorithms.</strong> Clear, relevant, tailored applications win.</dd>
+              <dd><strong>Optimize for human readers first, with AI considerations second.</strong> Clear, relevant, tailored applications win.</dd>
 
               <dt className="font-bold text-gray-900">Rejection Reasons:</dt>
               <dd><strong>High volume, skill mismatches, and poor quality</strong> cause rejections - not automated screening.</dd>
@@ -311,7 +359,7 @@ export default function Page() {
 
             <p>The ATS auto-rejection myth has created a massive distraction from what actually matters in job applications. While job seekers spend time stuffing keywords and formatting tricks, they&apos;re neglecting the human elements that actually drive hiring decisions.</p>
 
-            <p>The truth is both simpler and more challenging: <strong>Your applications are being reviewed by humans who are overwhelmed with volume and looking for clear reasons to move candidates forward or eliminate them quickly.</strong></p>
+            <p>The truth is both simpler and more challenging: <strong>Your applications are being reviewed by humans who are overwhelmed with volume and looking for clear reasons to move candidates forward or eliminate them quickly.</strong> AI may help them prioritize their review process, but it doesn&apos;t replace their decision-making.</p>
 
             <p>Success comes from understanding this human reality and crafting applications that help recruiters quickly see why you&apos;re the right fit. It&apos;s not about gaming algorithms - it&apos;s about effective human communication under time pressure.</p>
 
@@ -345,6 +393,7 @@ export default function Page() {
           <div className="bg-gray-50 p-6 rounded-lg mt-12">
             <h3 className="text-xl font-bold mb-4">Related Reading</h3>
             <div className="space-y-2">
+              <Link href="/blog/major-ats-systems-ai-comparison-2025" className="text-purple-600 hover:text-purple-700 block">Major ATS Systems Compared: AI Features & Capabilities Guide 2025</Link>
               <Link href="/blog/cv-lottery-application-statistics-2025" className="text-purple-600 hover:text-purple-700 block">The CV Lottery: Why 98% of Job Applications Disappear</Link>
               <Link href="/blog/uk-job-market-crisis-2025" className="text-purple-600 hover:text-purple-700 block">The UK Job Market Crisis: Why Finding Work Has Never Been Harder</Link>
               <Link href="/blog/why-recruitment-broken-data-2025" className="text-purple-600 hover:text-purple-700 block">Why UK Recruitment is Fundamentally Broken in 2025</Link>
